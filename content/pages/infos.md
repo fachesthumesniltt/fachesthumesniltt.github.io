@@ -20,7 +20,7 @@ Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant 
 - Mercredi: 17h30-21h
 - Vendredi; 17h30-21h
 
-## Libre et Entrainement Adultes compétitions
+## Libre Adultes compétitions
 - Mardi: 17h30-22h
 - Jeudi: 17h30-22h
 
