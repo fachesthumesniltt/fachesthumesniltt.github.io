@@ -17,7 +17,7 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/app -v ${{ github.workspace }}/_site:/app/public \
+        -v ${{ github.workspace }}:/app \
         jhanos/hugo
     - name: Commit to repository
       env:
