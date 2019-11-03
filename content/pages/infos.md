@@ -47,7 +47,7 @@ Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant 
 
 ## Localisation
 
-La salle se situe au :
+La salle se situe au :  
 Complexe sportif,  
 298 rue Kléber  
 59155 Faches Thumesnil  
