@@ -1,8 +1,11 @@
 name: Hugo site CI
 
+#on:
+#  schedule:
+#    - cron: '*/15 * * * *'
+
 on:
-  schedule:
-    - cron: '*/15 * * * *'
+  push:
 
 jobs:
   build:
