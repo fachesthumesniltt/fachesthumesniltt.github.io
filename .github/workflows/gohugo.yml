@@ -15,4 +15,4 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/app -v ${{ github.workspace }}/_site:/app/public \
-        jhanos/hugo /bin/bash -c "chmod 777 /srv/hugo && hugo"
+        jhanos/hugo
