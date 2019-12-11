@@ -21,7 +21,7 @@ jobs:
         jhanos/hugo
     - name: Commit to repository
       env:
-        GITHUB_TOKEN: ${{ secrets.github_token }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
         COMMIT_MSG: |
           commit by github actions
           skip-checks: true
