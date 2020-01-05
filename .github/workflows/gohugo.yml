@@ -16,6 +16,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build the site in the jekyll/builder container
       run: |
+        echo $facebook_token
         docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /facebook.sh
         docker run -v ${{ github.workspace }}:/app jhanos/hugo
     - name: Commit to repository
