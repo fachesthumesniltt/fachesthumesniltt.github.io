@@ -19,7 +19,7 @@ title = "fachesthumesniltt"
 theme = "hugo-tranquilpeak-theme"
 #disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
-paginate = 7
+paginate = 3
 canonifyurls = true
 
 [permalinks]
