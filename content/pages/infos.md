@@ -9,7 +9,7 @@ Le club de tennis de table de Faches-Thumesnil compte plus de cent adhérents.
 
 Son équipe fanion évolue en PN pour la saison 2019-2020.  
 
-Il y a une dizaine d'autres équips de la R2 à la D4.  
+Il y a une dizaine d'autres équipes de la R2 à la D4.  
 
 Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant une priorité du club.  
 
