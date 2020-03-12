@@ -12,7 +12,7 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://fachesthumesniltt.github.io/"
+baseURL = "https://www.fachesthumesniltt.com/"
 languageCode = "en-us"
 defaultContentLanguage = "fr-fr"
 title = "fachesthumesniltt"
