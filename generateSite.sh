@@ -12,3 +12,5 @@ do
     echo $json_data | jq -r ". | select(.id==\"$id\") | .message" | tail +2 >> content/post/$id.md
   fi
 done
+hugo
+echo "www.fachesthumesniltt.com" > public/CNAME
