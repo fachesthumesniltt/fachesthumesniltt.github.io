@@ -17,8 +17,7 @@ jobs:
       env:
         facebook_token: ${{ secrets.facebook_token }}
       run: |
-        docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /facebook.sh
-        docker run -v ${{ github.workspace }}:/app jhanos/hugo
+        docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /app/generateSite.sh
     - name: Commit to repository
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
@@ -26,7 +25,6 @@ jobs:
           commit by github actions
           skip-checks: true
       run: |
-        echo "www.fachesthumesniltt.com" > ${{ github.workspace }}/public/CNAME
         git config user.email "jhanosl@gmail.com"
         git config user.name "Thomas Langlois"
         # Update origin with token
