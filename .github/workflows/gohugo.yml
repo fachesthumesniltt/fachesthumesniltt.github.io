@@ -19,6 +19,7 @@ jobs:
       run: |
         docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /facebook.sh
         docker run -v ${{ github.workspace }}:/app jhanos/hugo
+        echo "www.fachesthumesniltt.com" > ${{ github.workspace }}/CNAME
     - name: Commit to repository
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
