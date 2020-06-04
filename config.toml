@@ -78,13 +78,13 @@ canonifyurls = true
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
 #  url = "/tags"
 [[menu.main]]
-  weight = 4
-  identifier = "COVID19 reservation"
+  weight = 5
+  identifier = "Covid19 reservation"
   name = "COVID19 reservation"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-id-card\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file-signature\"></i>"
   url = "/archives"
 [[menu.main]]
-  weight = 5
+  weight = 6
   identifier = "infos"
   name = "Informations"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
