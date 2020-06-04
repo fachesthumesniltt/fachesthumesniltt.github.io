@@ -79,10 +79,10 @@ canonifyurls = true
 #  url = "/tags"
 [[menu.main]]
   weight = 5
-  identifier = "Covid19 reservation"
-  name = "COVID19 reservation"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file-signature\"></i>"
-  url = "/archives"
+  identifier = "Covid reservation"
+  name = "Covid reservation"
+  #pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file-signature\"></i>"
+  url = "https://forms.gle/7QXJQUiSuB3RNSv37"
 [[menu.main]]
   weight = 6
   identifier = "infos"
