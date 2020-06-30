@@ -78,12 +78,6 @@ canonifyurls = true
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
 #  url = "/tags"
 [[menu.main]]
-  weight = 5
-  identifier = "Covid reservation"
-  name = "Covid reservation"
-  #pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file-signature\"></i>"
-  url = "https://forms.gle/7QXJQUiSuB3RNSv37"
-[[menu.main]]
   weight = 6
   identifier = "infos"
   name = "Informations"
@@ -124,7 +118,7 @@ canonifyurls = true
   # dateFormat = "2 January 2006"
 
   # Global keywords configuration. Following keywords will be add to every pages
-  # keywords = ["development", "next-gen"]
+  keywords = ["fachesthumesnil", "faches", "thumesnil", "tennis de table", "thumesnil", "f3t", "table tennis", "ping"]
 
   # Syntax highlighter, possible choice between: "highlight.js" (recommanded) and "prism.js" (experimental)
   # You can comment it to disable syntax highlighting
