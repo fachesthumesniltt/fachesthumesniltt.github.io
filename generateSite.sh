@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -x
 set -e
 
 json_data=$(curl -X GET  "https://graph.facebook.com/1909136939359253/posts?access_token=$facebook_token&limit=15" | jq '.data[] | select(.message!=null)| {id: .id,message: .message, date: .created_time}')
