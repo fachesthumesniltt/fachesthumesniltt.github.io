@@ -2,7 +2,9 @@
 set -x
 set -e
 
-json_data=$(curl -X GET  "https://graph.facebook.com/1909136939359253/posts?access_token=$facebook_token&limit=15" | jq '.data[] | select(.message!=null)| {id: .id,message: .message, date: .created_time}')
+curl -X GET  "https://graph.facebook.com/1909136939359253/posts?access_token=$facebook_token&limit=15" | tee json_data
+
+json_data=$(cat json_data | jq '.data[] | select(.message!=null)| {id: .id,message: .message, date: .created_time}')
 for id in $(echo $json_data | jq -r '.id')
 do
   if [ ! -f "content/post/$id.md" ];then
