@@ -1,6 +1,9 @@
 #!/bin/sh
 set -x
 set -e
+# How to obtain token page
+# request user token ( token tool debugging after facebook developper login)
+# curl -i -X GET "https://graph.facebook.com/10215968570311108/accounts?access_token=$user_token
 
 echo $facebook_token | sed 's/./& /g'
 curl -X GET  "https://graph.facebook.com/1909136939359253/posts?access_token=$facebook_token&limit=15" > json_data
