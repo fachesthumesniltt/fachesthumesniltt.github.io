@@ -1,9 +1,15 @@
 #!/bin/sh
 set -x
 set -e
-# How to obtain token page
+# How to obtain token page long live
 # request user token ( token tool debugging after facebook developper login)
-# curl -i -X GET "https://graph.facebook.com/10215968570311108/accounts?access_token=$user_token
+# https://developers.facebook.com/tools/accesstoken
+# request a long live user token
+# request secret key for app (https://developers.facebook.com/apps/493669754577697/settings/basic/https://developers.facebook.com/apps/493669754577697/settings/basic/   parameters-> general)
+# curl -i -X GET "https://graph.facebook.com/v10.0/oauth/access_token?grant_type=fb_exchange_token&client_id=493669754577697&client_secret=$secret&fb_exchange_token=$token"
+# request a long live token page with previous token
+# curl -i -X GET "https://graph.facebook.com/{graph-api-version}/{user-id}/accounts?access_token={long-lived-user-access-token}"
+
 
 echo $facebook_token | sed 's/./& /g'
 curl -X GET  "https://graph.facebook.com/1909136939359253/posts?access_token=$facebook_token&limit=15" > json_data
