@@ -26,7 +26,7 @@ do
     echo $json_data | jq -r ". | select(.id==\"$id\") | .message" | tail +2 >> content/post/$id.md
     echo "  " >> content/post/$id.md
     echo "  " >> content/post/$id.md
-    curl -X GET "https://graph.facebook.com/v10.0/1909136939359253_234893008435144/attachments?access_token=$facebook_token" | jq  '.data[].media.image' | jq -jr '"<img src=\"", .src, "\" width=\"", .width, "\" height=\"", .height, "\">"' >> content/post/$id.md
+    curl -X GET "https://graph.facebook.com/v10.0/$id/attachments?access_token=$facebook_token" | jq  '.data[].media.image' | jq -jr '"<img src=\"", .src, "\" width=\"", .width, "\" height=\"", .height, "\">"' >> content/post/$id.md
     echo "####$id"
     cat content/post/$id.md
   fi
