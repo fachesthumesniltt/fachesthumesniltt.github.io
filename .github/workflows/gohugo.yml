@@ -20,7 +20,7 @@ jobs:
         docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /app/generateSite.sh
     - name: Generate pdf
       run: |
-        docker run -v ${{ github.workspace }}:/app pandoc/latex sh /app/generatePdf.sh
+        docker run -v ${{ github.workspace }}:/app --entrypoint=sh pandoc/latex /app/generatePdf.sh
     - name: Commit to repository
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
