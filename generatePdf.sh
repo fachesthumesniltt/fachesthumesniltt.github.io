@@ -10,5 +10,6 @@ do
     filename=$(basename $file)
     filePDF=$(echo $filename | sed 's/md$/pdf/g')
     pandoc -s /app/docs/$year/$filename -o /app/public/docs/$year/$filePDF
+    echo "$filePDF" >> /app/public/docs/$year/index.html
   done
 done
