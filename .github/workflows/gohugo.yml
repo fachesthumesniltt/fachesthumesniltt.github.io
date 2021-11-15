@@ -18,6 +18,9 @@ jobs:
         facebook_token: ${{ secrets.facebook_token }}
       run: |
         docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /app/generateSite.sh
+    - name: Generate pdf
+      run: |
+        docker run -v ${{ github.workspace }}:/app pandoc/latex sh /app/generatePdf.sh
     - name: Commit to repository
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
