@@ -71,12 +71,11 @@ canonifyurls = true
   name = "Nous contacter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-id-card\"></i>"
   url = "/pages/contact/"
-#[[menu.main]]
-#  weight = 3
-#  identifier = "tags"
-#  name = "Tags"
-#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-#  url = "/tags"
+[[menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Inscription Tournoi"
+  url = "https://formulaires.webnball.fr/Lweb/?id=A_375"
 [[menu.main]]
   weight = 6
   identifier = "infos"
