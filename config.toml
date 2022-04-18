@@ -74,7 +74,7 @@ canonifyurls = true
 [[menu.main]]
   weight = 3
   identifier = "Inscription Tournoi 2022"
-  name = "Inscription Tournoi"
+  name = "Inscription Tournoi 2022"
   url = "https://formulaires.webnball.fr/Lweb/?id=A_375"
 [[menu.main]]
   weight = 6
