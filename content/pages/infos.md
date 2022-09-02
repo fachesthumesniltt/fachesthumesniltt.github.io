@@ -7,7 +7,7 @@ date: 2019-11-03T17:43:15Z
 
 Le club de tennis de table de Faches-Thumesnil compte plus de cent adhérents.  
 
-Son équipe fanion évolue en PN pour la saison 2019-2020.  
+Son équipe fanion évolue en R1 pour la saison 2022-2023.  
 
 Il y a une dizaine d'autres équipes de la R2 à la D4.  
 
@@ -16,7 +16,7 @@ Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant 
 ## Inscription
 
 Il y a une permanence pour les inscriptions le mardi et jeudi.  
-La fiche est ici : [fiche inscription](/images/bordereau2019complet.pdf)
+La fiche est ici : [fiche inscription](/images/inscription.pdf)
 
 # Horaire
 
@@ -46,6 +46,8 @@ La fiche est ici : [fiche inscription](/images/bordereau2019complet.pdf)
   - 17h30-18h30: Groupe débutant
   - 18h30-19h30: Groupe apprentissage et perfectionnement
   - 19h00-20h30: Groupe perfectionnement et élite
+
+- Samedi matin: Baby Ping
 
 - Samedi après-midi et dimanche après midi:
   - Compétitions jeunes et adultes selon calendrier.
