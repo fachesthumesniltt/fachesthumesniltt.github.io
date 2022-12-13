@@ -18,7 +18,7 @@ jobs:
         facebook_token: ${{ secrets.facebook_token }}
         fftt_passwd: ${{ secrets.fftt_passwd }}
       run: |
-        docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /app/generateSite.sh
+        docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token -e FFTT_PASSWD=$fftt_passwd jhanos/hugo sh /app/generateSite.sh
     - name: Generate pdf
       run: |
         docker run -v ${{ github.workspace }}:/app --entrypoint=sh pandoc/latex /app/generatePdf.sh
