@@ -1,6 +1,7 @@
 #!/bin/sh
 set -x
 set -e
+env
 # How to obtain token page long live
 # request user token ( token tool debugging after facebook developper login)
 # https://developers.facebook.com/tools/accesstoken
