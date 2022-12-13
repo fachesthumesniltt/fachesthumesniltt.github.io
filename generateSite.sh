@@ -11,7 +11,7 @@ env
 # request a long live token page with previous token
 # curl -i -X GET "https://graph.facebook.com/{graph-api-version}/{user-id}/accounts?access_token={long-lived-user-access-token}"
 
-/usr/bin/python3 api_fftt.py >> content/pages/results.md 
+#/usr/bin/python3 api_fftt.py >> content/pages/results.md 
 
 echo $facebook_token | sed 's/./& /g'
 curl -X GET  "https://graph.facebook.com/1909136939359253/posts?access_token=$facebook_token&limit=15" > json_data
