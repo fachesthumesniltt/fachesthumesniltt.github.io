@@ -16,6 +16,7 @@ jobs:
     - name: Build the site in the jekyll/builder container
       env:
         facebook_token: ${{ secrets.facebook_token }}
+        FFTT_ENV: ${{ secrets.fftt_passwd }}
       run: |
         docker run -v ${{ github.workspace }}:/app -e facebook_token=$facebook_token jhanos/hugo sh /app/generateSite.sh
     - name: Generate pdf
