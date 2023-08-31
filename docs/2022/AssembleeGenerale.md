@@ -5,7 +5,7 @@ Nombre de present: 18
 
 L'assemblee generale de cette annee a ete l'occasion de revenir sur le bilan comptable de l'annee dernière, qui a ete moins bon que les annees precedentes pour plusieurs raisons, d'une part les remises effectues sur le prix de la licence pour l'annee covid anterieur, d'autre part les depenses à la buvette qui ont ete plus faible et pour finir les frais d'entrainement qui ont ete majore car un service civique a ete embauche en plus de l'entraineur qui est en CDI.
 Le Tournoi nationnal du mois de juin, nous a permis de generer un revenu substentiel afin de limiter les pertes de cette annee.
-Le bilan comptable de cette annee s'elève donc à un deficit de 2378.
+Le bilan comptable de cette annee s'eleve donc a un deficit de 2378
 
 Concernant le bilan sportif, l'annee est en demi teinte:
 - L'equipe 1 se maintient en division Regionnal 1
