@@ -7,7 +7,7 @@ for year in $(ls /app/docs/); do
 	echo "<html><body>" >/app/public/docs/$year/index.html
 	for file in $(ls /app/docs/$year/*.pdf); do
 		filename=$(basename $file)
-		cp /app/docs/$year/$filename -o /app/public/docs/$year/$filename
+		cp /app/docs/$year/$filename /app/public/docs/$year/$filename
 		echo "<a href=\"$filename\">$filename</a></br>" >>/app/public/docs/$year/index.html
 	done
 	for file in $(ls /app/docs/$year/*.md); do
