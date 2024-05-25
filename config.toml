@@ -55,10 +55,10 @@ canonifyurls = true
   url = "/"
 [[menu.main]]
   weight = 2
-  identifier = "Resultats"
-  name = "Resultats"
+  identifier = "Tournoi"
+  name = "Tournoi"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-  url = "/pages/results"
+  url = "https://tournoi.fachesthumesniltt.com/"
 [[menu.main]]
   weight = 3
   identifier = "Facebook"
@@ -71,11 +71,6 @@ canonifyurls = true
   name = "Nous contacter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-id-card\"></i>"
   url = "/pages/contact/"
-[[menu.main]]
-  weight = 3
-  identifier = "Inscription Tournoi"
-  name = "Inscription Tournoi"
-  url = "https://formulaires.webnball.fr/Lweb/?id=A_375"
 [[menu.main]]
   weight = 6
   identifier = "infos"
