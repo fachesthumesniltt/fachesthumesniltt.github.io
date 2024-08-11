@@ -16,12 +16,12 @@ Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant 
 ## Inscription
 
 Il y a une permanence pour les inscriptions le mardi et jeudi.  
-La fiche est ici : [fiche inscription](/images/inscription.pdf)
+La fiche est ici : [fiche inscription](/images/inscription_2024_2025.pdf)
 
 # Horaire
 
 ## Loisirs
-- Lundi: 17h30-19h30 (Loisirs et ping santé)
+- Lundi: 17h30-19h30 (Loisirs)
 - Mercredi: 17h30-19h30 (Loisirs)
 - Vendredi: 17h30-19h30 (Loisirs)
 
@@ -30,9 +30,6 @@ La fiche est ici : [fiche inscription](/images/inscription.pdf)
 - Jeudi: 17h30-22h
 
 ## Entrainements jeunes
-- Mardi:
-  - 18h30-20h: Groupe élite + Adulte volontaire
-
 - Mercredi:
   - 14h00-15h00: Groupe débutant (8-10 ans)
   - 15h00-16h30: Groupe apprentissage (11-13 ans)
@@ -41,7 +38,7 @@ La fiche est ici : [fiche inscription](/images/inscription.pdf)
   - 17h30-19h30: Loisirs
 
 -  Jeudi:
-  - 18h30-20h00: Groupe élite + Adultes volontaires
+  - 19h00-20h30: Groupe élite + Adultes volontaires
 
 - Vendredi:
   - 17h30-18h30: Groupe débutant
