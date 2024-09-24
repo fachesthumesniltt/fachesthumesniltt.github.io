@@ -13,7 +13,7 @@ for year in $(ls /app/docs/); do
 	for file in $(ls /app/docs/$year/*.md); do
 		filename=$(basename $file)
 		filePDF=$(echo $filename | sed 's/md$/pdf/g')
-		pandoc -f markdown+hard_line_breaks -s /app/docs/$year/$filename -o /app/public/docs/$year/$filePDF
+		pandoc -f markdown+hard_line_breaks -s /app/docs/header.md /app/docs/$year/$filename -o /app/public/docs/$year/$filePDF
 		echo "<a href=\"$filePDF\">$filePDF</a></br>" >>/app/public/docs/$year/index.html
 	done
 	echo "</body></html>" >>/app/public/docs/$year/index.html
