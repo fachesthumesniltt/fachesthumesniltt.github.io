@@ -1,6 +1,6 @@
 # Compte Rendu Assemblée Générale
 
-Date: 14/09/2023
+Date: 14/09/2024
 Nombre de présent: 14
 
 ## Présentation des ambitions pour cette année.
