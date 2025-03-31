@@ -37,4 +37,4 @@ done
 /usr/bin/python3 api_fftt.py >> content/pages/results.md || echo "failed create result"
 
 hugo
-#echo "www.fachesthumesniltt.com" > public/CNAME
+echo "www.fachesthumesniltt.com" > public/CNAME
