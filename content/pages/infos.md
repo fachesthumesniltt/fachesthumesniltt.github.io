@@ -7,9 +7,9 @@ date: 2019-11-03T17:43:15Z
 
 Le club de tennis de table de Faches-Thumesnil compte plus de cent adhérents.  
 
-Son équipe fanion évolue en R1 pour la saison 2022-2023.  
+Son équipe fanion évolue en R2 pour la saison 2025-2026.  
 
-Il y a une dizaine d'autres équipes de la R2 à la D4.  
+Il y a une plusieurs équipes en départementales.
 
 Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant une priorité du club.  
 
@@ -18,8 +18,9 @@ Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant 
 Il y a une permanence pour les inscriptions le mardi et jeudi.  
 
 Nous prévilégions le numérique:
-- L'inscription : https://carte.fftt.com/club/07590074
-- Le paiement: https://www.helloasso.com/associations/faches-thumesnil-tennis-de-table/adhesions/adhesion-2025-2026
+
+- L'inscription : https://carte.fftt.com/club/07590074  
+- Le paiement: https://www.helloasso.com/associations/faches-thumesnil-tennis-de-table/adhesions/adhesion-2025-2026  
 
 
 Si vous souhaitez la version papier, le pdf est ici : [fiche inscription](/images/inscription.pdf)
