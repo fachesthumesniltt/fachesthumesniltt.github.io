@@ -16,7 +16,13 @@ Il y a aussi plusieurs équipes jeunes en championnat, la formation constituant 
 ## Inscription
 
 Il y a une permanence pour les inscriptions le mardi et jeudi.  
-La fiche est ici : [fiche inscription](/images/inscription_2024_2025.pdf)
+
+Nous prévilégions le numérique:
+- L'inscription : https://carte.fftt.com/club/07590074
+- Le paiement: https://www.helloasso.com/associations/faches-thumesnil-tennis-de-table/adhesions/adhesion-2025-2026
+
+
+Si vous souhaitez la version papier, le pdf est ici : [fiche inscription](/images/inscription.pdf)
 
 # Horaire
 
