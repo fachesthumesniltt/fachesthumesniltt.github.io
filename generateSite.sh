@@ -21,7 +21,7 @@ for id in $(echo $json_data | jq -r '.id')
 do
   if [ ! -f "content/post/$id.md" ];then
     echo -ne "---\ntitle: \"" > content/post/$id.md
-    echo $json_data | jq -r ". | select(.id==\"$id\") | .message" | head -n 1 | tr -d '\n' | sed 's/"/\\\"/g' >> content/post/$id.md
+    echo $json_data | jq -r ". | select(.id==\"$id\") | .message" | head -n 1 | tr -d '\n' | sed 's/"/\\\"/g' | sed 's/\..*//g' >> content/post/$id.md
     echo -ne "\"\ndate: " >> content/post/$id.md
     echo $json_data | jq -r ". | select(.id==\"$id\") | .date" >> content/post/$id.md
     echo '---' >> content/post/$id.md
