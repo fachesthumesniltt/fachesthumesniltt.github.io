@@ -1,13 +1,46 @@
 ---
-title: Inscription
+title: "Nous Rejoindre"
 date: 2025-08-10T19:01:58+0000
+layout: "inscription"
 ---
 
-Cette année, nous souhaiterions promouvoir l'inscription numérique et le paiement en ligne pour nous simplifier la vie et pour la planète:  
-- L'inscription : https://carte.fftt.com/club/07590074  
-- Le paiement: https://www.helloasso.com/associations/faches-thumesnil-tennis-de-table/adhesions/adhesion-2025-2026  
-  
-Vous trouverez les impressions d'écran pour vous guider lors du paiement [ICI](https://www.fachesthumesniltt.com/images/helloasso.pdf)
-  
-Il est bien sur toujours possible de s'inscrire et de payer physiquement au club en liquide ou par cheque.  
-Vous pourrez toujours trouver la feuille d'inscription sous format papier au club ou en pdf [ICI](https://www.fachesthumesniltt.com/images/inscription.pdf)
+## Rejoignez le club !
+
+Que vous soyez débutant ou joueur confirmé, le club de Faches-Thumesnil Tennis de Table vous accueille dans une ambiance conviviale et sportive.  
+Venez découvrir notre sport lors d'un essai gratuit — le club est ouvert du **lundi au vendredi soir**.
+
+---
+
+## Comment s'inscrire ?
+
+Nous privilégions l'inscription et le paiement en ligne pour vous simplifier les démarches :
+
+### 1. Licencez-vous auprès de la FFTT
+
+Rendez-vous sur le site fédéral pour créer ou renouveler votre licence :
+
+👉 [S'inscrire sur carte.fftt.com](https://carte.fftt.com/club/07590074)
+
+### 2. Réglez votre cotisation en ligne
+
+Le paiement de l'adhésion s'effectue via HelloAsso (sécurisé, sans frais) :
+
+👉 [Payer sur HelloAsso](https://www.helloasso.com/associations/faches-thumesnil-tennis-de-table/adhesions/adhesion-2025-2026)
+
+Besoin d'aide pour le paiement en ligne ? Consultez notre [guide pas à pas](/images/helloasso.pdf).
+
+---
+
+## Préférez-vous venir au club ?
+
+Pas de problème ! Vous pouvez tout à fait vous inscrire et régler votre cotisation **directement au club**, en liquide ou par chèque.  
+La feuille d'inscription papier est disponible sur place ou en téléchargement :
+
+📄 [Télécharger le formulaire d'inscription](/images/inscription.pdf)
+
+---
+
+## Une question ?
+
+N'hésitez pas à nous [contacter](/pages/contact/) ou à passer directement au club.  
+On sera ravis de vous accueillir ! 🏓

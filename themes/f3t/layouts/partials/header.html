@@ -1,0 +1,32 @@
+<header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
+  <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3 hover:opacity-90 transition">
+      <img src="/images/logo.jpg" alt="F3T" class="h-11 w-11 rounded-full bg-white p-0.5 object-contain">
+      <span class="font-bold text-lg leading-tight hidden sm:block">Faches-Thumesnil<br><span class="text-blue-200 text-sm font-normal">Tennis de Table</span></span>
+    </a>
+    <button id="menu-btn" class="md:hidden p-2 rounded hover:bg-blue-700 transition" aria-label="Menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+    <ul id="nav-links" class="hidden md:flex items-center gap-1 text-sm font-medium">
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}" class="px-3 py-2 rounded hover:bg-blue-700 transition block">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+  <div id="mobile-menu" class="hidden md:hidden border-t border-blue-700">
+    <ul class="px-4 pb-4 pt-2 flex flex-col gap-1 text-sm font-medium">
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}" class="block px-3 py-2 rounded hover:bg-blue-700 transition">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</header>

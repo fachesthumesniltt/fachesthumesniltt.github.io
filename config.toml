@@ -16,7 +16,7 @@ baseURL = "https://www.fachesthumesniltt.com/"
 locale = "en-us"
 defaultContentLanguage = "fr-fr"
 title = "fachesthumesniltt"
-theme = "hugo-tranquilpeak-theme"
+theme = "f3t"
 #disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 5
@@ -50,33 +50,33 @@ canonifyurls = true
 [[menu.main]]
   weight = 1
   identifier = "home"
-  name = "Home"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  name = "Accueil"
   url = "/"
 [[menu.main]]
   weight = 2
-  identifier = "Tournoi"
-  name = "Tournoi"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-  url = "https://tournoi.fachesthumesniltt.com/"
+  identifier = "leclub"
+  name = "Le Club"
+  url = "/pages/infos/"
 [[menu.main]]
   weight = 3
-  identifier = "Facebook"
-  name = "Facebook"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\"></i>"
-  url = "https://fr-fr.facebook.com/pages/category/Sports-Club/Faches-Thumesnil-Tennis-de-Table-1909136939359253/"
+  identifier = "equipes"
+  name = "Equipes"
+  url = "/pages/equipes/"
 [[menu.main]]
   weight = 4
-  identifier = "Contact"
-  name = "Nous contacter"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-id-card\"></i>"
+  identifier = "horaires"
+  name = "Horaires & Tarifs"
+  url = "/pages/horaires/"
+[[menu.main]]
+  weight = 5
+  identifier = "contact"
+  name = "Contact"
   url = "/pages/contact/"
 [[menu.main]]
   weight = 6
-  identifier = "infos"
-  name = "Informations"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/pages/infos/"
+  identifier = "rejoindre"
+  name = "Nous Rejoindre"
+  url = "/pages/inscription/"
 
 #[[menu.main]]
 #  weight = 6

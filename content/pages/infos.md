@@ -1,6 +1,7 @@
 ---
-title: "Infos"
+title: "Le Club"
 date: 2019-11-03T17:43:15Z
+layout: "infos"
 ---
 
 # Présentation
