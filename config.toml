@@ -13,7 +13,7 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "https://www.fachesthumesniltt.com/"
-languageCode = "en-us"
+locale = "en-us"
 defaultContentLanguage = "fr-fr"
 title = "fachesthumesniltt"
 theme = "hugo-tranquilpeak-theme"
@@ -30,7 +30,7 @@ canonifyurls = true
   category = "categories"
   archive = "archives"
 
-[author]
+[params.author]
   name = "Faches Thumesnil TT"
   bio = "Le site du club de tennis de table de Faches"
   #job = "Your job title"

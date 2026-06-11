@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL https://api.github.com/repos/kakawait/hugo-tranquilpeak-theme/tarball/0.5.3-BETA -o tranquilpeak.tar.gz)",
+      "Bash(tar -tzf tranquilpeak.tar.gz)",
+      "Bash(rm -rf hugo-tranquilpeak-theme)",
+      "Bash(tar -xzf tranquilpeak.tar.gz)",
+      "Bash(mv kakawait-hugo-tranquilpeak-theme-77e7020 *)",
+      "Bash(rm tranquilpeak.tar.gz)",
+      "Bash(hugo)",
+      "Bash(xargs sed -i 's/\\\\.Site\\\\.Author/\\\\.Site\\\\.Params\\\\.author/g')"
+    ]
+  }
+}
