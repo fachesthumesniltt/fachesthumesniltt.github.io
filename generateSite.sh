@@ -30,7 +30,8 @@ do
   fi
 done
 
-#/usr/bin/python3 api_fftt.py >> content/pages/results.md || echo "failed create result"
+mkdir -p data
+uv run api_fftt.py > data/fftt.json || echo "FFTT fetch failed, skipping equipes data"
 
 hugo
 printf 'www.fachesthumesniltt.com\n' > public/CNAME
