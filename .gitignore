@@ -2,7 +2,6 @@
 .env
 
 # Hugo build output
-public/
 resources/
 
 # Hugo temp files
