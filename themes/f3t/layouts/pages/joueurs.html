@@ -1,0 +1,191 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16 text-center px-4">
+  <div class="text-5xl mb-4">🏓</div>
+  <h1 class="text-4xl md:text-5xl font-bold mb-4">Nos Joueurs</h1>
+  <p class="text-blue-200 text-lg max-w-xl mx-auto">
+    Classements officiels et évolution depuis le début de saison
+  </p>
+</section>
+
+{{ if not .Site.Data.players }}
+<section class="max-w-4xl mx-auto px-4 py-20 text-center">
+  <p class="text-gray-400 text-lg">Les classements ne sont pas encore disponibles.</p>
+</section>
+{{ else }}
+
+{{ $seniors := slice }}
+{{ $juniors := slice }}
+{{ range .Site.Data.players }}
+  {{ if eq .category "senior" }}
+    {{ $seniors = $seniors | append . }}
+  {{ else }}
+    {{ $juniors = $juniors | append . }}
+  {{ end }}
+{{ end }}
+
+<!-- Stats cards -->
+<section class="max-w-5xl mx-auto px-4 py-10">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-6 text-center">
+      <div class="text-4xl font-bold text-blue-800 mb-2">{{ len .Site.Data.players }}</div>
+      <div class="text-sm text-gray-500">Licenciés</div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-6 text-center">
+      <div class="text-4xl font-bold text-blue-800 mb-2">{{ len $seniors }}</div>
+      <div class="text-sm text-gray-500">Seniors</div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-6 text-center">
+      <div class="text-4xl font-bold text-blue-800 mb-2">{{ len $juniors }}</div>
+      <div class="text-sm text-gray-500">Jeunes</div>
+    </div>
+  </div>
+</section>
+
+<!-- Top progressions / baisses -->
+{{ $withEvo := where .Site.Data.players "evolution" "ne" nil }}
+{{ $byDesc  := sort $withEvo "evolution" "desc" }}
+{{ $byAsc   := sort $withEvo "evolution" "asc" }}
+{{ $top3    := first 3 $byDesc }}
+{{ $bottom3 := first 3 $byAsc }}
+
+<section class="max-w-5xl mx-auto px-4 pb-10">
+  <div class="grid md:grid-cols-2 gap-6">
+
+    <!-- Top 3 progressions -->
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
+      <div class="bg-green-50 border-b border-green-100 px-5 py-3">
+        <h3 class="font-bold text-green-800">🚀 Top 3 progressions</h3>
+      </div>
+      <ul class="divide-y divide-gray-100">
+        {{ range $i, $p := $top3 }}
+        <li class="flex items-center justify-between px-5 py-4">
+          <div class="flex items-center gap-3">
+            <span class="text-lg font-bold text-gray-300 w-5">{{ add $i 1 }}</span>
+            <div>
+              <p class="font-semibold text-gray-800">{{ $p.prenom }} {{ $p.nom }}</p>
+              <p class="text-xs text-gray-400">{{ $p.point }} pts · série {{ $p.clast }}</p>
+            </div>
+          </div>
+          <span class="text-green-600 font-bold text-lg">+{{ $p.evolution }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <!-- Top 3 baisses -->
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
+      <div class="bg-red-50 border-b border-red-100 px-5 py-3">
+        <h3 class="font-bold text-red-700">📉 Top 3 baisses</h3>
+      </div>
+      <ul class="divide-y divide-gray-100">
+        {{ range $i, $p := $bottom3 }}
+        <li class="flex items-center justify-between px-5 py-4">
+          <div class="flex items-center gap-3">
+            <span class="text-lg font-bold text-gray-300 w-5">{{ add $i 1 }}</span>
+            <div>
+              <p class="font-semibold text-gray-800">{{ $p.prenom }} {{ $p.nom }}</p>
+              <p class="text-xs text-gray-400">{{ $p.point }} pts · série {{ $p.clast }}</p>
+            </div>
+          </div>
+          <span class="text-red-500 font-bold text-lg">{{ $p.evolution }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Seniors -->
+{{ if $seniors }}
+<section class="max-w-5xl mx-auto px-4 pb-10">
+  <h2 class="text-2xl font-bold text-blue-800 mb-6">Seniors</h2>
+  <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="bg-blue-50 text-blue-800 text-left">
+          <th class="px-4 py-3 font-semibold">Joueur</th>
+          <th class="px-4 py-3 font-semibold text-center">Série</th>
+          <th class="px-4 py-3 font-semibold text-center">Points</th>
+          <th class="px-4 py-3 font-semibold text-center">Évolution</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100">
+        {{ range $seniors }}
+        <tr class="hover:bg-gray-50 transition">
+          <td class="px-4 py-3 font-medium text-gray-800">{{ .prenom }} {{ .nom }}</td>
+          <td class="px-4 py-3 text-center">
+            {{ if .clast }}<span class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-2 py-0.5 rounded">{{ .clast }}</span>{{ else }}—{{ end }}
+          </td>
+          <td class="px-4 py-3 text-center font-mono text-gray-700">{{ .point }}</td>
+          <td class="px-4 py-3 text-center font-semibold">
+            {{ if .evolution }}
+              {{ if gt .evolution 0 }}
+                <span class="text-green-600">+{{ .evolution }}</span>
+              {{ else if lt .evolution 0 }}
+                <span class="text-red-500">{{ .evolution }}</span>
+              {{ else }}
+                <span class="text-gray-400">=</span>
+              {{ end }}
+            {{ else }}
+              <span class="text-gray-300">—</span>
+            {{ end }}
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{ end }}
+
+<!-- Jeunes -->
+{{ if $juniors }}
+<section class="max-w-5xl mx-auto px-4 pb-16">
+  <h2 class="text-2xl font-bold text-blue-800 mb-6">Jeunes</h2>
+  <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="bg-blue-50 text-blue-800 text-left">
+          <th class="px-4 py-3 font-semibold">Joueur</th>
+          <th class="px-4 py-3 font-semibold text-center hidden sm:table-cell">Catégorie</th>
+          <th class="px-4 py-3 font-semibold text-center">Série</th>
+          <th class="px-4 py-3 font-semibold text-center">Points</th>
+          <th class="px-4 py-3 font-semibold text-center">Évolution</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100">
+        {{ range $juniors }}
+        <tr class="hover:bg-gray-50 transition">
+          <td class="px-4 py-3 font-medium text-gray-800">{{ .prenom }} {{ .nom }}</td>
+          <td class="px-4 py-3 text-center text-gray-500 hidden sm:table-cell text-xs">{{ .categ }}</td>
+          <td class="px-4 py-3 text-center">
+            {{ if .clast }}<span class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-2 py-0.5 rounded">{{ .clast }}</span>{{ else }}—{{ end }}
+          </td>
+          <td class="px-4 py-3 text-center font-mono text-gray-700">{{ .point }}</td>
+          <td class="px-4 py-3 text-center font-semibold">
+            {{ if .evolution }}
+              {{ if gt .evolution 0 }}
+                <span class="text-green-600">+{{ .evolution }}</span>
+              {{ else if lt .evolution 0 }}
+                <span class="text-red-500">{{ .evolution }}</span>
+              {{ else }}
+                <span class="text-gray-400">=</span>
+              {{ end }}
+            {{ else }}
+              <span class="text-gray-300">—</span>
+            {{ end }}
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
+
+{{ end }}

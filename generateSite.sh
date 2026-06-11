@@ -32,6 +32,7 @@ done
 
 mkdir -p data
 uv run api_fftt.py > data/fftt.json || echo "FFTT fetch failed, skipping equipes data"
+uv run api_fftt_players.py > data/players.json || echo "FFTT players fetch failed"
 
 hugo
 printf 'www.fachesthumesniltt.com\n' > public/CNAME

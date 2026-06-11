@@ -64,16 +64,21 @@ canonifyurls = true
   url = "/pages/equipes/"
 [[menu.main]]
   weight = 4
+  identifier = "joueurs"
+  name = "Joueurs"
+  url = "/pages/joueurs/"
+[[menu.main]]
+  weight = 5
   identifier = "horaires"
   name = "Horaires & Tarifs"
   url = "/pages/horaires/"
 [[menu.main]]
-  weight = 5
+  weight = 6
   identifier = "contact"
   name = "Contact"
   url = "/pages/contact/"
 [[menu.main]]
-  weight = 6
+  weight = 7
   identifier = "rejoindre"
   name = "Nous Rejoindre"
   url = "/pages/inscription/"
