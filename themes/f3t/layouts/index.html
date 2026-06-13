@@ -28,6 +28,131 @@
   </div>
 </section>
 
+<!-- Agenda: upcoming matches + recent results -->
+{{ if .Site.Data.fftt.agenda }}
+{{ $agenda := .Site.Data.fftt.agenda }}
+<section class="max-w-6xl mx-auto px-4 py-12">
+  <div class="grid md:grid-cols-2 gap-8">
+
+    <!-- Agenda -->
+    <div>
+      <h2 class="text-xl font-bold text-blue-800 mb-4">📅 Agenda</h2>
+      {{ $agendaItems := slice }}
+      {{ range $agenda.upcoming }}
+        {{ $agendaItems = $agendaItems | append . }}
+      {{ end }}
+      {{ range .Site.Data.events }}
+        {{ $agendaItems = $agendaItems | append . }}
+      {{ end }}
+      {{ $agendaItems = sort $agendaItems "date_iso" "asc" }}
+      {{ if $agendaItems }}
+      <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden divide-y divide-gray-100">
+        {{ range $agendaItems }}
+        {{ if eq .type "event" }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" class="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition">
+          <div class="text-center min-w-[48px]">
+            <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-gray-800 text-sm truncate">{{ .name }}</div>
+            {{ if .place }}<div class="text-xs text-gray-500 truncate">{{ .place }}</div>{{ end }}
+          </div>
+          <span class="shrink-0 text-xs bg-purple-100 text-purple-700 font-bold px-2 py-0.5 rounded">Événement</span>
+        </a>
+        {{ else }}
+        <div class="flex items-center gap-3 px-4 py-3">
+          <div class="text-center min-w-[48px]">
+            <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-gray-800 text-sm truncate">{{ .team }}</div>
+            <div class="text-xs text-gray-500 truncate">vs {{ .opponent }}</div>
+          </div>
+          {{ if .division_short }}
+          <span class="shrink-0 text-xs bg-blue-100 text-blue-700 font-bold px-2 py-0.5 rounded">{{ .division_short }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="bg-white rounded-2xl shadow-md border border-blue-100 px-6 py-10 text-center text-gray-400 text-sm">
+        Aucun événement à venir pour le moment.
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Derniers résultats -->
+    <div>
+      <h2 class="text-xl font-bold text-blue-800 mb-4">🏆 Derniers résultats</h2>
+      {{ if $agenda.recent }}
+      {{ $visible := first 3 $agenda.recent }}
+      {{ $hidden  := after 3 $agenda.recent }}
+      <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden divide-y divide-gray-100">
+        {{ range $visible }}
+        <div class="flex items-center gap-3 px-4 py-3">
+          <div class="text-center min-w-[48px]">
+            <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-gray-800 text-sm truncate">{{ .team }}</div>
+            <div class="text-xs text-gray-500 truncate">vs {{ .opponent }}</div>
+          </div>
+          <div class="shrink-0 flex items-center gap-2">
+            <span class="font-mono font-bold text-sm text-gray-700">{{ .score_home }}–{{ .score_away }}</span>
+            {{ if gt .score_home .score_away }}
+            <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+            {{ else if lt .score_home .score_away }}
+            <span class="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded">D</span>
+            {{ else }}
+            <span class="text-xs font-bold text-gray-400 bg-gray-50 px-2 py-0.5 rounded">N</span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if $hidden }}
+        <details class="group">
+          <summary class="flex items-center justify-center gap-1 px-4 py-2 text-xs text-blue-600 cursor-pointer hover:bg-gray-50 list-none">
+            <span class="group-open:hidden">Voir {{ len $hidden }} résultat{{ if gt (len $hidden) 1 }}s{{ end }} de plus ▼</span>
+            <span class="hidden group-open:inline">Réduire ▲</span>
+          </summary>
+          <div class="divide-y divide-gray-100">
+          {{ range $hidden }}
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">{{ .team }}</div>
+              <div class="text-xs text-gray-500 truncate">vs {{ .opponent }}</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">{{ .score_home }}–{{ .score_away }}</span>
+              {{ if gt .score_home .score_away }}
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              {{ else if lt .score_home .score_away }}
+              <span class="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded">D</span>
+              {{ else }}
+              <span class="text-xs font-bold text-gray-400 bg-gray-50 px-2 py-0.5 rounded">N</span>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+          </div>
+        </details>
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="bg-white rounded-2xl shadow-md border border-blue-100 px-6 py-10 text-center text-gray-400 text-sm">
+        Aucun résultat disponible.
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+</section>
+{{ end }}
+
 <!-- Latest news -->
 <section class="max-w-6xl mx-auto px-4 py-14">
   <h2 class="text-2xl font-bold text-blue-800 mb-8">Dernières actualités</h2>

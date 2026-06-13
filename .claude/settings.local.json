@@ -8,7 +8,15 @@
       "Bash(mv kakawait-hugo-tranquilpeak-theme-77e7020 *)",
       "Bash(rm tranquilpeak.tar.gz)",
       "Bash(hugo)",
-      "Bash(xargs sed -i 's/\\\\.Site\\\\.Author/\\\\.Site\\\\.Params\\\\.author/g')"
+      "Bash(xargs sed -i 's/\\\\.Site\\\\.Author/\\\\.Site\\\\.Params\\\\.author/g')",
+      "Bash(rtk ls *)",
+      "Bash(rtk read *)",
+      "Bash(python3 *)",
+      "Bash(./hugo)",
+      "Bash(./hugo server *)",
+      "Bash(curl -s http://localhost:1313/)",
+      "Bash(rtk *)",
+      "Bash(kill %1)"
     ]
   }
 }

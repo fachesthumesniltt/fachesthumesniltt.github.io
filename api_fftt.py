@@ -13,6 +13,7 @@ import json
 import re
 import os
 import sys
+from datetime import datetime
 
 password = os.environ['FFTT_PASSWD']
 key = hashlib.md5(password.encode())
@@ -241,6 +242,13 @@ for eq in equipes:
         opponent = strip_club_code(equb if fach_is_equa else equa)
         date_str = tour.get('dateprevue') or tour.get('date') or None
 
+        date_iso = None
+        if date_str:
+            try:
+                date_iso = datetime.strptime(date_str, '%d/%m/%Y').strftime('%Y-%m-%d')
+            except ValueError:
+                pass
+
         details = fetch_match_details(lien, fach_is_equa) if score_home is not None else None
 
         match_record = {
@@ -248,6 +256,7 @@ for eq in equipes:
             'score_home': score_home,
             'score_away': score_away,
             'date': date_str,
+            'date_iso': date_iso,
             'is_return_leg': is_return_leg,
             'players': details['players'] if details else None,
             'games': details['games'] if details else None,
@@ -323,4 +332,49 @@ for team in merged.values():
 
 final_result.sort(key=team_sort_key)
 
-json.dump(final_result, sys.stdout, ensure_ascii=False, indent=2)
+# Build agenda: collect all matches across all teams with dates
+today_iso = datetime.now().strftime('%Y-%m-%d')
+all_matches = []
+for team in final_result:
+    for phase in ('phase1', 'phase2'):
+        for m in team.get(phase) or []:
+            if not m.get('date_iso') or not m.get('opponent'):
+                continue
+            all_matches.append({
+                'type': 'match',
+                'team': team['name'],
+                'division_short': team.get('division_short', ''),
+                'category': team.get('category', ''),
+                'opponent': m['opponent'],
+                'date': m['date'],
+                'date_iso': m['date_iso'],
+                'score_home': m['score_home'],
+                'score_away': m['score_away'],
+                'is_return_leg': m['is_return_leg'],
+            })
+
+def agenda_sort_key(m):
+    n = re.search(r'(\d+)', m['team'])
+    team_num = int(n.group(1)) if n else 999
+    return team_num
+
+upcoming = sorted(
+    [m for m in all_matches if m['score_home'] is None and m['date_iso'] >= today_iso],
+    key=lambda x: (x['date_iso'], agenda_sort_key(x))
+)[:8]
+
+# Most recent played match per team, sorted by team number
+played = [m for m in all_matches if m['score_home'] is not None]
+latest_per_team = {}
+for m in played:
+    t = m['team']
+    if t not in latest_per_team or m['date_iso'] > latest_per_team[t]['date_iso']:
+        latest_per_team[t] = m
+recent = sorted(latest_per_team.values(), key=agenda_sort_key)
+
+output = {
+    'teams': final_result,
+    'agenda': {'upcoming': upcoming, 'recent': recent},
+}
+
+json.dump(output, sys.stdout, ensure_ascii=False, indent=2)

@@ -34,5 +34,36 @@ mkdir -p data
 uv run api_fftt.py > data/fftt.json || echo "FFTT fetch failed, skipping equipes data"
 uv run api_fftt_players.py > data/players.json || echo "FFTT players fetch failed"
 
+python3 -c "
+import json, sys, os
+from datetime import datetime
+from urllib.request import urlopen
+from urllib.parse import urlencode
+
+token = os.environ.get('facebook_token', '')
+params = urlencode({'access_token': token, 'fields': 'name,start_time,place', 'time_filter': 'upcoming', 'limit': '20'})
+url = 'https://graph.facebook.com/v10.0/1909136939359253/events?' + params
+with urlopen(url) as r:
+    data = json.load(r)
+events = []
+for e in data.get('data', []):
+    st = e.get('start_time', '')
+    try:
+        dt = datetime.fromisoformat(st)
+        date_iso = dt.strftime('%Y-%m-%d')
+        date = dt.strftime('%d/%m/%Y')
+    except Exception:
+        continue
+    events.append({
+        'type': 'event',
+        'name': e.get('name', ''),
+        'date': date,
+        'date_iso': date_iso,
+        'place': (e.get('place') or {}).get('name'),
+        'url': 'https://www.facebook.com/events/' + e['id'] + '/',
+    })
+json.dump(events, sys.stdout, ensure_ascii=False, indent=2)
+" > data/events.json || echo "[]" > data/events.json
+
 hugo
 printf 'www.fachesthumesniltt.com\n' > public/CNAME
