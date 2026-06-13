@@ -1,0 +1,124 @@
+{{ define "main" }}
+
+{{ $licence := .Params.licence }}
+{{ $player := index (where .Site.Data.players "licence" $licence) 0 }}
+
+{{ if not $player }}
+<section class="max-w-4xl mx-auto px-4 py-20 text-center">
+  <p class="text-gray-400 text-lg">Joueur introuvable.</p>
+</section>
+{{ else }}
+
+<!-- Hero -->
+<section class="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-14 text-center px-4">
+  <div class="text-5xl mb-3">🏓</div>
+  <h1 class="text-3xl md:text-4xl font-bold mb-1">{{ $player.prenom }} {{ $player.nom }}</h1>
+  <p class="text-blue-200 text-sm mt-2">
+    {{ if $player.clast }}<span class="inline-block bg-white/20 px-3 py-1 rounded-full font-semibold mr-2">Série {{ $player.clast }}</span>{{ end }}
+    {{ if $player.categ }}<span class="inline-block bg-white/20 px-3 py-1 rounded-full">{{ $player.categ }}</span>{{ end }}
+  </p>
+</section>
+
+<!-- Stats cards -->
+<section class="max-w-4xl mx-auto px-4 py-8">
+  {{ $history := $player.match_history }}
+  {{ $played := len $history }}
+  {{ $wins := 0 }}
+  {{ $player_wins := 0 }}
+  {{ $player_played := 0 }}
+  {{ range $history }}
+    {{ if gt .score_home -1 }}
+      {{ if gt .score_home .score_away }}{{ $wins = add $wins 1 }}{{ end }}
+    {{ end }}
+    {{ $player_wins = add $player_wins .player_wins }}
+    {{ $player_played = add $player_played .player_played }}
+  {{ end }}
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-5 text-center">
+      <div class="text-3xl font-bold text-blue-800 mb-1">{{ $player.point }}</div>
+      <div class="text-xs text-gray-500">Points actuels</div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-5 text-center">
+      <div class="text-3xl font-bold mb-1
+        {{ if gt $player.evolution 0 }}text-green-600{{ else if lt $player.evolution 0 }}text-red-500{{ else }}text-gray-400{{ end }}">
+        {{ if gt $player.evolution 0 }}+{{ end }}{{ $player.evolution }}
+      </div>
+      <div class="text-xs text-gray-500">Évolution</div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-5 text-center">
+      <div class="text-3xl font-bold text-blue-800 mb-1">{{ $played }}</div>
+      <div class="text-xs text-gray-500">Matchs d'équipe</div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-5 text-center">
+      <div class="text-3xl font-bold text-blue-800 mb-1">
+        {{ if gt $player_played 0 }}{{ $player_wins }}/{{ $player_played }}{{ else }}—{{ end }}
+      </div>
+      <div class="text-xs text-gray-500">Jeux gagnés</div>
+    </div>
+  </div>
+
+  <!-- Match history -->
+  {{ if $history }}
+  <h2 class="text-xl font-bold text-blue-800 mb-4">Historique de la saison</h2>
+  <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="bg-blue-50 text-blue-800 text-left">
+          <th class="px-4 py-3 font-semibold hidden sm:table-cell">Date</th>
+          <th class="px-4 py-3 font-semibold">Équipe</th>
+          <th class="px-4 py-3 font-semibold">Adversaire</th>
+          <th class="px-4 py-3 font-semibold text-center">Score</th>
+          <th class="px-4 py-3 font-semibold text-center">Jeux</th>
+          <th class="px-4 py-3 font-semibold text-center">Résultat</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100">
+        {{ range $history }}
+        <tr class="hover:bg-gray-50 transition">
+          <td class="px-4 py-3 text-gray-500 hidden sm:table-cell whitespace-nowrap">{{ slice .date 0 5 }}</td>
+          <td class="px-4 py-3 text-gray-700">
+            <span class="font-medium">{{ .team }}</span>
+            {{ if .division_short }}<span class="ml-1 text-xs bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded">{{ .division_short }}</span>{{ end }}
+          </td>
+          <td class="px-4 py-3 text-gray-700">{{ .opponent }}</td>
+          <td class="px-4 py-3 text-center font-mono font-semibold text-gray-700">
+            {{ if ge .score_home 0 }}{{ .score_home }}–{{ .score_away }}{{ else }}—{{ end }}
+          </td>
+          <td class="px-4 py-3 text-center">
+            {{ if gt .player_played 0 }}
+              <span class="{{ if gt .player_wins 0 }}text-green-600 font-semibold{{ else }}text-gray-500{{ end }}">
+                {{ .player_wins }}/{{ .player_played }}
+              </span>
+            {{ else }}—{{ end }}
+          </td>
+          <td class="px-4 py-3 text-center">
+            {{ if ge .score_home 0 }}
+              {{ if gt .score_home .score_away }}
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              {{ else if lt .score_home .score_away }}
+              <span class="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded">D</span>
+              {{ else }}
+              <span class="text-xs font-bold text-gray-400 bg-gray-50 px-2 py-0.5 rounded">N</span>
+              {{ end }}
+            {{ else }}—{{ end }}
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+  {{ else }}
+  <div class="bg-white rounded-2xl shadow-md border border-blue-100 px-6 py-12 text-center text-gray-400">
+    Aucun match enregistré pour cette saison.
+  </div>
+  {{ end }}
+</section>
+
+<section class="max-w-4xl mx-auto px-4 pb-12 text-center">
+  <a href="/pages/joueurs/" class="text-sm text-blue-700 hover:underline font-medium">← Retour à la liste des joueurs</a>
+</section>
+
+{{ end }}
+
+{{ end }}

@@ -1,5 +1,6 @@
 [
   {
+    "licence": "5917531",
     "nom": "BAILLEUL",
     "prenom": "Thibault",
     "clast": "16",
@@ -7,9 +8,180 @@
     "valinit": 1642,
     "evolution": -164,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "VILLENEUVE D'ASCQ FOS 5",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MONS TT 1",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "WITTES US 1",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "NEUVILLE EN FERRAIN PP 4",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MARQUISE ASTT 1",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "FLINES LEZ RACHES PPC 3",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "HERGNIES FRESNES CTT 2",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST LAURENT BLANGY TTI 4",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUDUN SL 4",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST ANDRE USTT 2",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "SIN LE NOBLE TT 2",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "PAYS COMPIEGNOIS TT 3",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUPELLE-NEUVE FR 1",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "INCHY-BEAUMONT UP 1",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "6231714",
     "nom": "BECOURT",
     "prenom": "Julien",
     "clast": "15",
@@ -17,9 +189,180 @@
     "valinit": 1386,
     "evolution": 73,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "VILLENEUVE D'ASCQ FOS 5",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MONS TT 1",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "WITTES US 1",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "NEUVILLE EN FERRAIN PP 4",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MARQUISE ASTT 1",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "FLINES LEZ RACHES PPC 3",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "HERGNIES FRESNES CTT 2",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST LAURENT BLANGY TTI 4",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUDUN SL 4",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST ANDRE USTT 2",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "SIN LE NOBLE TT 2",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "PAYS COMPIEGNOIS TT 3",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUPELLE-NEUVE FR 1",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "INCHY-BEAUMONT UP 1",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5941033",
     "nom": "DEDEYSTERE",
     "prenom": "Alexandre",
     "clast": "14",
@@ -27,9 +370,11 @@
     "valinit": 1445,
     "evolution": -5,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5921477",
     "nom": "HEDDEBAUT",
     "prenom": "Michel",
     "clast": "14",
@@ -37,9 +382,11 @@
     "valinit": 1410,
     "evolution": -5,
     "categ": "V65",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5983751",
     "nom": "LEGRAND",
     "prenom": "Noa",
     "clast": "13",
@@ -47,9 +394,180 @@
     "valinit": 1224,
     "evolution": 136,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "VILLENEUVE D'ASCQ FOS 5",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MONS TT 1",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "WITTES US 1",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "NEUVILLE EN FERRAIN PP 4",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MARQUISE ASTT 1",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "FLINES LEZ RACHES PPC 3",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "HERGNIES FRESNES CTT 2",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST LAURENT BLANGY TTI 4",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUDUN SL 4",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST ANDRE USTT 2",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "SIN LE NOBLE TT 2",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "PAYS COMPIEGNOIS TT 3",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUPELLE-NEUVE FR 1",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "INCHY-BEAUMONT UP 1",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5954272",
     "nom": "HELEVAUT",
     "prenom": "Aurelien",
     "clast": "13",
@@ -57,9 +575,180 @@
     "valinit": 1377,
     "evolution": -89,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "VILLENEUVE D'ASCQ FOS 5",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MONS TT 1",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "WITTES US 1",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "NEUVILLE EN FERRAIN PP 4",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "MARQUISE ASTT 1",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "FLINES LEZ RACHES PPC 3",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "HERGNIES FRESNES CTT 2",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST LAURENT BLANGY TTI 4",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUDUN SL 4",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "ST ANDRE USTT 2",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "SIN LE NOBLE TT 2",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "PAYS COMPIEGNOIS TT 3",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "COUPELLE-NEUVE FR 1",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R2",
+        "opponent": "INCHY-BEAUMONT UP 1",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5948417",
     "nom": "HENIART",
     "prenom": "Thomas",
     "clast": "13",
@@ -67,9 +756,24 @@
     "valinit": 1280,
     "evolution": -13,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MARCQ TT 5",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5977614",
     "nom": "COHEN SELMON",
     "prenom": "Michael",
     "clast": "11",
@@ -77,9 +781,180 @@
     "valinit": 1082,
     "evolution": 60,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LOSC TT 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TEMPLEM-VENDEVI 4",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "SECLIN PPP 2",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FLINES LEZ RACHES PPC 5",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LESQUIN ASLTT 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FRETIN CFTT 1",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "HEM PPC 5",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CAPPELLE EN PEVELE TT 6",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "NEUVILL/FERRAIN 7",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 4",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 11",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "MONS TT 5",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5931747",
     "nom": "LANGLOIS",
     "prenom": "Thomas",
     "clast": "11",
@@ -87,9 +962,156 @@
     "valinit": 1066,
     "evolution": 49,
     "categ": "V40",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TEMPLEM-VENDEVI 4",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "SECLIN PPP 2",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FLINES LEZ RACHES PPC 5",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LESQUIN ASLTT 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FRETIN CFTT 1",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "HEM PPC 5",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CAPPELLE EN PEVELE TT 6",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "NEUVILL/FERRAIN 7",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 4",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 11",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "MONS TT 5",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5969280",
     "nom": "DEMEURISSE",
     "prenom": "Theo",
     "clast": "11",
@@ -97,9 +1119,156 @@
     "valinit": 1054,
     "evolution": 13,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WASQUEHAL TT 1",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 4",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LYS LM CP 5",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WAMBRECHIES CAF 2",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 10",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "RONCQ ULJAP 6",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BAISIEUX TT 4",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 12",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "NEUVILL/FERRAIN 7",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 8",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5950938",
     "nom": "PILON",
     "prenom": "Corentin",
     "clast": "10",
@@ -107,9 +1276,144 @@
     "valinit": 953,
     "evolution": 35,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LOSC TT 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TEMPLEM-VENDEVI 4",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "SECLIN PPP 2",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FLINES LEZ RACHES PPC 5",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FRETIN CFTT 1",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CAPPELLE EN PEVELE TT 6",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 4",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 11",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "MONS TT 5",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "6224110",
     "nom": "HENGBART",
     "prenom": "Kevin",
     "clast": "10",
@@ -117,9 +1421,120 @@
     "valinit": 1002,
     "evolution": -28,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MONS TT 6",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 15",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 10",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 20",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BAISIEUX TT 4",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "SANTES CTT 3",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MARCQ TT 5",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59115414",
     "nom": "POIRION",
     "prenom": "Maxime",
     "clast": "8",
@@ -127,9 +1542,180 @@
     "valinit": 732,
     "evolution": 241,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LOSC TT 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TEMPLEM-VENDEVI 4",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "SECLIN PPP 2",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FLINES LEZ RACHES PPC 5",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LESQUIN ASLTT 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "FRETIN CFTT 1",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "HEM PPC 5",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CAPPELLE EN PEVELE TT 6",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "NEUVILL/FERRAIN 7",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 4",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 11",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "MONS TT 5",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "1313689",
     "nom": "LEGRAND",
     "prenom": "Mickael",
     "clast": "9",
@@ -137,9 +1723,108 @@
     "valinit": 885,
     "evolution": -25,
     "categ": "V45",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MONS TT 6",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WASQUEHAL TT 1",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 4",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LYS LM CP 5",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WAMBRECHIES CAF 2",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 10",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "RONCQ ULJAP 6",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "HEM PPC 5",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5982913",
     "nom": "LEGRAND",
     "prenom": "Mathieu",
     "clast": "8",
@@ -147,9 +1832,168 @@
     "valinit": 783,
     "evolution": 65,
     "categ": "V45",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MONS TT 6",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WASQUEHAL TT 1",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 4",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LYS LM CP 5",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WAMBRECHIES CAF 2",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "VILLEN/ASCQ FOS 10",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "RONCQ ULJAP 6",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BAISIEUX TT 4",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "SANTES CTT 3",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MARCQ TT 5",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 3",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "ST ANDRE USTT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "591748",
     "nom": "BAILLEUL",
     "prenom": "Bruno",
     "clast": "8",
@@ -157,9 +2001,11 @@
     "valinit": 785,
     "evolution": -5,
     "categ": "V65",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5951400",
     "nom": "WEENS",
     "prenom": "Ghislain",
     "clast": "7",
@@ -167,9 +2013,72 @@
     "valinit": 757,
     "evolution": 10,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "WATTIGNIES PPC 7",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "NEUVILL/FERRAIN 12",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BOUSBEC-WERVICQ 2",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "ST ANDRE USTT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5971987",
     "nom": "FLAMME",
     "prenom": "Alexandre",
     "clast": "8",
@@ -177,9 +2086,72 @@
     "valinit": 766,
     "evolution": -7,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "ST ANDRE USTT - REC SAMEDI 17H",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "SANTES CTT 3",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 3",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BOUSBEC-WERVICQ 2",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "ST ANDRE USTT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5977911",
     "nom": "GAILLET",
     "prenom": "Julien",
     "clast": "6",
@@ -187,9 +2159,168 @@
     "valinit": 586,
     "evolution": 129,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "TEMPLEM-VENDEVI 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "FRETIN CFTT 3",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 2",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 15",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "NEUVILL/FERRAIN 12",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 12",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 9",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MONS TT",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 8",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5950380",
     "nom": "DESTEE",
     "prenom": "Valentin",
     "clast": "7",
@@ -197,9 +2328,36 @@
     "valinit": 733,
     "evolution": -25,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "ST ANDRE USTT - REC SAMEDI 17H",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5958263",
     "nom": "D'HENIN",
     "prenom": "Bertrand",
     "clast": "7",
@@ -207,9 +2365,60 @@
     "valinit": 650,
     "evolution": 24,
     "categ": "V60",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 7 - REC SAMEDI 17H",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 13",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 12",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5975135",
     "nom": "VENTORINO",
     "prenom": "Angelo",
     "clast": "7",
@@ -217,9 +2426,108 @@
     "valinit": 713,
     "evolution": -39,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 2",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "SANTES CTT 3",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 3",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BOUSBEC-WERVICQ 2",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "ST ANDRE USTT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5954881",
     "nom": "DE BOSSCHER",
     "prenom": "Michel",
     "clast": "6",
@@ -227,9 +2535,96 @@
     "valinit": 612,
     "evolution": 53,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LA MAD US 12 - REC SAMEDI 17H",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "ST ANDRE USTT - REC SAMEDI 17H",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 14",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "WATTIGNIES PPC 7",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "NEUVILL/FERRAIN 12",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 20",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5966675",
     "nom": "BECQUAERT",
     "prenom": "Frederic",
     "clast": "7",
@@ -237,9 +2632,11 @@
     "valinit": 666,
     "evolution": -5,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5944393",
     "nom": "WINOCQ",
     "prenom": "Patrick",
     "clast": "6",
@@ -247,9 +2644,11 @@
     "valinit": 645,
     "evolution": -5,
     "categ": "V75",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5979701",
     "nom": "BLANCHEGORGE",
     "prenom": "Loann",
     "clast": "6",
@@ -257,9 +2656,156 @@
     "valinit": 585,
     "evolution": 37,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LOSC TT 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "FRETIN CFTT 3",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 15",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 12",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 9",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MONS TT",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 8",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5923304",
     "nom": "SENICOURT",
     "prenom": "Romain",
     "clast": "6",
@@ -267,9 +2813,11 @@
     "valinit": 620,
     "evolution": -5,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59120959",
     "nom": "RIGO",
     "prenom": "Richard",
     "clast": "6",
@@ -277,9 +2825,108 @@
     "valinit": 536,
     "evolution": 62,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LOMME CP 10",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 7 - REC SAMEDI 17H",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 13",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "BAISIEUX TT 11",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "HALLUIN TT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5977910",
     "nom": "GAILLET",
     "prenom": "Maxence",
     "clast": "5",
@@ -287,9 +2934,108 @@
     "valinit": 525,
     "evolution": 23,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LA MAD US 12 - REC SAMEDI 17H",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 14",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "WATTIGNIES PPC 7",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 20",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "BAISIEUX TT 11",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 12",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "HALLUIN TT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59121568",
     "nom": "BECOURT",
     "prenom": "Joel",
     "clast": "5",
@@ -297,9 +3043,96 @@
     "valinit": 500,
     "evolution": 12,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LOMME CP 10",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 13",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "ORCHIES AL 15",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 12",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 16",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5953529",
     "nom": "LEGRAND",
     "prenom": "Edouard",
     "clast": "5",
@@ -307,9 +3140,84 @@
     "valinit": 500,
     "evolution": 7,
     "categ": "V75",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "BAISIEUX TT 11",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 12",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 16",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "HALLUIN TT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5944070",
     "nom": "VIDOGUE",
     "prenom": "Francois",
     "clast": "5",
@@ -317,9 +3225,11 @@
     "valinit": 511,
     "evolution": -5,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59134094",
     "nom": "ALI LAOUAR",
     "prenom": "Abedssami",
     "clast": "5",
@@ -327,9 +3237,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59133568",
     "nom": "BOIZET",
     "prenom": "Eveline",
     "clast": "5",
@@ -337,9 +3249,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V75",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59108024",
     "nom": "BRUNIN",
     "prenom": "Gérard",
     "clast": "5",
@@ -347,9 +3261,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V50",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "6225887",
     "nom": "CAPELLE",
     "prenom": "Ludovic",
     "clast": "5",
@@ -357,9 +3273,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5988170",
     "nom": "DARAS",
     "prenom": "Marie-Jo",
     "clast": "5",
@@ -367,9 +3285,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V60",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5989627",
     "nom": "DAUVERGNE",
     "prenom": "Régis",
     "clast": "5",
@@ -377,9 +3297,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V70",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59120961",
     "nom": "DELPIERRE",
     "prenom": "Elie",
     "clast": "5",
@@ -387,9 +3309,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5960298",
     "nom": "DEPERSIN",
     "prenom": "Eric",
     "clast": "5",
@@ -397,9 +3321,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V60",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5972737",
     "nom": "DUFRESNE",
     "prenom": "Corentin",
     "clast": "5",
@@ -407,9 +3333,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59110279",
     "nom": "HOURI",
     "prenom": "Mohamed",
     "clast": "5",
@@ -417,9 +3345,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59122072",
     "nom": "LECERF",
     "prenom": "Raphael",
     "clast": "5",
@@ -427,9 +3357,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V40",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5988172",
     "nom": "LECUYER",
     "prenom": "Mickael",
     "clast": "5",
@@ -437,9 +3369,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V40",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5995238",
     "nom": "TARASSOF",
     "prenom": "Nathalie",
     "clast": "5",
@@ -447,9 +3381,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V60",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5961077",
     "nom": "TRANNIN",
     "prenom": "Marc",
     "clast": "5",
@@ -457,9 +3393,60 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V55",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "RONCHIN EP 1",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "BAISIEUX TT 11",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 16",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59133088",
     "nom": "VANDEN TORREN",
     "prenom": "Arnaud",
     "clast": "5",
@@ -467,9 +3454,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "V45",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "59132871",
     "nom": "TRAN",
     "prenom": "Thi Bich Ngoc",
     "clast": "5",
@@ -477,9 +3466,11 @@
     "valinit": 500,
     "evolution": -2,
     "categ": "V45",
-    "category": "senior"
+    "category": "senior",
+    "match_history": []
   },
   {
+    "licence": "5918170",
     "nom": "VITEL",
     "prenom": "Marlene",
     "clast": "5",
@@ -487,9 +3478,72 @@
     "valinit": 501,
     "evolution": -6,
     "categ": "S",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 14",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "NEUVILL/FERRAIN 12",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "ORCHIES AL 15",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 16",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "325079",
     "nom": "STOCLIN",
     "prenom": "Laurent",
     "clast": "5",
@@ -497,9 +3551,108 @@
     "valinit": 500,
     "evolution": -10,
     "categ": "V40",
-    "category": "senior"
+    "category": "senior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LOMME CP 10",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "RONCHIN EP 1",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 7 - REC SAMEDI 17H",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 13",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "ORCHIES AL 15",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5986052",
     "nom": "LURETTE",
     "prenom": "Tristan",
     "clast": "8",
@@ -507,9 +3660,156 @@
     "valinit": 719,
     "evolution": 131,
     "categ": "J2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MONS TT 6",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WASQUEHAL TT 1",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "CROIX ASVH 4",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LYS LM CP 5",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "WAMBRECHIES CAF 2",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "D1",
+        "opponent": "LESQUIN ASLTT 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "RONCQ ULJAP 6",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BAISIEUX TT 4",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "MARCQ TT 5",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "TOURCOING AJJ 3",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "A CAMPHIN TT 1",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "BOUSBEC-WERVICQ 2",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59107891",
     "nom": "HELEVAUT",
     "prenom": "Nathan",
     "clast": "6",
@@ -517,9 +3817,156 @@
     "valinit": 593,
     "evolution": 91,
     "categ": "J4",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "TEMPLEM-VENDEVI 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "FRETIN CFTT 3",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 2",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 15",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 8,
+        "score_away": 6,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 9",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MONS TT",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 8",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5982933",
     "nom": "BRUNIN",
     "prenom": "Clement",
     "clast": "6",
@@ -527,9 +3974,144 @@
     "valinit": 624,
     "evolution": 45,
     "categ": "J1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "TEMPLEM-VENDEVI 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "FRETIN CFTT 3",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "WATTIGNIES PPC 7",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 12",
+        "date": "14/12/2025",
+        "date_iso": "2025-12-14",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 9",
+        "date": "30/11/2025",
+        "date_iso": "2025-11-30",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MONS TT",
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5999103",
     "nom": "HAVET",
     "prenom": "Ezio",
     "clast": "6",
@@ -537,9 +4119,216 @@
     "valinit": 556,
     "evolution": 93,
     "categ": "C2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LA MAD US 12 - REC SAMEDI 17H",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "ST ANDRE USTT - REC SAMEDI 17H",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 21",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 14",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 9,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 21 - REC A 14H",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 2",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ST ANDRE USTT 20",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WAMBRECHIES CAF 21 - REC A 14H",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS 20",
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE LOSC TT 21 - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "ORCHIES AL 15",
+        "date": "11/01/2026",
+        "date_iso": "2026-01-11",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 21",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 20",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 20 - REC A 14H",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 6,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59110275",
     "nom": "ZNIBEL",
     "prenom": "Yanis",
     "clast": "6",
@@ -547,9 +4336,192 @@
     "valinit": 528,
     "evolution": 96,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LA MAD US 12 - REC SAMEDI 17H",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 22 - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 21",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 21 - REC A 14H",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ST ANDRE USTT 20",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WAMBRECHIES CAF 21 - REC A 14H",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ORCHIES AL 22 - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 21 - REC A 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT 24 - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 21",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 21",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 20",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 20 - REC A 14H",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 6,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59110890",
     "nom": "MORID",
     "prenom": "Nahel",
     "clast": "6",
@@ -557,9 +4529,60 @@
     "valinit": 562,
     "evolution": 37,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 21 - REC A 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 21",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 21",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 20 - REC A 14H",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 6,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59110888",
     "nom": "CHATILLON",
     "prenom": "Matheo",
     "clast": "5",
@@ -567,9 +4590,132 @@
     "valinit": 503,
     "evolution": 54,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 22 - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WAMBRECHIES CAF 21 - REC A 14H",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ORCHIES AL 22 - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 20 - REC 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LOSC TT 20 - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 27",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 0,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 21",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 23",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5987677",
     "nom": "CHATER",
     "prenom": "Jibril",
     "clast": "5",
@@ -577,9 +4723,192 @@
     "valinit": 500,
     "evolution": 33,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 22 - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LOMME CP 10",
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
+        "score_home": 14,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 21",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "RONCHIN EP 1",
+        "date": "10/05/2026",
+        "date_iso": "2026-05-10",
+        "score_home": 0,
+        "score_away": 14,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 4
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LA MADELEINE US 21 - REC A 14H",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ST ANDRE USTT 20",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ORCHIES AL 22 - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 21 - REC A 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT 24 - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 21",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 20",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5999151",
     "nom": "DECUIGNIERES",
     "prenom": "Yanis",
     "clast": "5",
@@ -587,9 +4916,11 @@
     "valinit": 521,
     "evolution": -5,
     "categ": "M2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59125019",
     "nom": "BAVYE",
     "prenom": "Julien",
     "clast": "5",
@@ -597,9 +4928,120 @@
     "valinit": 500,
     "evolution": 11,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "ANNOEULLIN TT 30 - REC A 14H",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 5,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "MARCQ TT",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 1,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "ST ANDRE USTT",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LA MADELEINE US - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LAMBERSART CTT 31 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 4,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "CAP EN PEV TT  - REC A 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 4,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LA MADELEINE US - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 4,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "ST ANDRE USTT",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LMTT 31",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      }
+    ]
   },
   {
+    "licence": "59108025",
     "nom": "PICHOT",
     "prenom": "Matthys",
     "clast": "5",
@@ -607,9 +5049,60 @@
     "valinit": 500,
     "evolution": 11,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ANNOEULLIN TT 20 - REC A  14H",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 22 - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 20",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 4,
+        "player_played": 5
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 21",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "5999152",
     "nom": "TOEBAERT",
     "prenom": "Etienne",
     "clast": "5",
@@ -617,9 +5110,84 @@
     "valinit": 500,
     "evolution": 6,
     "categ": "J1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "SECLIN PPP 5",
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LILL METR TT 15",
+        "date": "12/04/2026",
+        "date_iso": "2026-04-12",
+        "score_home": 4,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 7 - REC SAMEDI 17H",
+        "date": "22/03/2026",
+        "date_iso": "2026-03-22",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "score_home": 3,
+        "score_away": 11,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "12/10/2025",
+        "date_iso": "2025-10-12",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "HALLUIN TT 5",
+        "date": "21/09/2025",
+        "date_iso": "2025-09-21",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59132870",
     "nom": "SOIR MEUROT",
     "prenom": "Isaac",
     "clast": "5",
@@ -627,9 +5195,108 @@
     "valinit": 500,
     "evolution": 1,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 23 - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE MTT",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 0,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 22 - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LOSC TT 20 - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 20",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 1
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 23",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59100547",
     "nom": "BOLLENGIER",
     "prenom": "Gaël",
     "clast": "5",
@@ -637,9 +5304,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "J1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133569",
     "nom": "DECROCQ",
     "prenom": "Gabriel",
     "clast": "5",
@@ -647,9 +5316,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "M2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133271",
     "nom": "DECUIGNIÈRES",
     "prenom": "Mylia",
     "clast": "5",
@@ -657,9 +5328,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133571",
     "nom": "DESAIN",
     "prenom": "Emma",
     "clast": "5",
@@ -667,9 +5340,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "C2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59121566",
     "nom": "DESAIN",
     "prenom": "Clara",
     "clast": "5",
@@ -677,9 +5352,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "M1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133057",
     "nom": "EL MESAOUDI",
     "prenom": "Ysmael",
     "clast": "5",
@@ -687,9 +5364,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133572",
     "nom": "HAITAMA",
     "prenom": "Issa",
     "clast": "5",
@@ -697,9 +5376,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59132632",
     "nom": "KERSGIETER",
     "prenom": "Eliott",
     "clast": "5",
@@ -707,9 +5388,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "M2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133573",
     "nom": "LABUDECK PILLIOD",
     "prenom": "Jules",
     "clast": "5",
@@ -717,9 +5400,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59132673",
     "nom": "LANANI",
     "prenom": "Ryad",
     "clast": "5",
@@ -727,9 +5412,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59122057",
     "nom": "LEPOUTRE",
     "prenom": "Marc",
     "clast": "5",
@@ -737,9 +5424,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "5987154",
     "nom": "LURETTE",
     "prenom": "Elias",
     "clast": "5",
@@ -747,9 +5436,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "C2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133570",
     "nom": "MANSUÉ",
     "prenom": "Isaac",
     "clast": "5",
@@ -757,19 +5448,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
-    "nom": "MIZANE",
-    "prenom": "Inaya",
-    "clast": "5",
-    "point": 500,
-    "valinit": 500,
-    "evolution": 0,
-    "categ": "P",
-    "category": "junior"
-  },
-  {
+    "licence": "59134352",
     "nom": "MIZANE",
     "prenom": "Sana",
     "clast": "5",
@@ -777,9 +5460,23 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59134351",
+    "nom": "MIZANE",
+    "prenom": "Inaya",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "P",
+    "category": "junior",
+    "match_history": []
+  },
+  {
+    "licence": "59133752",
     "nom": "OUFKER",
     "prenom": "Imad",
     "clast": "5",
@@ -787,9 +5484,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133753",
     "nom": "POLLET",
     "prenom": "Manolo",
     "clast": "5",
@@ -797,9 +5496,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59121565",
     "nom": "PRADE",
     "prenom": "Lénaël",
     "clast": "5",
@@ -807,9 +5508,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59134199",
     "nom": "ROSSIGNOL",
     "prenom": "Charline",
     "clast": "5",
@@ -817,9 +5520,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59121031",
     "nom": "ROSSIGNOL",
     "prenom": "Victor",
     "clast": "5",
@@ -827,9 +5532,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "M1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59100586",
     "nom": "SAKHRI",
     "prenom": "Sabri",
     "clast": "5",
@@ -837,9 +5544,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59134198",
     "nom": "SILOU",
     "prenom": "Ilyes",
     "clast": "5",
@@ -847,9 +5556,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133058",
     "nom": "VANDEN TORREN",
     "prenom": "Axel",
     "clast": "5",
@@ -857,9 +5568,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "C2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59120624",
     "nom": "VILLERS GOUPILLOT",
     "prenom": "Victor",
     "clast": "5",
@@ -867,9 +5580,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59133567",
     "nom": "WILLOQUAUX",
     "prenom": "Lucas",
     "clast": "5",
@@ -877,9 +5592,11 @@
     "valinit": 500,
     "evolution": 0,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59132671",
     "nom": "DUPONT",
     "prenom": "Gustave",
     "clast": "5",
@@ -887,9 +5604,36 @@
     "valinit": 500,
     "evolution": -2,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "CAP EN PEV TT  - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 5,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "ANNOEULLIN TT 30 - REC A 14H",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 5,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 2
+      }
+    ]
   },
   {
+    "licence": "59120777",
     "nom": "SANDER",
     "prenom": "Cléon",
     "clast": "5",
@@ -897,9 +5641,11 @@
     "valinit": 500,
     "evolution": -2,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59106321",
     "nom": "HAUTVAL",
     "prenom": "Gautier",
     "clast": "5",
@@ -907,9 +5653,144 @@
     "valinit": 500,
     "evolution": -4,
     "categ": "M2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 23 - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ANNOEULLIN TT 20 - REC A  14H",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE MTT",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 0,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 22 - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 7,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 20 - REC 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "BAISIEUX TT 24 - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 4,
+        "score_away": 6,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "WATTIGNIES PPC 20",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 9,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 27",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 0,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 23",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59132672",
     "nom": "HO TRAN",
     "prenom": "Johann Minhtuan",
     "clast": "5",
@@ -917,9 +5798,11 @@
     "valinit": 500,
     "evolution": -4,
     "categ": "B2",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   },
   {
+    "licence": "59132869",
     "nom": "SOIR MEUROT",
     "prenom": "Pablo",
     "clast": "5",
@@ -927,9 +5810,120 @@
     "valinit": 500,
     "evolution": -5,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "CAP EN PEV TT  - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 5,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "MARCQ TT",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 1,
+        "score_away": 4,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "ST ANDRE USTT",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LAMBERSART CTT - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LESQUIN ASLTT",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "CAP EN PEV TT  - REC A 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 4,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LA MADELEINE US - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 4,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "WAMBRECHIES CAF 30 - REC A 14H",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 1,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "ST ANDRE USTT",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      }
+    ]
   },
   {
+    "licence": "59121026",
     "nom": "THOMAS",
     "prenom": "Florian",
     "clast": "5",
@@ -937,9 +5931,96 @@
     "valinit": 500,
     "evolution": -8,
     "categ": "B1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LAMBERSART CTT - REC A 14H",
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LESQUIN ASLTT",
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LA MADELEINE US - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LAMBERSART CTT 31 - REC A 14H",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "score_home": 4,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "WAMBRECHIES CAF 30 - REC A 14H",
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "score_home": 1,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "LMTT 31",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      },
+      {
+        "team": "FACH-THUMESNIL",
+        "division_short": "PB M1",
+        "opponent": "MARCQ TT 31",
+        "date": "20/09/2025",
+        "date_iso": "2025-09-20",
+        "score_home": 0,
+        "score_away": 5,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      }
+    ]
   },
   {
+    "licence": "59108155",
     "nom": "STOCLIN",
     "prenom": "Maxence",
     "clast": "5",
@@ -947,9 +6028,120 @@
     "valinit": 500,
     "evolution": -10,
     "categ": "C1",
-    "category": "junior"
+    "category": "junior",
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 23 - REC A 14H",
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "score_home": 10,
+        "score_away": 0,
+        "phase": "phase2",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "ANNOEULLIN TT 20 - REC A  14H",
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "MARCQ TT",
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE MTT",
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "score_home": 0,
+        "score_away": 10,
+        "phase": "phase2",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE LOSC TT 21 - REC A 14H",
+        "date": "07/02/2026",
+        "date_iso": "2026-02-07",
+        "score_home": 5,
+        "score_away": 5,
+        "phase": "phase2",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 20 - REC 14H",
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LOSC TT 20 - REC A 14H",
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "VILLEN/ASCQ FOS 27",
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "score_home": 0,
+        "score_away": 10,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 21",
+        "date": "27/09/2025",
+        "date_iso": "2025-09-27",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
   },
   {
+    "licence": "59133754",
     "nom": "DUPONT",
     "prenom": "Arsène",
     "clast": "5",
@@ -957,6 +6149,7 @@
     "valinit": 500,
     "evolution": -12,
     "categ": "P",
-    "category": "junior"
+    "category": "junior",
+    "match_history": []
   }
 ]

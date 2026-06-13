@@ -11,6 +11,7 @@ import requests
 import xmltodict
 import json
 import os
+import re
 import sys
 
 password = os.environ['FFTT_PASSWD']
@@ -58,7 +59,6 @@ for p in club_players:
 
     point   = to_float(detail.get('point'))
     valinit = to_float(detail.get('valinit'))
-    valcla  = to_float(detail.get('valcla'))
     categ   = (detail.get('categ') or '').strip()
 
     evolution = None
@@ -66,6 +66,7 @@ for p in club_players:
         evolution = round(point - valinit)
 
     players.append({
+        'licence':   licence,
         'nom':       detail.get('nom', ''),
         'prenom':    detail.get('prenom', ''),
         'clast':     detail.get('clast', ''),
@@ -74,6 +75,7 @@ for p in club_players:
         'evolution': evolution,
         'categ':     categ,
         'category':  'senior' if (categ.startswith('S') or categ.startswith('V')) else 'junior',
+        'match_history': [],
     })
 
 # Sort by category group then by points descending
@@ -83,5 +85,64 @@ def sort_key(p):
     return (group, pts)
 
 players.sort(key=sort_key)
+
+# Build match history from fftt.json (generated before this script)
+fftt_path = os.path.join(os.path.dirname(__file__), 'data', 'fftt.json')
+if os.path.exists(fftt_path):
+    fftt_data = json.load(open(fftt_path))
+    # Index players by "NOM Prenom" key for fast lookup
+    player_index = {f"{p['nom']} {p['prenom']}": p for p in players}
+
+    for team in fftt_data.get('teams', []):
+        for phase in ('phase1', 'phase2'):
+            for match in team.get(phase) or []:
+                if not match.get('games'):
+                    continue
+                for game in match['games']:
+                    home = game.get('home', '')
+                    # Skip doubles (contain " et ")
+                    if not home or ' et ' in home:
+                        continue
+                    player = player_index.get(home)
+                    if not player:
+                        continue
+                    home_won = game.get('home_won', False)
+
+                    # Find or create a history entry for this match
+                    match_key = (team['name'], match.get('date_iso', ''), match.get('opponent', ''))
+                    history = player['match_history']
+                    entry = next((e for e in history if (e['team'], e['date_iso'], e['opponent']) == match_key), None)
+                    if entry is None:
+                        entry = {
+                            'team': team['name'],
+                            'division_short': team.get('division_short', ''),
+                            'opponent': match.get('opponent', ''),
+                            'date': match.get('date', ''),
+                            'date_iso': match.get('date_iso', ''),
+                            'score_home': match.get('score_home'),
+                            'score_away': match.get('score_away'),
+                            'phase': phase,
+                            'player_wins': 0,
+                            'player_played': 0,
+                        }
+                        history.append(entry)
+                    entry['player_played'] += 1
+                    if home_won:
+                        entry['player_wins'] += 1
+
+    # Sort each player's history by date descending
+    for p in players:
+        p['match_history'].sort(key=lambda m: m.get('date_iso', ''), reverse=True)
+
+# Generate one content file per player
+content_dir = os.path.join(os.path.dirname(__file__), 'content', 'pages', 'joueurs')
+os.makedirs(content_dir, exist_ok=True)
+
+for p in players:
+    slug = p['licence']
+    path = os.path.join(content_dir, f'{slug}.md')
+    # Only write if missing to avoid unnecessary rebuilds; overwrite to keep data fresh
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(f'---\ntitle: "{p["prenom"]} {p["nom"]}"\nlayout: "joueur"\nlicence: "{p["licence"]}"\n---\n')
 
 json.dump(players, sys.stdout, ensure_ascii=False, indent=2)
