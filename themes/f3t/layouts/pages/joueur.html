@@ -21,17 +21,11 @@
 
 <!-- Stats cards -->
 <section class="max-w-4xl mx-auto px-4 py-8">
-  {{ $history := $player.match_history }}
-  {{ $played := len $history }}
+  {{ $matches := $player.matches }}
+  {{ $total := len $matches }}
   {{ $wins := 0 }}
-  {{ $player_wins := 0 }}
-  {{ $player_played := 0 }}
-  {{ range $history }}
-    {{ if gt .score_home -1 }}
-      {{ if gt .score_home .score_away }}{{ $wins = add $wins 1 }}{{ end }}
-    {{ end }}
-    {{ $player_wins = add $player_wins .player_wins }}
-    {{ $player_played = add $player_played .player_played }}
+  {{ range $matches }}
+    {{ if .won }}{{ $wins = add $wins 1 }}{{ end }}
   {{ end }}
 
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
@@ -47,61 +41,60 @@
       <div class="text-xs text-gray-500">Évolution</div>
     </div>
     <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-5 text-center">
-      <div class="text-3xl font-bold text-blue-800 mb-1">{{ $played }}</div>
-      <div class="text-xs text-gray-500">Matchs d'équipe</div>
+      <div class="text-3xl font-bold text-blue-800 mb-1">{{ $total }}</div>
+      <div class="text-xs text-gray-500">Parties jouées</div>
     </div>
     <div class="bg-white rounded-2xl shadow-md border border-blue-100 p-5 text-center">
-      <div class="text-3xl font-bold text-blue-800 mb-1">
-        {{ if gt $player_played 0 }}{{ $player_wins }}/{{ $player_played }}{{ else }}—{{ end }}
+      <div class="text-3xl font-bold mb-1
+        {{ if gt $total 0 }}
+          {{ $pct := mul (div (float $wins) (float $total)) 100 }}
+          {{ if ge $pct 50.0 }}text-green-600{{ else }}text-red-500{{ end }}
+        {{ else }}text-gray-400{{ end }}">
+        {{ if gt $total 0 }}{{ printf "%.0f" (mul (div (float $wins) (float $total)) 100) }}%{{ else }}—{{ end }}
       </div>
-      <div class="text-xs text-gray-500">Jeux gagnés</div>
+      <div class="text-xs text-gray-500">% de victoire</div>
     </div>
   </div>
 
-  <!-- Match history -->
-  {{ if $history }}
-  <h2 class="text-xl font-bold text-blue-800 mb-4">Historique de la saison</h2>
+  <!-- Individual match history -->
+  {{ if $matches }}
+  <h2 class="text-xl font-bold text-blue-800 mb-4">Parties de la saison</h2>
   <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
     <table class="w-full text-sm">
       <thead>
         <tr class="bg-blue-50 text-blue-800 text-left">
           <th class="px-4 py-3 font-semibold hidden sm:table-cell">Date</th>
-          <th class="px-4 py-3 font-semibold">Équipe</th>
           <th class="px-4 py-3 font-semibold">Adversaire</th>
-          <th class="px-4 py-3 font-semibold text-center">Score</th>
-          <th class="px-4 py-3 font-semibold text-center">Jeux</th>
+          <th class="px-4 py-3 font-semibold text-center hidden md:table-cell">Classement</th>
+          <th class="px-4 py-3 font-semibold text-center">Points</th>
           <th class="px-4 py-3 font-semibold text-center">Résultat</th>
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-100">
-        {{ range $history }}
+        {{ range $matches }}
         <tr class="hover:bg-gray-50 transition">
-          <td class="px-4 py-3 text-gray-500 hidden sm:table-cell whitespace-nowrap">{{ slice .date 0 5 }}</td>
-          <td class="px-4 py-3 text-gray-700">
-            <span class="font-medium">{{ .team }}</span>
-            {{ if .division_short }}<span class="ml-1 text-xs bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded">{{ .division_short }}</span>{{ end }}
+          <td class="px-4 py-3 text-gray-500 hidden sm:table-cell whitespace-nowrap">{{ substr .date 0 5 }}</td>
+          <td class="px-4 py-3 font-medium text-gray-800">{{ .opponent }}</td>
+          <td class="px-4 py-3 text-center text-gray-500 hidden md:table-cell">
+            {{ if .opponent_ranking }}<span class="inline-block bg-gray-100 text-gray-600 text-xs font-bold px-2 py-0.5 rounded">{{ .opponent_ranking }}</span>{{ else }}—{{ end }}
           </td>
-          <td class="px-4 py-3 text-gray-700">{{ .opponent }}</td>
-          <td class="px-4 py-3 text-center font-mono font-semibold text-gray-700">
-            {{ if ge .score_home 0 }}{{ .score_home }}–{{ .score_away }}{{ else }}—{{ end }}
-          </td>
-          <td class="px-4 py-3 text-center">
-            {{ if gt .player_played 0 }}
-              <span class="{{ if gt .player_wins 0 }}text-green-600 font-semibold{{ else }}text-gray-500{{ end }}">
-                {{ .player_wins }}/{{ .player_played }}
-              </span>
-            {{ else }}—{{ end }}
-          </td>
-          <td class="px-4 py-3 text-center">
-            {{ if ge .score_home 0 }}
-              {{ if gt .score_home .score_away }}
-              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
-              {{ else if lt .score_home .score_away }}
-              <span class="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded">D</span>
+          <td class="px-4 py-3 text-center font-semibold">
+            {{ with .points }}
+              {{ if hasPrefix . "-" }}
+                <span class="text-red-500">{{ . }}</span>
+              {{ else if eq . "0" }}
+                <span class="text-gray-400">0</span>
               {{ else }}
-              <span class="text-xs font-bold text-gray-400 bg-gray-50 px-2 py-0.5 rounded">N</span>
+                <span class="text-green-600">+{{ . }}</span>
               {{ end }}
             {{ else }}—{{ end }}
+          </td>
+          <td class="px-4 py-3 text-center">
+            {{ if .won }}
+            <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+            {{ else }}
+            <span class="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded">D</span>
+            {{ end }}
           </td>
         </tr>
         {{ end }}
@@ -110,7 +103,7 @@
   </div>
   {{ else }}
   <div class="bg-white rounded-2xl shadow-md border border-blue-100 px-6 py-12 text-center text-gray-400">
-    Aucun match enregistré pour cette saison.
+    Aucune partie enregistrée pour cette saison.
   </div>
   {{ end }}
 </section>

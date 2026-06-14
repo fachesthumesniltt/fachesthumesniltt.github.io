@@ -13,6 +13,7 @@ import json
 import os
 import re
 import sys
+from datetime import datetime
 
 password = os.environ['FFTT_PASSWD']
 key = hashlib.md5(password.encode())
@@ -65,6 +66,47 @@ for p in club_players:
     if point is not None and valinit is not None:
         evolution = round(point - valinit)
 
+    # Fetch individual match history — try MySQL classement DB first, fall back to SPID
+    r3 = session.get(f'{BASE_URL}/xml_partie_mysql.php', params={**auth_params, 'licence': licence})
+    raw_list = (xmltodict.parse(r3.text).get('liste') or {}).get('partie') or []
+    if isinstance(raw_list, dict):
+        raw_list = [raw_list]
+
+    use_spid = not raw_list
+    if use_spid:
+        r3b = session.get(f'{BASE_URL}/xml_partie.php', params={**auth_params, 'numlic': licence})
+        raw_list = (xmltodict.parse(r3b.text).get('liste') or {}).get('partie') or []
+        if isinstance(raw_list, dict):
+            raw_list = [raw_list]
+
+    matches = []
+    for g in raw_list:
+        date_str = g.get('date', '')
+        date_iso = None
+        if date_str:
+            try:
+                date_iso = datetime.strptime(date_str, '%d/%m/%Y').strftime('%Y-%m-%d')
+            except ValueError:
+                pass
+        if use_spid:
+            matches.append({
+                'date':             date_str,
+                'date_iso':         date_iso,
+                'opponent':         g.get('nom', ''),
+                'opponent_ranking': g.get('classement'),
+                'won':              g.get('victoire') == 'V',
+                'points':           None,
+            })
+        else:
+            matches.append({
+                'date':             date_str,
+                'date_iso':         date_iso,
+                'opponent':         g.get('advnompre', ''),
+                'opponent_ranking': g.get('advclaof'),
+                'won':              g.get('vd') == 'V',
+                'points':           g.get('pointres'),
+            })
+
     players.append({
         'licence':   licence,
         'nom':       detail.get('nom', ''),
@@ -75,6 +117,7 @@ for p in club_players:
         'evolution': evolution,
         'categ':     categ,
         'category':  'senior' if (categ.startswith('S') or categ.startswith('V')) else 'junior',
+        'matches':   matches,
         'match_history': [],
     })
 

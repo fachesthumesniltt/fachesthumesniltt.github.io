@@ -51,7 +51,7 @@
         {{ if eq .type "event" }}
         <a href="{{ .url }}" target="_blank" rel="noopener" class="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition">
           <div class="text-center min-w-[48px]">
-            <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+            <div class="text-xs font-bold text-blue-700 uppercase">{{ substr .date 0 5 }}</div>
           </div>
           <div class="flex-1 min-w-0">
             <div class="font-semibold text-gray-800 text-sm truncate">{{ .name }}</div>
@@ -62,7 +62,7 @@
         {{ else }}
         <div class="flex items-center gap-3 px-4 py-3">
           <div class="text-center min-w-[48px]">
-            <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+            <div class="text-xs font-bold text-blue-700 uppercase">{{ substr .date 0 5 }}</div>
           </div>
           <div class="flex-1 min-w-0">
             <div class="font-semibold text-gray-800 text-sm truncate">{{ .team }}</div>
@@ -92,7 +92,7 @@
         {{ range $visible }}
         <div class="flex items-center gap-3 px-4 py-3">
           <div class="text-center min-w-[48px]">
-            <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+            <div class="text-xs font-bold text-blue-700 uppercase">{{ substr .date 0 5 }}</div>
           </div>
           <div class="flex-1 min-w-0">
             <div class="font-semibold text-gray-800 text-sm truncate">{{ .team }}</div>
@@ -120,7 +120,7 @@
           {{ range $hidden }}
           <div class="flex items-center gap-3 px-4 py-3">
             <div class="text-center min-w-[48px]">
-              <div class="text-xs font-bold text-blue-700 uppercase">{{ slice .date 0 5 }}</div>
+              <div class="text-xs font-bold text-blue-700 uppercase">{{ substr .date 0 5 }}</div>
             </div>
             <div class="flex-1 min-w-0">
               <div class="font-semibold text-gray-800 text-sm truncate">{{ .team }}</div>

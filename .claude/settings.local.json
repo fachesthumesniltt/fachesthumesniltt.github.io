@@ -17,7 +17,8 @@
       "Bash(curl -s http://localhost:1313/)",
       "Bash(rtk *)",
       "Bash(kill %1)",
-      "Bash(pkill -f \"hugo server\")"
+      "Bash(pkill -f \"hugo server\")",
+      "Bash(curl -s \"http://localhost:1313/pages/joueurs/5917531/\")"
     ]
   }
 }
