@@ -27,8 +27,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         COMMIT_MSG: |
-          commit by github actions
-          skip-checks: true
+          chore: update generated data [skip ci]
       run: |
         git config user.email "jhanosl@gmail.com"
         git config user.name "Thomas Langlois"
