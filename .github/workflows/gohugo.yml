@@ -37,6 +37,7 @@ jobs:
         # Checkout the branch so we can push back to it
         git add .
         # Only commit and push if we have changes
-        git commit -m "${COMMIT_MSG}"
+        git diff --cached --quiet || git commit -m "${COMMIT_MSG}"
+        git push origin HEAD:gohugo
         git subtree split -P public -b master
         git push -f origin master:master

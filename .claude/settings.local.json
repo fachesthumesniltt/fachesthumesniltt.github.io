@@ -18,7 +18,8 @@
       "Bash(rtk *)",
       "Bash(kill %1)",
       "Bash(pkill -f \"hugo server\")",
-      "Bash(curl -s \"http://localhost:1313/pages/joueurs/5917531/\")"
+      "Bash(curl -s \"http://localhost:1313/pages/joueurs/5917531/\")",
+      "Bash(sh -n /home/jhanos/git/fachesthumesniltt.github.io/generateSite.sh)"
     ]
   }
 }

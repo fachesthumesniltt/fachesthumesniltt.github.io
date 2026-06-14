@@ -31,8 +31,69 @@ do
 done
 
 mkdir -p data
-uv run api_fftt.py > data/fftt.json || echo "FFTT fetch failed, skipping equipes data"
-uv run api_fftt_players.py > data/players.json || echo "FFTT players fetch failed"
+FFTT_TMP=/tmp/fftt_new_$$.json
+PLAYERS_TMP=/tmp/players_new_$$.json
+
+uv run api_fftt.py > "$FFTT_TMP" || echo "FFTT fetch failed, keeping existing data"
+uv run api_fftt_players.py > "$PLAYERS_TMP" || echo "FFTT players fetch failed, keeping existing data"
+
+python3 - "$FFTT_TMP" "$PLAYERS_TMP" << 'MERGE'
+import json, os, sys
+
+def load(p):
+    try:
+        return json.load(open(p)) if p and os.path.exists(p) else None
+    except Exception:
+        return None
+
+def save(d, p):
+    with open(p, 'w') as f:
+        json.dump(d, f, ensure_ascii=False, indent=2)
+
+fftt_tmp, players_tmp = sys.argv[1], sys.argv[2]
+new_fftt    = load(fftt_tmp)
+new_players = load(players_tmp)
+old_fftt    = load('data/fftt.json')
+old_players = load('data/players.json')
+
+# --- fftt.json: keep old until at least one match is scheduled or played ---
+if new_fftt:
+    teams = new_fftt.get('teams', [])
+    has_matches = any(
+        m.get('date_iso') is not None or m.get('score_home') is not None
+        for t in teams
+        for ph in ('phase1', 'phase2')
+        for m in (t.get(ph) or [])
+    )
+    if has_matches or not old_fftt:
+        save(new_fftt, 'data/fftt.json')
+        print(f"Updated fftt.json ({len(teams)} teams)")
+    else:
+        print("No matches scheduled yet — keeping last season team data (data/fftt.json unchanged)")
+elif old_fftt:
+    print("FFTT fetch failed — keeping last season team data (data/fftt.json unchanged)")
+
+# --- players.json: keep old if <20 players; preserve match history if none yet ---
+if new_players is None:
+    print("Players fetch failed — keeping last season player data (data/players.json unchanged)")
+elif len(new_players) < 20 and old_players:
+    print(f"Only {len(new_players)} players registered — keeping last season player data (data/players.json unchanged)")
+else:
+    total_matches = sum(len(p.get('matches', [])) for p in new_players)
+    if total_matches == 0 and old_players:
+        old_by_lic = {p['licence']: p for p in old_players}
+        for p in new_players:
+            old = old_by_lic.get(p['licence'])
+            if old and old.get('matches'):
+                p['matches'] = old['matches']
+                p['points_estimated'] = old.get('points_estimated', False)
+        print("No individual matches yet — carrying over last season match history")
+    save(new_players, 'data/players.json')
+    print(f"Updated players.json ({len(new_players)} players)")
+
+os.unlink(fftt_tmp) if os.path.exists(fftt_tmp) else None
+os.unlink(players_tmp) if os.path.exists(players_tmp) else None
+MERGE
 
 python3 -c "
 import json, sys, os
