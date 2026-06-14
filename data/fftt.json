@@ -11971,6 +11971,7 @@
     "upcoming": [],
     "recent": [
       {
+        "type": "match",
         "team": "FACHES-THUMESNIL TT 1",
         "division_short": "R2",
         "category": "senior",
@@ -11982,6 +11983,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACHES-THUMESNIL TT 2",
         "division_short": "D1",
         "category": "senior",
@@ -11993,6 +11995,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACHES-THUMESNIL TT 3",
         "division_short": "D1",
         "category": "senior",
@@ -12004,6 +12007,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACHES-THUMESNIL TT 4",
         "division_short": "D2",
         "category": "senior",
@@ -12015,6 +12019,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACH-THUMESNIL 5",
         "division_short": "D3",
         "category": "senior",
@@ -12026,6 +12031,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACH-THUMESNIL 6",
         "division_short": "D3",
         "category": "senior",
@@ -12037,6 +12043,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACH-THUMESNIL 20 - REC A 14H",
         "division_short": "D2",
         "category": "junior",
@@ -12048,6 +12055,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACH-THUMESNIL 21 - REC A 14H",
         "division_short": "D2",
         "category": "junior",
@@ -12059,6 +12067,7 @@
         "is_return_leg": false
       },
       {
+        "type": "match",
         "team": "FACH-THUMESNIL",
         "division_short": "PB M1",
         "category": "junior",
