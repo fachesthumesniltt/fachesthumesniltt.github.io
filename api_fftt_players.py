@@ -15,6 +15,29 @@ import re
 import sys
 from datetime import datetime
 
+# Official FFTT points table: (min_gap, max_gap, normal_V, normal_D, abnormal_V, abnormal_D)
+FFTT_POINTS_TABLE = [
+    (0,   24,  6,    -5,   6,    -5),
+    (25,  49,  5.5,  -4.5, 7,    -6),
+    (50,  99,  5,    -4,   8,    -7),
+    (100, 149, 4,    -3,   10,   -8),
+    (150, 199, 3,    -2,   13,   -10),
+    (200, 299, 2,    -1,   17,   -12.5),
+    (300, 399, 1,    -0.5, 22,   -16),
+    (400, 499, 0.5,  0,    28,   -20),
+    (500, float('inf'), 0, 0,    40,   -29),
+]
+
+def fftt_calc_points(player_pts, opponent_pts, victory, coef=1.0):
+    gap = abs(player_pts - opponent_pts)
+    abnormal = (player_pts < opponent_pts) if victory else (player_pts > opponent_pts)
+    for min_g, max_g, nv, nd, av, ad in FFTT_POINTS_TABLE:
+        if min_g <= gap <= max_g:
+            base = (av if abnormal else nv) if victory else (ad if abnormal else nd)
+            result = base * coef
+            return int(result) if result == int(result) else result
+    return 0
+
 password = os.environ['FFTT_PASSWD']
 key = hashlib.md5(password.encode())
 
@@ -96,6 +119,7 @@ for p in club_players:
                 'opponent_ranking': g.get('classement'),
                 'won':              g.get('victoire') == 'V',
                 'points':           None,
+                '_coef':            float(g.get('coefchamp') or 1),
             })
         else:
             matches.append({
@@ -107,18 +131,35 @@ for p in club_players:
                 'points':           g.get('pointres'),
             })
 
+    # For SPID matches: calculate pointres by simulating forward from valinit
+    if use_spid and valinit is not None:
+        current_pts = float(valinit)
+        for m in sorted(matches, key=lambda x: x.get('date_iso') or ''):
+            try:
+                opp_pts = float(m['opponent_ranking']) if m['opponent_ranking'] else 500.0
+            except (TypeError, ValueError):
+                opp_pts = 500.0
+            coef = m.pop('_coef', 1.0)
+            pts = fftt_calc_points(current_pts, opp_pts, m['won'], coef)
+            m['points'] = str(pts)
+            current_pts += pts
+    else:
+        for m in matches:
+            m.pop('_coef', None)
+
     players.append({
-        'licence':   licence,
-        'nom':       detail.get('nom', ''),
-        'prenom':    detail.get('prenom', ''),
-        'clast':     detail.get('clast', ''),
-        'point':     round(point) if point is not None else None,
-        'valinit':   round(valinit) if valinit is not None else None,
-        'evolution': evolution,
-        'categ':     categ,
-        'category':  'senior' if (categ.startswith('S') or categ.startswith('V')) else 'junior',
-        'matches':   matches,
-        'match_history': [],
+        'licence':          licence,
+        'nom':              detail.get('nom', ''),
+        'prenom':           detail.get('prenom', ''),
+        'clast':            detail.get('clast', ''),
+        'point':            round(point) if point is not None else None,
+        'valinit':          round(valinit) if valinit is not None else None,
+        'evolution':        evolution,
+        'categ':            categ,
+        'category':         'senior' if (categ.startswith('S') or categ.startswith('V')) else 'junior',
+        'matches':          matches,
+        'points_estimated': use_spid,
+        'match_history':    [],
     })
 
 # Sort by category group then by points descending

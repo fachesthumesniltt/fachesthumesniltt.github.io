@@ -58,15 +58,22 @@
 
   <!-- Individual match history -->
   {{ if $matches }}
-  <h2 class="text-xl font-bold text-blue-800 mb-4">Parties de la saison</h2>
+  <div class="flex items-center justify-between mb-4">
+    <h2 class="text-xl font-bold text-blue-800">Parties de la saison</h2>
+    {{ if $player.points_estimated }}
+    <span class="text-xs text-amber-600 bg-amber-50 border border-amber-200 px-2 py-1 rounded">
+      ~ Points estimés (classement actuel de l'adversaire)
+    </span>
+    {{ end }}
+  </div>
   <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden">
     <table class="w-full text-sm">
       <thead>
         <tr class="bg-blue-50 text-blue-800 text-left">
           <th class="px-4 py-3 font-semibold hidden sm:table-cell">Date</th>
           <th class="px-4 py-3 font-semibold">Adversaire</th>
-          <th class="px-4 py-3 font-semibold text-center hidden md:table-cell">Classement</th>
-          <th class="px-4 py-3 font-semibold text-center">Points</th>
+          <th class="px-4 py-3 font-semibold text-center hidden md:table-cell">Classement adv.</th>
+          <th class="px-4 py-3 font-semibold text-center">Points{{ if $player.points_estimated }} ~{{ end }}</th>
           <th class="px-4 py-3 font-semibold text-center">Résultat</th>
         </tr>
       </thead>

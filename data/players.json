@@ -971,6 +971,7 @@
         "points": "-3.75"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 1",
@@ -1490,6 +1491,7 @@
         "points": "4"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 1",
@@ -1672,6 +1674,7 @@
     "categ": "S",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -1685,6 +1688,7 @@
     "categ": "V65",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -2307,6 +2311,7 @@
         "points": "17"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 1",
@@ -2850,6 +2855,7 @@
         "points": "-7"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 1",
@@ -3105,6 +3111,7 @@
         "points": "0.5"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 3",
@@ -3460,6 +3467,7 @@
         "points": "4"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 2",
@@ -3979,6 +3987,7 @@
         "points": "-7"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 2",
@@ -4586,6 +4595,7 @@
         "points": "1"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 3",
@@ -5097,6 +5107,7 @@
         "points": "5"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 2",
@@ -5652,6 +5663,7 @@
         "points": "1"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 3",
@@ -5777,18 +5789,10 @@
       {
         "date": "07/06/2026",
         "date_iso": "2026-06-07",
-        "opponent": "VERHAEGHE Philippe",
-        "opponent_ranking": "930",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "07/06/2026",
-        "date_iso": "2026-06-07",
         "opponent": "CHAUVIN David",
         "opponent_ranking": "1152",
         "won": true,
-        "points": null
+        "points": "17"
       },
       {
         "date": "07/06/2026",
@@ -5796,7 +5800,15 @@
         "opponent": "GIROUX Christian",
         "opponent_ranking": "886",
         "won": true,
-        "points": null
+        "points": "5"
+      },
+      {
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "opponent": "VERHAEGHE Philippe",
+        "opponent_ranking": "930",
+        "won": false,
+        "points": "-6"
       },
       {
         "date": "31/05/2026",
@@ -5804,7 +5816,7 @@
         "opponent": "POUXBERTHE Olivier",
         "opponent_ranking": "970",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "31/05/2026",
@@ -5812,7 +5824,7 @@
         "opponent": "DEGREVE Timothee",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "0.5"
       },
       {
         "date": "31/05/2026",
@@ -5820,7 +5832,7 @@
         "opponent": "LACOSTE Philippe",
         "opponent_ranking": "857",
         "won": false,
-        "points": null
+        "points": "-7"
       },
       {
         "date": "09/05/2026",
@@ -5828,7 +5840,7 @@
         "opponent": "KUCZKOWSKI Francois",
         "opponent_ranking": "919",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "09/05/2026",
@@ -5836,7 +5848,7 @@
         "opponent": "MOUVAUX Margaux",
         "opponent_ranking": "1056",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "09/05/2026",
@@ -5844,7 +5856,7 @@
         "opponent": "VALIN Julie",
         "opponent_ranking": "930",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "26/04/2026",
@@ -5852,7 +5864,7 @@
         "opponent": "CRIGNON Lucas",
         "opponent_ranking": "765",
         "won": false,
-        "points": null
+        "points": "-12.5"
       },
       {
         "date": "26/04/2026",
@@ -5860,7 +5872,7 @@
         "opponent": "PLATH Lubin",
         "opponent_ranking": "655",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "26/04/2026",
@@ -5868,7 +5880,7 @@
         "opponent": "DECREQUY Noah",
         "opponent_ranking": "786",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "26/04/2026",
@@ -5876,7 +5888,7 @@
         "opponent": "SAUVAGE Romain",
         "opponent_ranking": "643",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "26/04/2026",
@@ -5884,7 +5896,7 @@
         "opponent": "PESTOV Serafim",
         "opponent_ranking": "551",
         "won": true,
-        "points": null
+        "points": "1.25"
       },
       {
         "date": "12/04/2026",
@@ -5892,7 +5904,7 @@
         "opponent": "COQUET Michel",
         "opponent_ranking": "664",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "12/04/2026",
@@ -5900,15 +5912,7 @@
         "opponent": "BOUGHIAS M'hand",
         "opponent_ranking": "827",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "06/04/2026",
-        "date_iso": "2026-04-06",
-        "opponent": "AMSOUS Arthur",
-        "opponent_ranking": "692",
-        "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "06/04/2026",
@@ -5916,7 +5920,7 @@
         "opponent": "LUONG Fabrice",
         "opponent_ranking": "652",
         "won": true,
-        "points": null
+        "points": "1.5"
       },
       {
         "date": "06/04/2026",
@@ -5924,7 +5928,7 @@
         "opponent": "PIMONT Guillaume",
         "opponent_ranking": "875",
         "won": true,
-        "points": null
+        "points": "3.75"
       },
       {
         "date": "06/04/2026",
@@ -5932,7 +5936,7 @@
         "opponent": "VANWYSSEL Rayan",
         "opponent_ranking": "732",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "06/04/2026",
@@ -5940,7 +5944,7 @@
         "opponent": "VERWAERDE Esteban",
         "opponent_ranking": "767",
         "won": true,
-        "points": null
+        "points": "2.25"
       },
       {
         "date": "06/04/2026",
@@ -5948,7 +5952,7 @@
         "opponent": "VAUGELADE Baptiste",
         "opponent_ranking": "730",
         "won": true,
-        "points": null
+        "points": "1.5"
       },
       {
         "date": "06/04/2026",
@@ -5956,7 +5960,15 @@
         "opponent": "MAGNE Julien",
         "opponent_ranking": "765",
         "won": true,
-        "points": null
+        "points": "2.25"
+      },
+      {
+        "date": "06/04/2026",
+        "date_iso": "2026-04-06",
+        "opponent": "AMSOUS Arthur",
+        "opponent_ranking": "692",
+        "won": true,
+        "points": "1.5"
       },
       {
         "date": "22/03/2026",
@@ -5964,7 +5976,7 @@
         "opponent": "CAUDRELIER Kaicy",
         "opponent_ranking": "717",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "22/03/2026",
@@ -5972,7 +5984,7 @@
         "opponent": "CUVELIER Charlotte",
         "opponent_ranking": "773",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "22/03/2026",
@@ -5980,7 +5992,7 @@
         "opponent": "VANHOOLANT Pascal",
         "opponent_ranking": "886",
         "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "15/03/2026",
@@ -5988,7 +6000,7 @@
         "opponent": "FRANCOIS Quentin",
         "opponent_ranking": "631",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/03/2026",
@@ -5996,7 +6008,7 @@
         "opponent": "BARREZ Eric",
         "opponent_ranking": "776",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "15/03/2026",
@@ -6004,7 +6016,7 @@
         "opponent": "CASIMIR Jean",
         "opponent_ranking": "664",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/03/2026",
@@ -6012,7 +6024,7 @@
         "opponent": "LEBEL Aymeric",
         "opponent_ranking": "503",
         "won": true,
-        "points": null
+        "points": "0.75"
       },
       {
         "date": "15/03/2026",
@@ -6020,7 +6032,7 @@
         "opponent": "MILOT Kevin",
         "opponent_ranking": "723",
         "won": true,
-        "points": null
+        "points": "4.5"
       },
       {
         "date": "15/03/2026",
@@ -6028,15 +6040,7 @@
         "opponent": "TESSON Balthazar",
         "opponent_ranking": "649",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "08/03/2026",
-        "date_iso": "2026-03-08",
-        "opponent": "SINET Fabien",
-        "opponent_ranking": "857",
-        "won": false,
-        "points": null
+        "points": "3"
       },
       {
         "date": "08/03/2026",
@@ -6044,7 +6048,7 @@
         "opponent": "LEPREUX Patrice",
         "opponent_ranking": "839",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "08/03/2026",
@@ -6052,7 +6056,15 @@
         "opponent": "PIEDANNA Mathieu",
         "opponent_ranking": "853",
         "won": true,
-        "points": null
+        "points": "5.5"
+      },
+      {
+        "date": "08/03/2026",
+        "date_iso": "2026-03-08",
+        "opponent": "SINET Fabien",
+        "opponent_ranking": "857",
+        "won": false,
+        "points": "-6"
       },
       {
         "date": "28/02/2026",
@@ -6060,7 +6072,7 @@
         "opponent": "CALLEMEYN Thibault",
         "opponent_ranking": "895",
         "won": false,
-        "points": null
+        "points": "-3.375"
       },
       {
         "date": "28/02/2026",
@@ -6068,7 +6080,7 @@
         "opponent": "DEPARIS Stephen",
         "opponent_ranking": "819",
         "won": true,
-        "points": null
+        "points": "4.125"
       },
       {
         "date": "28/02/2026",
@@ -6076,7 +6088,7 @@
         "opponent": "RUCKEBUSCH Noa",
         "opponent_ranking": "871",
         "won": true,
-        "points": null
+        "points": "4.5"
       },
       {
         "date": "28/02/2026",
@@ -6084,7 +6096,7 @@
         "opponent": "MAHIDI Lehcem",
         "opponent_ranking": "811",
         "won": true,
-        "points": null
+        "points": "3.75"
       },
       {
         "date": "28/02/2026",
@@ -6092,7 +6104,7 @@
         "opponent": "BOUHAMLA Jimmy",
         "opponent_ranking": "647",
         "won": true,
-        "points": null
+        "points": "1.5"
       },
       {
         "date": "28/02/2026",
@@ -6100,7 +6112,7 @@
         "opponent": "FAUQUET Loic",
         "opponent_ranking": "695",
         "won": true,
-        "points": null
+        "points": "2.25"
       },
       {
         "date": "28/02/2026",
@@ -6108,7 +6120,7 @@
         "opponent": "GUIBOURG Antonin",
         "opponent_ranking": "606",
         "won": true,
-        "points": null
+        "points": "1.5"
       },
       {
         "date": "28/02/2026",
@@ -6116,7 +6128,7 @@
         "opponent": "MAZIARZ Matheo",
         "opponent_ranking": "1010",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "28/02/2026",
@@ -6124,7 +6136,7 @@
         "opponent": "SIMON David",
         "opponent_ranking": "946",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "28/02/2026",
@@ -6132,7 +6144,7 @@
         "opponent": "ANDRE Sebastien",
         "opponent_ranking": "838",
         "won": true,
-        "points": null
+        "points": "4.125"
       },
       {
         "date": "28/02/2026",
@@ -6140,7 +6152,7 @@
         "opponent": "DESQUIENS Matheo",
         "opponent_ranking": "1095",
         "won": true,
-        "points": null
+        "points": "12.75"
       },
       {
         "date": "28/02/2026",
@@ -6148,7 +6160,7 @@
         "opponent": "BOUMENDJEL Kylian",
         "opponent_ranking": "934",
         "won": false,
-        "points": null
+        "points": "-3.375"
       },
       {
         "date": "28/02/2026",
@@ -6156,7 +6168,7 @@
         "opponent": "JERRAR Boris",
         "opponent_ranking": "514",
         "won": true,
-        "points": null
+        "points": "0.75"
       },
       {
         "date": "28/02/2026",
@@ -6164,15 +6176,7 @@
         "opponent": "AVRIN Julie",
         "opponent_ranking": "877",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "08/02/2026",
-        "date_iso": "2026-02-08",
-        "opponent": "VANPEENE Benjamin",
-        "opponent_ranking": "1079",
-        "won": false,
-        "points": null
+        "points": "-3.75"
       },
       {
         "date": "08/02/2026",
@@ -6180,7 +6184,7 @@
         "opponent": "VANPEENE Philippe",
         "opponent_ranking": "1094",
         "won": true,
-        "points": null
+        "points": "17"
       },
       {
         "date": "08/02/2026",
@@ -6188,7 +6192,15 @@
         "opponent": "VANPEENE Franck",
         "opponent_ranking": "1122",
         "won": false,
-        "points": null
+        "points": "-1"
+      },
+      {
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "opponent": "VANPEENE Benjamin",
+        "opponent_ranking": "1079",
+        "won": false,
+        "points": "-1"
       },
       {
         "date": "25/01/2026",
@@ -6196,7 +6208,7 @@
         "opponent": "DETOEUF Matteo",
         "opponent_ranking": "706",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "25/01/2026",
@@ -6204,7 +6216,7 @@
         "opponent": "WATTEAU Martin",
         "opponent_ranking": "687",
         "won": false,
-        "points": null
+        "points": "-15"
       },
       {
         "date": "25/01/2026",
@@ -6212,7 +6224,7 @@
         "opponent": "GAMART Guillaume",
         "opponent_ranking": "753",
         "won": true,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "25/01/2026",
@@ -6220,7 +6232,7 @@
         "opponent": "MARECHAL Grégoire",
         "opponent_ranking": "803",
         "won": true,
-        "points": null
+        "points": "8.25"
       },
       {
         "date": "25/01/2026",
@@ -6228,7 +6240,7 @@
         "opponent": "BEDENE Amelie",
         "opponent_ranking": "789",
         "won": true,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "25/01/2026",
@@ -6236,7 +6248,7 @@
         "opponent": "CHEBLOUA Rachid",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "1.5"
       },
       {
         "date": "11/01/2026",
@@ -6244,7 +6256,7 @@
         "opponent": "OUILLON Philippe",
         "opponent_ranking": "738",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "11/01/2026",
@@ -6252,7 +6264,7 @@
         "opponent": "OUILLON Agathe",
         "opponent_ranking": "683",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "11/01/2026",
@@ -6260,15 +6272,7 @@
         "opponent": "DEWAELE Guillaume",
         "opponent_ranking": "792",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "21/12/2025",
-        "date_iso": "2025-12-21",
-        "opponent": "DIVERCHY Basile",
-        "opponent_ranking": "755",
-        "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "21/12/2025",
@@ -6276,7 +6280,7 @@
         "opponent": "DROULERS Baptiste",
         "opponent_ranking": "930",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "21/12/2025",
@@ -6284,7 +6288,7 @@
         "opponent": "LE GALL Jean-Michel",
         "opponent_ranking": "599",
         "won": true,
-        "points": null
+        "points": "1"
       },
       {
         "date": "21/12/2025",
@@ -6292,7 +6296,7 @@
         "opponent": "COQUERELLE Ludovic",
         "opponent_ranking": "688",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "21/12/2025",
@@ -6300,7 +6304,7 @@
         "opponent": "SHIN Junseo",
         "opponent_ranking": "617",
         "won": true,
-        "points": null
+        "points": "1.5"
       },
       {
         "date": "21/12/2025",
@@ -6308,7 +6312,7 @@
         "opponent": "OFANOWSKI César",
         "opponent_ranking": "948",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "21/12/2025",
@@ -6316,7 +6320,15 @@
         "opponent": "KUBO Fabiano",
         "opponent_ranking": "937",
         "won": true,
-        "points": null
+        "points": "5"
+      },
+      {
+        "date": "21/12/2025",
+        "date_iso": "2025-12-21",
+        "opponent": "DIVERCHY Basile",
+        "opponent_ranking": "755",
+        "won": true,
+        "points": "2.5"
       },
       {
         "date": "14/12/2025",
@@ -6324,7 +6336,7 @@
         "opponent": "CARLIER Mickaël",
         "opponent_ranking": "1066",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "14/12/2025",
@@ -6332,7 +6344,7 @@
         "opponent": "RATTE Arnaud",
         "opponent_ranking": "1039",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "14/12/2025",
@@ -6340,7 +6352,7 @@
         "opponent": "RAMART Mathurin",
         "opponent_ranking": "1036",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "30/11/2025",
@@ -6348,7 +6360,7 @@
         "opponent": "DEWATINE Valentin",
         "opponent_ranking": "904",
         "won": true,
-        "points": null
+        "points": "10"
       },
       {
         "date": "30/11/2025",
@@ -6356,7 +6368,7 @@
         "opponent": "HASSANI Lucas Edem",
         "opponent_ranking": "950",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "30/11/2025",
@@ -6364,7 +6376,7 @@
         "opponent": "CAZIER Noe",
         "opponent_ranking": "746",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "16/11/2025",
@@ -6372,7 +6384,7 @@
         "opponent": "COUROUBLE Morgane",
         "opponent_ranking": "572",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "16/11/2025",
@@ -6380,7 +6392,7 @@
         "opponent": "CARETTE Simon",
         "opponent_ranking": "768",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "16/11/2025",
@@ -6388,7 +6400,7 @@
         "opponent": "DUBELLOY Philippe",
         "opponent_ranking": "588",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "12/10/2025",
@@ -6396,7 +6408,7 @@
         "opponent": "SAINT-MICHEL Emmanuel",
         "opponent_ranking": "961",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "12/10/2025",
@@ -6404,7 +6416,7 @@
         "opponent": "ARBONA Laurent",
         "opponent_ranking": "942",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "12/10/2025",
@@ -6412,15 +6424,7 @@
         "opponent": "VANOUDENDYCKE Simon",
         "opponent_ranking": "825",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "28/09/2025",
-        "date_iso": "2025-09-28",
-        "opponent": "VANDEPUTTE Emmanuel",
-        "opponent_ranking": "840",
-        "won": true,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "28/09/2025",
@@ -6428,7 +6432,7 @@
         "opponent": "LEBOEUF Jean Pierre",
         "opponent_ranking": "861",
         "won": true,
-        "points": null
+        "points": "8"
       },
       {
         "date": "28/09/2025",
@@ -6436,7 +6440,15 @@
         "opponent": "CHIV Kim Khy",
         "opponent_ranking": "698",
         "won": true,
-        "points": null
+        "points": "5"
+      },
+      {
+        "date": "28/09/2025",
+        "date_iso": "2025-09-28",
+        "opponent": "VANDEPUTTE Emmanuel",
+        "opponent_ranking": "840",
+        "won": true,
+        "points": "8"
       },
       {
         "date": "21/09/2025",
@@ -6444,7 +6456,7 @@
         "opponent": "LEMAIRE Victor",
         "opponent_ranking": "720",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "21/09/2025",
@@ -6452,7 +6464,7 @@
         "opponent": "CUVELIER Adrien",
         "opponent_ranking": "952",
         "won": true,
-        "points": null
+        "points": "17"
       },
       {
         "date": "21/09/2025",
@@ -6460,9 +6472,10 @@
         "opponent": "FOREST Dany",
         "opponent_ranking": "908",
         "won": true,
-        "points": null
+        "points": "13"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 2",
@@ -6894,6 +6907,7 @@
         "points": "3"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 3",
@@ -7445,6 +7459,7 @@
         "points": "-1"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 3",
@@ -7615,6 +7630,7 @@
     "categ": "V65",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -7749,6 +7765,7 @@
         "points": "-1"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -7944,6 +7961,7 @@
         "points": "-1"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -8587,6 +8605,7 @@
         "points": "6"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 4",
@@ -8854,6 +8873,7 @@
         "points": "-9"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -8989,6 +9009,7 @@
         "points": "3"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 4",
@@ -9244,6 +9265,7 @@
         "points": "0"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 4",
@@ -9587,6 +9609,7 @@
         "points": "-0.25"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -9685,6 +9708,7 @@
     "categ": "V55",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -9698,6 +9722,7 @@
     "categ": "V75",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -10256,6 +10281,7 @@
         "points": "-3"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 2",
@@ -10414,6 +10440,7 @@
     "categ": "S",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -10433,7 +10460,7 @@
         "opponent": "JEDRZEJEWSKI Aurelien",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "07/06/2026",
@@ -10441,7 +10468,7 @@
         "opponent": "TRIPLET Philippe",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "07/06/2026",
@@ -10449,7 +10476,7 @@
         "opponent": "THOUILLEZ Gervais",
         "opponent_ranking": "649",
         "won": true,
-        "points": null
+        "points": "7"
       },
       {
         "date": "31/05/2026",
@@ -10457,7 +10484,7 @@
         "opponent": "MACHURON Serge",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "31/05/2026",
@@ -10465,7 +10492,7 @@
         "opponent": "DONNEZ David",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "31/05/2026",
@@ -10473,7 +10500,7 @@
         "opponent": "SAILLY Willy",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "12/04/2026",
@@ -10481,7 +10508,7 @@
         "opponent": "PUIROUD Leo",
         "opponent_ranking": "531",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "12/04/2026",
@@ -10489,7 +10516,7 @@
         "opponent": "TUYNMAN Gijsbert",
         "opponent_ranking": "543",
         "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "12/04/2026",
@@ -10497,7 +10524,7 @@
         "opponent": "LOBRY David",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "22/03/2026",
@@ -10505,7 +10532,7 @@
         "opponent": "SZAFRANSKI Jonathan",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "22/03/2026",
@@ -10513,7 +10540,7 @@
         "opponent": "LHAUTE David",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "22/03/2026",
@@ -10521,7 +10548,7 @@
         "opponent": "GRUSON Noa",
         "opponent_ranking": "536",
         "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "08/03/2026",
@@ -10529,7 +10556,7 @@
         "opponent": "DEPAEPE Vincent",
         "opponent_ranking": "621",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "08/03/2026",
@@ -10537,7 +10564,7 @@
         "opponent": "SAELEN Marc",
         "opponent_ranking": "585",
         "won": false,
-        "points": null
+        "points": "-5"
       },
       {
         "date": "08/03/2026",
@@ -10545,15 +10572,7 @@
         "opponent": "KNURRA Antoine",
         "opponent_ranking": "535",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "08/02/2026",
-        "date_iso": "2026-02-08",
-        "opponent": "JONCKHEERE Nicolas",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "08/02/2026",
@@ -10561,7 +10580,7 @@
         "opponent": "BROCART Isabelle",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "08/02/2026",
@@ -10569,7 +10588,15 @@
         "opponent": "LESUR Jean-Francois",
         "opponent_ranking": "512",
         "won": true,
-        "points": null
+        "points": "5"
+      },
+      {
+        "date": "08/02/2026",
+        "date_iso": "2026-02-08",
+        "opponent": "JONCKHEERE Nicolas",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "5"
       },
       {
         "date": "14/12/2025",
@@ -10577,7 +10604,7 @@
         "opponent": "SPERANDEO Catherine",
         "opponent_ranking": "529",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "14/12/2025",
@@ -10585,7 +10612,7 @@
         "opponent": "TRICOT Manuel",
         "opponent_ranking": "552",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "14/12/2025",
@@ -10593,7 +10620,7 @@
         "opponent": "DEWEVER Roland",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "21/09/2025",
@@ -10601,7 +10628,7 @@
         "opponent": "PARENT Arnaud",
         "opponent_ranking": "548",
         "won": false,
-        "points": null
+        "points": "-5"
       },
       {
         "date": "21/09/2025",
@@ -10609,7 +10636,7 @@
         "opponent": "BOUBZIZ Ayman",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "21/09/2025",
@@ -10617,9 +10644,10 @@
         "opponent": "RIQUEMBOURG Nolan",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5.5"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 5",
@@ -11027,6 +11055,7 @@
         "points": "5.5"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -11140,10 +11169,18 @@
       {
         "date": "31/05/2026",
         "date_iso": "2026-05-31",
+        "opponent": "DONNEZ David",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "31/05/2026",
+        "date_iso": "2026-05-31",
         "opponent": "MACHURON Serge",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "31/05/2026",
@@ -11151,15 +11188,7 @@
         "opponent": "DECROCK Jean Luc",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "31/05/2026",
-        "date_iso": "2026-05-31",
-        "opponent": "DONNEZ David",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "08/03/2026",
@@ -11167,7 +11196,7 @@
         "opponent": "SAELEN Marc",
         "opponent_ranking": "585",
         "won": false,
-        "points": null
+        "points": "-4"
       },
       {
         "date": "08/03/2026",
@@ -11175,7 +11204,7 @@
         "opponent": "DEPAEPE Vincent",
         "opponent_ranking": "621",
         "won": false,
-        "points": null
+        "points": "-4"
       },
       {
         "date": "08/03/2026",
@@ -11183,7 +11212,7 @@
         "opponent": "LEBLOND Pascal",
         "opponent_ranking": "609",
         "won": false,
-        "points": null
+        "points": "-4"
       },
       {
         "date": "08/02/2026",
@@ -11191,7 +11220,7 @@
         "opponent": "JONCKHEERE Nicolas",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "08/02/2026",
@@ -11199,7 +11228,7 @@
         "opponent": "BRAYELLE Valerie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5.5"
       },
       {
         "date": "08/02/2026",
@@ -11207,7 +11236,7 @@
         "opponent": "BROCART Isabelle",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
         "date": "11/01/2026",
@@ -11215,7 +11244,7 @@
         "opponent": "BATAILLE Jean-Pierre",
         "opponent_ranking": "675",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "11/01/2026",
@@ -11223,7 +11252,7 @@
         "opponent": "VERSTAVEL Ethan",
         "opponent_ranking": "692",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "11/01/2026",
@@ -11231,7 +11260,7 @@
         "opponent": "DORCHIES Michel",
         "opponent_ranking": "791",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "30/11/2025",
@@ -11239,7 +11268,7 @@
         "opponent": "LOQUET Gabriel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "30/11/2025",
@@ -11247,7 +11276,7 @@
         "opponent": "JUIN Jérémy",
         "opponent_ranking": "531",
         "won": false,
-        "points": null
+        "points": "-5"
       },
       {
         "date": "30/11/2025",
@@ -11255,23 +11284,7 @@
         "opponent": "LESUR Jean-Francois",
         "opponent_ranking": "512",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "16/11/2025",
-        "date_iso": "2025-11-16",
-        "opponent": "DELESALLE Etienne",
-        "opponent_ranking": "516",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "16/11/2025",
-        "date_iso": "2025-11-16",
-        "opponent": "DOISE Alexis",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "16/11/2025",
@@ -11279,7 +11292,23 @@
         "opponent": "MOREL Catherine",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "6"
+      },
+      {
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "opponent": "DELESALLE Etienne",
+        "opponent_ranking": "516",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "16/11/2025",
+        "date_iso": "2025-11-16",
+        "opponent": "DOISE Alexis",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "6"
       },
       {
         "date": "28/09/2025",
@@ -11287,7 +11316,7 @@
         "opponent": "DECREQUY Noah",
         "opponent_ranking": "786",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "28/09/2025",
@@ -11295,7 +11324,7 @@
         "opponent": "BREBION Guillaume",
         "opponent_ranking": "517",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "28/09/2025",
@@ -11303,9 +11332,10 @@
         "opponent": "WATTEAU Martin",
         "opponent_ranking": "687",
         "won": false,
-        "points": null
+        "points": "-2"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 5",
@@ -11549,6 +11579,7 @@
         "points": "6"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 4",
@@ -11635,6 +11666,7 @@
     "categ": "S",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11648,6 +11680,7 @@
     "categ": "S",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11661,6 +11694,7 @@
     "categ": "V75",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11674,6 +11708,7 @@
     "categ": "V50",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11687,6 +11722,7 @@
     "categ": "V55",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11700,6 +11736,7 @@
     "categ": "V60",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11713,6 +11750,7 @@
     "categ": "V70",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11726,6 +11764,7 @@
     "categ": "S",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11739,6 +11778,7 @@
     "categ": "V60",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11752,6 +11792,7 @@
     "categ": "S",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11765,6 +11806,7 @@
     "categ": "V55",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11778,6 +11820,7 @@
     "categ": "V40",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11791,6 +11834,7 @@
     "categ": "V40",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11804,6 +11848,7 @@
     "categ": "V60",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11914,6 +11959,7 @@
         "points": "-5"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 5",
@@ -11976,6 +12022,7 @@
     "categ": "V45",
     "category": "senior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -11995,7 +12042,7 @@
         "opponent": "NEDELLEC Leane",
         "opponent_ranking": "680",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "05/04/2026",
@@ -12003,7 +12050,7 @@
         "opponent": "HUGOT Nathalie",
         "opponent_ranking": "770",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "28/02/2026",
@@ -12011,7 +12058,7 @@
         "opponent": "HEQUET Cindy",
         "opponent_ranking": "1042",
         "won": false,
-        "points": null
+        "points": "0"
       },
       {
         "date": "28/02/2026",
@@ -12019,9 +12066,10 @@
         "opponent": "DARCHICOURT Ninon",
         "opponent_ranking": "1210",
         "won": false,
-        "points": null
+        "points": "0"
       }
     ],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -12228,6 +12276,7 @@
         "points": "-2.25"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -12495,6 +12544,7 @@
         "points": "-2"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 5",
@@ -13094,6 +13144,7 @@
         "points": "-0.5"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 3",
@@ -13258,7 +13309,7 @@
         "opponent": "MOUVAUX Vincent",
         "opponent_ranking": "565",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "07/06/2026",
@@ -13266,7 +13317,7 @@
         "opponent": "PLESSY Bertrand",
         "opponent_ranking": "673",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "07/06/2026",
@@ -13274,7 +13325,7 @@
         "opponent": "NEELZ Remy",
         "opponent_ranking": "783",
         "won": false,
-        "points": null
+        "points": "-4"
       },
       {
         "date": "31/05/2026",
@@ -13282,7 +13333,7 @@
         "opponent": "DONNEZ Xavier",
         "opponent_ranking": "813",
         "won": true,
-        "points": null
+        "points": "10"
       },
       {
         "date": "31/05/2026",
@@ -13290,7 +13341,7 @@
         "opponent": "RAMECOURT Valentin",
         "opponent_ranking": "737",
         "won": true,
-        "points": null
+        "points": "8"
       },
       {
         "date": "31/05/2026",
@@ -13298,7 +13349,7 @@
         "opponent": "DIVERCHY Basile",
         "opponent_ranking": "755",
         "won": false,
-        "points": null
+        "points": "-4"
       },
       {
         "date": "10/05/2026",
@@ -13306,7 +13357,7 @@
         "opponent": "DUTERTRE Michael",
         "opponent_ranking": "599",
         "won": false,
-        "points": null
+        "points": "-7"
       },
       {
         "date": "10/05/2026",
@@ -13314,7 +13365,7 @@
         "opponent": "CHAPRON Maxime",
         "opponent_ranking": "771",
         "won": true,
-        "points": null
+        "points": "10"
       },
       {
         "date": "10/05/2026",
@@ -13322,7 +13373,7 @@
         "opponent": "DOUCHET Antoine",
         "opponent_ranking": "907",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "12/04/2026",
@@ -13330,7 +13381,7 @@
         "opponent": "ROLAND Jules",
         "opponent_ranking": "918",
         "won": true,
-        "points": null
+        "points": "17"
       },
       {
         "date": "12/04/2026",
@@ -13338,7 +13389,7 @@
         "opponent": "SCHMITT Thomas",
         "opponent_ranking": "794",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "12/04/2026",
@@ -13346,7 +13397,7 @@
         "opponent": "COQUERELLE Ludovic",
         "opponent_ranking": "688",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "22/03/2026",
@@ -13354,7 +13405,7 @@
         "opponent": "HEQUET Didier",
         "opponent_ranking": "696",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "22/03/2026",
@@ -13362,7 +13413,7 @@
         "opponent": "BRUNEAU Eric",
         "opponent_ranking": "749",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "22/03/2026",
@@ -13370,7 +13421,7 @@
         "opponent": "WATTEAU Franck",
         "opponent_ranking": "674",
         "won": true,
-        "points": null
+        "points": "7"
       },
       {
         "date": "08/03/2026",
@@ -13378,7 +13429,7 @@
         "opponent": "DULIEU Jose",
         "opponent_ranking": "781",
         "won": true,
-        "points": null
+        "points": "13"
       },
       {
         "date": "08/03/2026",
@@ -13386,7 +13437,7 @@
         "opponent": "ANDRES Anais",
         "opponent_ranking": "774",
         "won": true,
-        "points": null
+        "points": "10"
       },
       {
         "date": "08/03/2026",
@@ -13394,7 +13445,7 @@
         "opponent": "LANORD Philippe",
         "opponent_ranking": "837",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "08/02/2026",
@@ -13402,7 +13453,7 @@
         "opponent": "DHAINAUT Maxime",
         "opponent_ranking": "963",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "08/02/2026",
@@ -13410,7 +13461,7 @@
         "opponent": "TRUFFIER Aurianne",
         "opponent_ranking": "645",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "08/02/2026",
@@ -13418,7 +13469,7 @@
         "opponent": "FOURCROY Theo",
         "opponent_ranking": "569",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "11/01/2026",
@@ -13426,7 +13477,7 @@
         "opponent": "MONTAGNE Laurent",
         "opponent_ranking": "736",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "11/01/2026",
@@ -13434,7 +13485,7 @@
         "opponent": "HUTIN Emmanuel",
         "opponent_ranking": "710",
         "won": true,
-        "points": null
+        "points": "8"
       },
       {
         "date": "11/01/2026",
@@ -13442,7 +13493,7 @@
         "opponent": "MONNET Jean-Michel",
         "opponent_ranking": "851",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "21/12/2025",
@@ -13450,7 +13501,7 @@
         "opponent": "BOUCHENEB Rabah",
         "opponent_ranking": "614",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/12/2025",
@@ -13458,7 +13509,7 @@
         "opponent": "LERAT Ghislain",
         "opponent_ranking": "576",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "21/12/2025",
@@ -13466,7 +13517,7 @@
         "opponent": "BOUAZIZ Yannis",
         "opponent_ranking": "593",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/12/2025",
@@ -13474,7 +13525,7 @@
         "opponent": "BERNARD Raphaël",
         "opponent_ranking": "692",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "21/12/2025",
@@ -13482,7 +13533,7 @@
         "opponent": "CARNEAU Grégory",
         "opponent_ranking": "624",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/12/2025",
@@ -13490,7 +13541,7 @@
         "opponent": "COILLET Amaury",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "21/12/2025",
@@ -13498,7 +13549,7 @@
         "opponent": "SCHMITT François",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "21/12/2025",
@@ -13506,7 +13557,7 @@
         "opponent": "CARNEAU Gaspard",
         "opponent_ranking": "689",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "30/11/2025",
@@ -13514,7 +13565,7 @@
         "opponent": "ZIGANTE Thierry",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "5"
       },
       {
         "date": "30/11/2025",
@@ -13522,7 +13573,7 @@
         "opponent": "PAYELLEVILLE Dominique",
         "opponent_ranking": "501",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "30/11/2025",
@@ -13530,7 +13581,7 @@
         "opponent": "WAREMBOURG Théo",
         "opponent_ranking": "609",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "16/11/2025",
@@ -13538,7 +13589,7 @@
         "opponent": "LEGROS Christophe",
         "opponent_ranking": "1134",
         "won": false,
-        "points": null
+        "points": "0"
       },
       {
         "date": "16/11/2025",
@@ -13546,7 +13597,7 @@
         "opponent": "VANDIERDONCK Romain",
         "opponent_ranking": "654",
         "won": true,
-        "points": null
+        "points": "8"
       },
       {
         "date": "16/11/2025",
@@ -13554,7 +13605,7 @@
         "opponent": "CARRETTE Gregory",
         "opponent_ranking": "624",
         "won": false,
-        "points": null
+        "points": "-5"
       },
       {
         "date": "28/09/2025",
@@ -13562,7 +13613,7 @@
         "opponent": "HILDEBRAND Hugo",
         "opponent_ranking": "626",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "28/09/2025",
@@ -13570,7 +13621,7 @@
         "opponent": "GUFFOND Constantin",
         "opponent_ranking": "899",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "28/09/2025",
@@ -13578,7 +13629,7 @@
         "opponent": "GUEST Jules",
         "opponent_ranking": "739",
         "won": true,
-        "points": null
+        "points": "13"
       },
       {
         "date": "21/09/2025",
@@ -13586,7 +13637,7 @@
         "opponent": "LARROUMETS Vincent",
         "opponent_ranking": "669",
         "won": false,
-        "points": null
+        "points": "-4"
       },
       {
         "date": "21/09/2025",
@@ -13594,7 +13645,7 @@
         "opponent": "CARETTE Emmanuel",
         "opponent_ranking": "849",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "21/09/2025",
@@ -13602,9 +13653,10 @@
         "opponent": "WEBER Jules",
         "opponent_ranking": "696",
         "won": false,
-        "points": null
+        "points": "-3"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 4",
@@ -14028,6 +14080,7 @@
         "points": "-4"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACHES-THUMESNIL TT 4",
@@ -14855,6 +14908,7 @@
         "points": "3"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -15076,18 +15130,10 @@
       {
         "date": "07/06/2026",
         "date_iso": "2026-06-07",
-        "opponent": "CUI Yang",
-        "opponent_ranking": "510",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "07/06/2026",
-        "date_iso": "2026-06-07",
         "opponent": "ROSSI Benjamin",
         "opponent_ranking": "512",
         "won": true,
-        "points": null
+        "points": "4"
       },
       {
         "date": "07/06/2026",
@@ -15095,7 +15141,15 @@
         "opponent": "KANEHISA Eliza",
         "opponent_ranking": "517",
         "won": true,
-        "points": null
+        "points": "4"
+      },
+      {
+        "date": "07/06/2026",
+        "date_iso": "2026-06-07",
+        "opponent": "CUI Yang",
+        "opponent_ranking": "510",
+        "won": false,
+        "points": "-8"
       },
       {
         "date": "06/06/2026",
@@ -15103,7 +15157,7 @@
         "opponent": "BROCQ Pauline",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "06/06/2026",
@@ -15111,7 +15165,7 @@
         "opponent": "PEERS Ema",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "06/06/2026",
@@ -15119,15 +15173,7 @@
         "opponent": "LECLERCQ Anaïs",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "30/05/2026",
-        "date_iso": "2026-05-30",
-        "opponent": "FRANQUET Gabriel",
-        "opponent_ranking": "568",
-        "won": false,
-        "points": null
+        "points": "2"
       },
       {
         "date": "30/05/2026",
@@ -15135,7 +15181,7 @@
         "opponent": "DUTHILLEUL Eliot",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "30/05/2026",
@@ -15143,7 +15189,15 @@
         "opponent": "VANESSE Gabriel",
         "opponent_ranking": "530",
         "won": true,
-        "points": null
+        "points": "0"
+      },
+      {
+        "date": "30/05/2026",
+        "date_iso": "2026-05-30",
+        "opponent": "FRANQUET Gabriel",
+        "opponent_ranking": "568",
+        "won": false,
+        "points": "-3.5"
       },
       {
         "date": "09/05/2026",
@@ -15151,7 +15205,7 @@
         "opponent": "BATAILLE Lysandre",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "09/05/2026",
@@ -15159,7 +15213,7 @@
         "opponent": "DABEL Solène",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "09/05/2026",
@@ -15167,7 +15221,7 @@
         "opponent": "ZHANG Linshuo",
         "opponent_ranking": "502",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "11/04/2026",
@@ -15175,7 +15229,7 @@
         "opponent": "BERGERET Alexis",
         "opponent_ranking": "605",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -15183,7 +15237,7 @@
         "opponent": "COUSIN Timaël",
         "opponent_ranking": "518",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "11/04/2026",
@@ -15191,23 +15245,7 @@
         "opponent": "SALEMBIER Simon",
         "opponent_ranking": "704",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "21/03/2026",
-        "date_iso": "2026-03-21",
-        "opponent": "DUHOT Axel",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "21/03/2026",
-        "date_iso": "2026-03-21",
-        "opponent": "OUDRHIRI Rayan",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "21/03/2026",
@@ -15215,15 +15253,23 @@
         "opponent": "MAILLARD Mathieu",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
-        "date": "14/03/2026",
-        "date_iso": "2026-03-14",
-        "opponent": "BAUDIN Raphael",
-        "opponent_ranking": "548",
-        "won": false,
-        "points": null
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "opponent": "DUHOT Axel",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "2"
+      },
+      {
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "opponent": "OUDRHIRI Rayan",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "2"
       },
       {
         "date": "14/03/2026",
@@ -15231,7 +15277,7 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": true,
-        "points": null
+        "points": "8.25"
       },
       {
         "date": "14/03/2026",
@@ -15239,7 +15285,7 @@
         "opponent": "VIZCAINO Erwan",
         "opponent_ranking": "591",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "14/03/2026",
@@ -15247,7 +15293,7 @@
         "opponent": "AUBERT Elliott",
         "opponent_ranking": "614",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "14/03/2026",
@@ -15255,7 +15301,7 @@
         "opponent": "MARTINS Louis",
         "opponent_ranking": "560",
         "won": true,
-        "points": null
+        "points": "8.25"
       },
       {
         "date": "14/03/2026",
@@ -15263,7 +15309,7 @@
         "opponent": "DEVULDER Louis",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "14/03/2026",
@@ -15271,7 +15317,15 @@
         "opponent": "POLLET Théo",
         "opponent_ranking": "516",
         "won": true,
-        "points": null
+        "points": "6"
+      },
+      {
+        "date": "14/03/2026",
+        "date_iso": "2026-03-14",
+        "opponent": "BAUDIN Raphael",
+        "opponent_ranking": "548",
+        "won": false,
+        "points": "-10.5"
       },
       {
         "date": "07/03/2026",
@@ -15279,7 +15333,7 @@
         "opponent": "JOURDAN Marceau",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "07/03/2026",
@@ -15287,7 +15341,7 @@
         "opponent": "CHOULAN Yaêl",
         "opponent_ranking": "517",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "07/03/2026",
@@ -15295,7 +15349,7 @@
         "opponent": "NITASSE-QUENNELLE Salvatore",
         "opponent_ranking": "514",
         "won": false,
-        "points": null
+        "points": "-3.5"
       },
       {
         "date": "07/02/2026",
@@ -15303,7 +15357,7 @@
         "opponent": "DELCROIX Noemie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "07/02/2026",
@@ -15311,7 +15365,7 @@
         "opponent": "DE RUYVER Lisa",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "07/02/2026",
@@ -15319,7 +15373,7 @@
         "opponent": "SANSONNE Alexis",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "24/01/2026",
@@ -15327,7 +15381,7 @@
         "opponent": "MARTINS Louis",
         "opponent_ranking": "560",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "24/01/2026",
@@ -15335,23 +15389,7 @@
         "opponent": "AUBERT Elliott",
         "opponent_ranking": "614",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "24/01/2026",
-        "date_iso": "2026-01-24",
-        "opponent": "MARTINS Louis",
-        "opponent_ranking": "560",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "24/01/2026",
-        "date_iso": "2026-01-24",
-        "opponent": "AUBERT Elliott",
-        "opponent_ranking": "614",
-        "won": false,
-        "points": null
+        "points": "-6.75"
       },
       {
         "date": "24/01/2026",
@@ -15359,7 +15397,7 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "24/01/2026",
@@ -15367,7 +15405,7 @@
         "opponent": "SURAND Hugo",
         "opponent_ranking": "625",
         "won": true,
-        "points": null
+        "points": "12"
       },
       {
         "date": "24/01/2026",
@@ -15375,7 +15413,7 @@
         "opponent": "DERIENCOURT Louis",
         "opponent_ranking": "528",
         "won": true,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "24/01/2026",
@@ -15383,23 +15421,23 @@
         "opponent": "DUQUESNE Louis",
         "opponent_ranking": "648",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
-        "date": "10/01/2026",
-        "date_iso": "2026-01-10",
-        "opponent": "OUDRHIRI Rayan",
-        "opponent_ranking": "500",
+        "date": "24/01/2026",
+        "date_iso": "2026-01-24",
+        "opponent": "MARTINS Louis",
+        "opponent_ranking": "560",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
-        "date": "10/01/2026",
-        "date_iso": "2026-01-10",
-        "opponent": "L'HERBIER Lino",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "date": "24/01/2026",
+        "date_iso": "2026-01-24",
+        "opponent": "AUBERT Elliott",
+        "opponent_ranking": "614",
+        "won": false,
+        "points": "0"
       },
       {
         "date": "10/01/2026",
@@ -15407,7 +15445,23 @@
         "opponent": "DUFLOT Clément",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
+      },
+      {
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "opponent": "OUDRHIRI Rayan",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "2.5"
+      },
+      {
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "opponent": "L'HERBIER Lino",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "2.5"
       },
       {
         "date": "20/12/2025",
@@ -15415,7 +15469,7 @@
         "opponent": "BERGERET Alexis",
         "opponent_ranking": "605",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "20/12/2025",
@@ -15423,7 +15477,7 @@
         "opponent": "CHATILLON Matheo",
         "opponent_ranking": "531",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "20/12/2025",
@@ -15431,7 +15485,7 @@
         "opponent": "MOUVIELLE Alexis",
         "opponent_ranking": "594",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "20/12/2025",
@@ -15439,7 +15493,7 @@
         "opponent": "RASSELET Kayla",
         "opponent_ranking": "566",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -15447,7 +15501,7 @@
         "opponent": "GOBERT Victor",
         "opponent_ranking": "543",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -15455,7 +15509,7 @@
         "opponent": "LEFEBVRE Kassim",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "20/12/2025",
@@ -15463,7 +15517,7 @@
         "opponent": "RATTE LELIEUR Hortense",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "13/12/2025",
@@ -15471,7 +15525,7 @@
         "opponent": "DUMORTIER Loan",
         "opponent_ranking": "505",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "13/12/2025",
@@ -15479,7 +15533,7 @@
         "opponent": "DELANNOY Ewald",
         "opponent_ranking": "529",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "13/12/2025",
@@ -15487,7 +15541,7 @@
         "opponent": "VASSEUR William",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-3.5"
       },
       {
         "date": "29/11/2025",
@@ -15495,7 +15549,7 @@
         "opponent": "MAIRET Eliott",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "29/11/2025",
@@ -15503,7 +15557,7 @@
         "opponent": "FRANCHOMME Simon",
         "opponent_ranking": "567",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/11/2025",
@@ -15511,47 +15565,7 @@
         "opponent": "RYCKEWAERT SALDUCCI Sacha",
         "opponent_ranking": "530",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "22/11/2025",
-        "date_iso": "2025-11-22",
-        "opponent": "DUQUESNE Louis",
-        "opponent_ranking": "648",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "22/11/2025",
-        "date_iso": "2025-11-22",
-        "opponent": "LUDWIG Lenny",
-        "opponent_ranking": "536",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "22/11/2025",
-        "date_iso": "2025-11-22",
-        "opponent": "HERRIER DEJARDIN Arthur",
-        "opponent_ranking": "507",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "22/11/2025",
-        "date_iso": "2025-11-22",
-        "opponent": "DOUEZ Owen",
-        "opponent_ranking": "572",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "22/11/2025",
-        "date_iso": "2025-11-22",
-        "opponent": "BEHAGUE Emile",
-        "opponent_ranking": "539",
-        "won": true,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "22/11/2025",
@@ -15559,7 +15573,47 @@
         "opponent": "KUBO Felipe Shinji",
         "opponent_ranking": "504",
         "won": true,
-        "points": null
+        "points": "8.25"
+      },
+      {
+        "date": "22/11/2025",
+        "date_iso": "2025-11-22",
+        "opponent": "DUQUESNE Louis",
+        "opponent_ranking": "648",
+        "won": false,
+        "points": "-4.5"
+      },
+      {
+        "date": "22/11/2025",
+        "date_iso": "2025-11-22",
+        "opponent": "LUDWIG Lenny",
+        "opponent_ranking": "536",
+        "won": true,
+        "points": "9"
+      },
+      {
+        "date": "22/11/2025",
+        "date_iso": "2025-11-22",
+        "opponent": "HERRIER DEJARDIN Arthur",
+        "opponent_ranking": "507",
+        "won": true,
+        "points": "8.25"
+      },
+      {
+        "date": "22/11/2025",
+        "date_iso": "2025-11-22",
+        "opponent": "DOUEZ Owen",
+        "opponent_ranking": "572",
+        "won": false,
+        "points": "-7.5"
+      },
+      {
+        "date": "22/11/2025",
+        "date_iso": "2025-11-22",
+        "opponent": "BEHAGUE Emile",
+        "opponent_ranking": "539",
+        "won": true,
+        "points": "9"
       },
       {
         "date": "15/11/2025",
@@ -15567,7 +15621,7 @@
         "opponent": "BOUREL Léon",
         "opponent_ranking": "718",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "15/11/2025",
@@ -15575,7 +15629,7 @@
         "opponent": "FRANQUET Gabriel",
         "opponent_ranking": "568",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "15/11/2025",
@@ -15583,15 +15637,7 @@
         "opponent": "VANESSE Gabriel",
         "opponent_ranking": "530",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "18/10/2025",
-        "date_iso": "2025-10-18",
-        "opponent": "THELLIER Célian",
-        "opponent_ranking": "511",
-        "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "18/10/2025",
@@ -15599,7 +15645,7 @@
         "opponent": "VIZCAINO Erwan",
         "opponent_ranking": "591",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
         "date": "18/10/2025",
@@ -15607,7 +15653,7 @@
         "opponent": "STORME Lucas",
         "opponent_ranking": "582",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
         "date": "18/10/2025",
@@ -15615,7 +15661,7 @@
         "opponent": "DELPIERRE Leo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "18/10/2025",
@@ -15623,7 +15669,7 @@
         "opponent": "BEHAGUE Emile",
         "opponent_ranking": "539",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "18/10/2025",
@@ -15631,15 +15677,15 @@
         "opponent": "ZOUIOUECHE Amir",
         "opponent_ranking": "580",
         "won": true,
-        "points": null
+        "points": "12"
       },
       {
-        "date": "11/10/2025",
-        "date_iso": "2025-10-11",
-        "opponent": "AUBRON-ERNST Basile",
-        "opponent_ranking": "599",
-        "won": false,
-        "points": null
+        "date": "18/10/2025",
+        "date_iso": "2025-10-18",
+        "opponent": "THELLIER Célian",
+        "opponent_ranking": "511",
+        "won": true,
+        "points": "9"
       },
       {
         "date": "11/10/2025",
@@ -15647,7 +15693,7 @@
         "opponent": "AUBRON-ERNST Max",
         "opponent_ranking": "675",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "11/10/2025",
@@ -15655,7 +15701,15 @@
         "opponent": "WILLOT Jules",
         "opponent_ranking": "577",
         "won": true,
-        "points": null
+        "points": "4"
+      },
+      {
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "opponent": "AUBRON-ERNST Basile",
+        "opponent_ranking": "599",
+        "won": false,
+        "points": "-2"
       },
       {
         "date": "27/09/2025",
@@ -15663,7 +15717,7 @@
         "opponent": "LAURENTIN-SAUVONNET Beryl",
         "opponent_ranking": "504",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "27/09/2025",
@@ -15671,7 +15725,7 @@
         "opponent": "BOUAZIZ Yannis",
         "opponent_ranking": "593",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "27/09/2025",
@@ -15679,7 +15733,7 @@
         "opponent": "PROTAIS SUMFLETH Ella",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "20/09/2025",
@@ -15687,7 +15741,7 @@
         "opponent": "ALAIS Florentin",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "20/09/2025",
@@ -15695,7 +15749,7 @@
         "opponent": "HARDY Hippolyte",
         "opponent_ranking": "574",
         "won": true,
-        "points": null
+        "points": "3.5"
       },
       {
         "date": "20/09/2025",
@@ -15703,9 +15757,10 @@
         "opponent": "KUBO Rafael Akira",
         "opponent_ranking": "850",
         "won": false,
-        "points": null
+        "points": "-0.25"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 6",
@@ -15906,7 +15961,7 @@
         "opponent": "DAUDIGNY Sacha",
         "opponent_ranking": "593",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "24/01/2026",
@@ -15914,7 +15969,7 @@
         "opponent": "PLATH Timéo",
         "opponent_ranking": "743",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "24/01/2026",
@@ -15922,7 +15977,7 @@
         "opponent": "DUHOO Sacha",
         "opponent_ranking": "711",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "24/01/2026",
@@ -15930,7 +15985,7 @@
         "opponent": "DELHAIE Axel",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-10.5"
       },
       {
         "date": "13/12/2025",
@@ -15938,7 +15993,7 @@
         "opponent": "VASSEUR William",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "13/12/2025",
@@ -15946,7 +16001,7 @@
         "opponent": "DUMORTIER Loan",
         "opponent_ranking": "505",
         "won": true,
-        "points": null
+        "points": "2"
       },
       {
         "date": "13/12/2025",
@@ -15954,7 +16009,7 @@
         "opponent": "DELANNOY Ewald",
         "opponent_ranking": "529",
         "won": false,
-        "points": null
+        "points": "-3.5"
       },
       {
         "date": "22/11/2025",
@@ -15962,7 +16017,7 @@
         "opponent": "PAEPEGAEY Timothé",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "22/11/2025",
@@ -15970,7 +16025,7 @@
         "opponent": "FAVELLA Gaspard",
         "opponent_ranking": "502",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "22/11/2025",
@@ -15978,7 +16033,7 @@
         "opponent": "ONILLON Paul",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "6"
       },
       {
         "date": "22/11/2025",
@@ -15986,7 +16041,7 @@
         "opponent": "AMSOUS Arthur",
         "opponent_ranking": "692",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
         "date": "22/11/2025",
@@ -15994,23 +16049,7 @@
         "opponent": "LECOMTE Nathan",
         "opponent_ranking": "506",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "15/11/2025",
-        "date_iso": "2025-11-15",
-        "opponent": "FRANQUET Gabriel",
-        "opponent_ranking": "568",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "15/11/2025",
-        "date_iso": "2025-11-15",
-        "opponent": "VANESSE Gabriel",
-        "opponent_ranking": "530",
-        "won": false,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "15/11/2025",
@@ -16018,7 +16057,23 @@
         "opponent": "BOUREL Léon",
         "opponent_ranking": "718",
         "won": false,
-        "points": null
+        "points": "-1.5"
+      },
+      {
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "opponent": "FRANQUET Gabriel",
+        "opponent_ranking": "568",
+        "won": true,
+        "points": "2.75"
+      },
+      {
+        "date": "15/11/2025",
+        "date_iso": "2025-11-15",
+        "opponent": "VANESSE Gabriel",
+        "opponent_ranking": "530",
+        "won": false,
+        "points": "-3.5"
       },
       {
         "date": "18/10/2025",
@@ -16026,7 +16081,7 @@
         "opponent": "PRUVOT Sacha",
         "opponent_ranking": "604",
         "won": true,
-        "points": null
+        "points": "10.5"
       },
       {
         "date": "18/10/2025",
@@ -16034,7 +16089,7 @@
         "opponent": "PLATH Timéo",
         "opponent_ranking": "743",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "18/10/2025",
@@ -16042,7 +16097,7 @@
         "opponent": "VANWYSSEL Rayan",
         "opponent_ranking": "732",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "18/10/2025",
@@ -16050,7 +16105,7 @@
         "opponent": "DAUDIGNY Sacha",
         "opponent_ranking": "593",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "18/10/2025",
@@ -16058,7 +16113,7 @@
         "opponent": "PAEPEGAEY Timothé",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "18/10/2025",
@@ -16066,7 +16121,7 @@
         "opponent": "SCHINDLER Lenny",
         "opponent_ranking": "714",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "18/10/2025",
@@ -16074,7 +16129,7 @@
         "opponent": "LECOMTE Nathan",
         "opponent_ranking": "506",
         "won": true,
-        "points": null
+        "points": "7.5"
       },
       {
         "date": "11/10/2025",
@@ -16082,7 +16137,7 @@
         "opponent": "WILLOT Jules",
         "opponent_ranking": "577",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "11/10/2025",
@@ -16090,7 +16145,7 @@
         "opponent": "AUBRON-ERNST Basile",
         "opponent_ranking": "599",
         "won": true,
-        "points": null
+        "points": "3.5"
       },
       {
         "date": "11/10/2025",
@@ -16098,7 +16153,7 @@
         "opponent": "AUBRON-ERNST Max",
         "opponent_ranking": "675",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "20/09/2025",
@@ -16106,7 +16161,7 @@
         "opponent": "KUBO Rafael Akira",
         "opponent_ranking": "850",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "20/09/2025",
@@ -16114,7 +16169,7 @@
         "opponent": "ALAIS Florentin",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "20/09/2025",
@@ -16122,9 +16177,10 @@
         "opponent": "HARDY Hippolyte",
         "opponent_ranking": "574",
         "won": true,
-        "points": null
+        "points": "3"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 20 - REC A 14H",
@@ -16193,7 +16249,7 @@
         "opponent": "PEERS Ema",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "06/06/2026",
@@ -16201,7 +16257,7 @@
         "opponent": "LECLERCQ Anaïs",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "06/06/2026",
@@ -16209,7 +16265,7 @@
         "opponent": "BROCQ Pauline",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "21/03/2026",
@@ -16217,7 +16273,7 @@
         "opponent": "DUHOT Axel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "21/03/2026",
@@ -16225,7 +16281,7 @@
         "opponent": "OUDRHIRI Rayan",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "21/03/2026",
@@ -16233,7 +16289,7 @@
         "opponent": "MAILLARD Mathieu",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.5"
       },
       {
         "date": "14/03/2026",
@@ -16241,7 +16297,7 @@
         "opponent": "RENARD Louis",
         "opponent_ranking": "547",
         "won": false,
-        "points": null
+        "points": "-6.75"
       },
       {
         "date": "14/03/2026",
@@ -16249,7 +16305,7 @@
         "opponent": "GRIOT Sasha",
         "opponent_ranking": "545",
         "won": true,
-        "points": null
+        "points": "10.5"
       },
       {
         "date": "14/03/2026",
@@ -16257,7 +16313,7 @@
         "opponent": "HUSSON Raphaël",
         "opponent_ranking": "512",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "14/03/2026",
@@ -16265,7 +16321,7 @@
         "opponent": "CHARPENTIER Nathanaël",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "8.25"
       },
       {
         "date": "14/03/2026",
@@ -16273,7 +16329,7 @@
         "opponent": "VERLYNDE Louis",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "8.25"
       },
       {
         "date": "14/03/2026",
@@ -16281,15 +16337,7 @@
         "opponent": "LE BRAS ZHANG Victor",
         "opponent_ranking": "501",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "07/03/2026",
-        "date_iso": "2026-03-07",
-        "opponent": "NITASSE-QUENNELLE Salvatore",
-        "opponent_ranking": "514",
-        "won": false,
-        "points": null
+        "points": "0"
       },
       {
         "date": "07/03/2026",
@@ -16297,7 +16345,7 @@
         "opponent": "JOURDAN Marceau",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "07/03/2026",
@@ -16305,7 +16353,15 @@
         "opponent": "CHOULAN Yaêl",
         "opponent_ranking": "517",
         "won": true,
-        "points": null
+        "points": "3"
+      },
+      {
+        "date": "07/03/2026",
+        "date_iso": "2026-03-07",
+        "opponent": "NITASSE-QUENNELLE Salvatore",
+        "opponent_ranking": "514",
+        "won": false,
+        "points": "-2.5"
       },
       {
         "date": "07/02/2026",
@@ -16313,7 +16369,7 @@
         "opponent": "DE RUYVER Lisa",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "07/02/2026",
@@ -16321,7 +16377,7 @@
         "opponent": "SANSONNE Alexis",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "07/02/2026",
@@ -16329,7 +16385,7 @@
         "opponent": "DELCROIX Noemie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "24/01/2026",
@@ -16337,7 +16393,7 @@
         "opponent": "HERRIER DEJARDIN Arthur",
         "opponent_ranking": "507",
         "won": false,
-        "points": null
+        "points": "-9"
       },
       {
         "date": "24/01/2026",
@@ -16345,7 +16401,7 @@
         "opponent": "AHACHE Isaac",
         "opponent_ranking": "564",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "24/01/2026",
@@ -16353,7 +16409,7 @@
         "opponent": "DELPIERRE Leo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "8.25"
       },
       {
         "date": "24/01/2026",
@@ -16361,7 +16417,7 @@
         "opponent": "AUBERT Elliott",
         "opponent_ranking": "614",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
         "date": "24/01/2026",
@@ -16369,7 +16425,7 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "24/01/2026",
@@ -16377,7 +16433,7 @@
         "opponent": "FLAHAUT Sacha",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-9"
       },
       {
         "date": "24/01/2026",
@@ -16385,7 +16441,7 @@
         "opponent": "CHANSON Paul",
         "opponent_ranking": "598",
         "won": false,
-        "points": null
+        "points": "-6"
       },
       {
         "date": "10/01/2026",
@@ -16393,7 +16449,7 @@
         "opponent": "BINVIGNAT Kilian",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "10/01/2026",
@@ -16401,7 +16457,7 @@
         "opponent": "TULIMAT Mazen",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "10/01/2026",
@@ -16409,15 +16465,7 @@
         "opponent": "SHAN Eddy",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "03/01/2026",
-        "date_iso": "2026-01-03",
-        "opponent": "BERGERET Alexis",
-        "opponent_ranking": "605",
-        "won": false,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "03/01/2026",
@@ -16425,7 +16473,7 @@
         "opponent": "DUHOO Arthur",
         "opponent_ranking": "509",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "03/01/2026",
@@ -16433,7 +16481,7 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "03/01/2026",
@@ -16441,7 +16489,7 @@
         "opponent": "DUBUS Clément",
         "opponent_ranking": "740",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "03/01/2026",
@@ -16449,7 +16497,7 @@
         "opponent": "VIZCAINO Erwan",
         "opponent_ranking": "591",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "03/01/2026",
@@ -16457,7 +16505,7 @@
         "opponent": "BEHAGUE Emile",
         "opponent_ranking": "539",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "03/01/2026",
@@ -16465,7 +16513,15 @@
         "opponent": "BILLIAU Arthur",
         "opponent_ranking": "765",
         "won": false,
-        "points": null
+        "points": "-0.5"
+      },
+      {
+        "date": "03/01/2026",
+        "date_iso": "2026-01-03",
+        "opponent": "BERGERET Alexis",
+        "opponent_ranking": "605",
+        "won": false,
+        "points": "-2"
       },
       {
         "date": "20/12/2025",
@@ -16473,7 +16529,7 @@
         "opponent": "DERATTE Raphael",
         "opponent_ranking": "508",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "20/12/2025",
@@ -16481,7 +16537,7 @@
         "opponent": "ZNIBEL Yanis",
         "opponent_ranking": "567",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -16489,7 +16545,7 @@
         "opponent": "EGGERMONT Rose",
         "opponent_ranking": "665",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "20/12/2025",
@@ -16497,7 +16553,7 @@
         "opponent": "PELINSKI Noam",
         "opponent_ranking": "543",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -16505,7 +16561,7 @@
         "opponent": "BLONDEL Perrine",
         "opponent_ranking": "595",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "20/12/2025",
@@ -16513,7 +16569,7 @@
         "opponent": "POIRET Mael",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "20/12/2025",
@@ -16521,7 +16577,7 @@
         "opponent": "ILUNGA MWAMBA Harvey",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "13/12/2025",
@@ -16529,7 +16585,7 @@
         "opponent": "BLONDEL Estelle",
         "opponent_ranking": "639",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "13/12/2025",
@@ -16537,7 +16593,7 @@
         "opponent": "BROCART Clémence",
         "opponent_ranking": "629",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "13/12/2025",
@@ -16545,15 +16601,7 @@
         "opponent": "BLONDEL Perrine",
         "opponent_ranking": "595",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "29/11/2025",
-        "date_iso": "2025-11-29",
-        "opponent": "MUZARD Mattéo",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "29/11/2025",
@@ -16561,7 +16609,7 @@
         "opponent": "VAN HEUVERZWYN Cornelius",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
       },
       {
         "date": "29/11/2025",
@@ -16569,7 +16617,15 @@
         "opponent": "GRANSART Robinson",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "2.75"
+      },
+      {
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "opponent": "MUZARD Mattéo",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "2.5"
       },
       {
         "date": "22/11/2025",
@@ -16577,7 +16633,7 @@
         "opponent": "LUDWIG Lenny",
         "opponent_ranking": "536",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "22/11/2025",
@@ -16585,7 +16641,7 @@
         "opponent": "DUQUESNE Louis",
         "opponent_ranking": "648",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "22/11/2025",
@@ -16593,7 +16649,7 @@
         "opponent": "BAUDIN Raphael",
         "opponent_ranking": "548",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "22/11/2025",
@@ -16601,7 +16657,7 @@
         "opponent": "BEHAGUE Emile",
         "opponent_ranking": "539",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "22/11/2025",
@@ -16609,7 +16665,7 @@
         "opponent": "DOUEZ Owen",
         "opponent_ranking": "572",
         "won": true,
-        "points": null
+        "points": "10.5"
       },
       {
         "date": "22/11/2025",
@@ -16617,7 +16673,7 @@
         "opponent": "SELMI Souhayl",
         "opponent_ranking": "544",
         "won": false,
-        "points": null
+        "points": "-7.5"
       },
       {
         "date": "18/10/2025",
@@ -16625,7 +16681,7 @@
         "opponent": "AUBRON-ERNST Max",
         "opponent_ranking": "675",
         "won": false,
-        "points": null
+        "points": "-3"
       },
       {
         "date": "18/10/2025",
@@ -16633,7 +16689,7 @@
         "opponent": "DELBARRE Paul",
         "opponent_ranking": "635",
         "won": false,
-        "points": null
+        "points": "-4.5"
       },
       {
         "date": "18/10/2025",
@@ -16641,7 +16697,7 @@
         "opponent": "GRIMBLOT KUNTZ Axel",
         "opponent_ranking": "550",
         "won": true,
-        "points": null
+        "points": "12"
       },
       {
         "date": "18/10/2025",
@@ -16649,7 +16705,7 @@
         "opponent": "STORME Lucas",
         "opponent_ranking": "582",
         "won": true,
-        "points": null
+        "points": "12"
       },
       {
         "date": "18/10/2025",
@@ -16657,7 +16713,7 @@
         "opponent": "KUBO Felipe Shinji",
         "opponent_ranking": "504",
         "won": true,
-        "points": null
+        "points": "9"
       },
       {
         "date": "18/10/2025",
@@ -16665,15 +16721,7 @@
         "opponent": "VIZCAINO Erwan",
         "opponent_ranking": "591",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "11/10/2025",
-        "date_iso": "2025-10-11",
-        "opponent": "MARECHAL Mylan",
-        "opponent_ranking": "654",
-        "won": false,
-        "points": null
+        "points": "12"
       },
       {
         "date": "11/10/2025",
@@ -16681,7 +16729,7 @@
         "opponent": "CASIMIR Nathan",
         "opponent_ranking": "704",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "11/10/2025",
@@ -16689,7 +16737,15 @@
         "opponent": "SAWICKI Emeric",
         "opponent_ranking": "682",
         "won": false,
-        "points": null
+        "points": "-1"
+      },
+      {
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "opponent": "MARECHAL Mylan",
+        "opponent_ranking": "654",
+        "won": false,
+        "points": "-1"
       },
       {
         "date": "27/09/2025",
@@ -16697,7 +16753,7 @@
         "opponent": "ARCADIAS Baptiste",
         "opponent_ranking": "526",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "27/09/2025",
@@ -16705,7 +16761,7 @@
         "opponent": "KOMSI Jahmero",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "27/09/2025",
@@ -16713,7 +16769,7 @@
         "opponent": "FLINOIS Hugo",
         "opponent_ranking": "521",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/09/2025",
@@ -16721,7 +16777,7 @@
         "opponent": "GRIMOPONT Cesar",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/09/2025",
@@ -16729,7 +16785,7 @@
         "opponent": "LAMART Liyanna",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/09/2025",
@@ -16737,9 +16793,10 @@
         "opponent": "MOUQUET Clement",
         "opponent_ranking": "656",
         "won": false,
-        "points": null
+        "points": "-1"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 20 - REC A 14H",
@@ -17443,6 +17500,7 @@
         "points": "-2.5"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 5",
@@ -17637,6 +17695,7 @@
     "categ": "M2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -17656,7 +17715,7 @@
         "opponent": "LAVOREL Lucas",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "30/05/2026",
@@ -17664,7 +17723,7 @@
         "opponent": "PRUVOT Camille",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "09/05/2026",
@@ -17672,7 +17731,7 @@
         "opponent": "WALLET Joseph",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "09/05/2026",
@@ -17680,7 +17739,7 @@
         "opponent": "MARCY Léo",
         "opponent_ranking": "541",
         "won": true,
-        "points": null
+        "points": "3.5"
       },
       {
         "date": "11/04/2026",
@@ -17688,7 +17747,7 @@
         "opponent": "GOUY Marceau",
         "opponent_ranking": "579",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "11/04/2026",
@@ -17696,7 +17755,7 @@
         "opponent": "VANHOECKE Robin",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -17704,7 +17763,7 @@
         "opponent": "TECHY Victor",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -17712,7 +17771,7 @@
         "opponent": "DUHOT Axel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -17720,7 +17779,7 @@
         "opponent": "CHARPENTIER Nathanaël",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -17728,7 +17787,7 @@
         "opponent": "WALLET Joseph",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -17736,7 +17795,7 @@
         "opponent": "GUIMAS Lucien",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -17744,7 +17803,7 @@
         "opponent": "PICAVET Leo",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -17752,7 +17811,7 @@
         "opponent": "FLAMENGO Abel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "07/02/2026",
@@ -17760,7 +17819,7 @@
         "opponent": "GRIOT Sasha",
         "opponent_ranking": "545",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "07/02/2026",
@@ -17768,7 +17827,7 @@
         "opponent": "BARTON Jamie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "10/01/2026",
@@ -17776,7 +17835,7 @@
         "opponent": "BOURACHOT Hugo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "10/01/2026",
@@ -17784,7 +17843,7 @@
         "opponent": "DUHOT Axel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "13/12/2025",
@@ -17792,7 +17851,7 @@
         "opponent": "RATTE LELIEUR Hortense",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "13/12/2025",
@@ -17800,7 +17859,7 @@
         "opponent": "FLAMENGO Abel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/11/2025",
@@ -17808,7 +17867,7 @@
         "opponent": "JUHEL EVEILLE Nathanaël",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/11/2025",
@@ -17816,7 +17875,7 @@
         "opponent": "ZHANG Linshuo",
         "opponent_ranking": "502",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "11/10/2025",
@@ -17824,7 +17883,7 @@
         "opponent": "BERGERET Alexis",
         "opponent_ranking": "605",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "11/10/2025",
@@ -17832,7 +17891,7 @@
         "opponent": "GOUY Marceau",
         "opponent_ranking": "579",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "27/09/2025",
@@ -17840,7 +17899,7 @@
         "opponent": "GOBERT Victor",
         "opponent_ranking": "543",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "27/09/2025",
@@ -17848,9 +17907,10 @@
         "opponent": "RASSELET Kayla",
         "opponent_ranking": "566",
         "won": false,
-        "points": null
+        "points": "-2"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL",
@@ -17979,7 +18039,7 @@
         "opponent": "HERRIER DEJARDIN Arthur",
         "opponent_ranking": "507",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "30/05/2026",
@@ -17987,7 +18047,7 @@
         "opponent": "LHEUREUX Léo",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "30/05/2026",
@@ -17995,23 +18055,7 @@
         "opponent": "DILLY Noé",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "21/03/2026",
-        "date_iso": "2026-03-21",
-        "opponent": "PECQUEUR Louis",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "21/03/2026",
-        "date_iso": "2026-03-21",
-        "opponent": "BARBIER Eliot",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "21/03/2026",
@@ -18019,7 +18063,23 @@
         "opponent": "L'HERBIER Lino",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
+      },
+      {
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "opponent": "PECQUEUR Louis",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "21/03/2026",
+        "date_iso": "2026-03-21",
+        "opponent": "BARBIER Eliot",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -18027,7 +18087,7 @@
         "opponent": "RAHMOUNI Sofiane",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -18035,7 +18095,7 @@
         "opponent": "HASSANI Nawfel",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "15/11/2025",
@@ -18043,7 +18103,7 @@
         "opponent": "HASSANI Nawfel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -18051,7 +18111,7 @@
         "opponent": "RAHMOUNI Sofiane",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -18059,7 +18119,7 @@
         "opponent": "HASSANI Nawfel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "27/09/2025",
@@ -18067,7 +18127,7 @@
         "opponent": "FLINOIS Hugo",
         "opponent_ranking": "521",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "27/09/2025",
@@ -18075,7 +18135,7 @@
         "opponent": "ARCADIAS Baptiste",
         "opponent_ranking": "526",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "27/09/2025",
@@ -18083,9 +18143,10 @@
         "opponent": "KOMSI Jahmero",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 21 - REC A 14H",
@@ -18341,6 +18402,7 @@
         "points": "6"
       }
     ],
+    "points_estimated": false,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 5",
@@ -18433,7 +18495,7 @@
         "opponent": "MANGATIA Jared",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "06/06/2026",
@@ -18441,7 +18503,7 @@
         "opponent": "RYCKEBOER Jérémy",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "06/06/2026",
@@ -18449,23 +18511,7 @@
         "opponent": "RYCKEBOER Geoffrey",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "09/05/2026",
-        "date_iso": "2026-05-09",
-        "opponent": "SMAGA Luka",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "09/05/2026",
-        "date_iso": "2026-05-09",
-        "opponent": "BAILLY Ruben",
-        "opponent_ranking": "513",
-        "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "09/05/2026",
@@ -18473,7 +18519,23 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-2"
+      },
+      {
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "opponent": "SMAGA Luka",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "09/05/2026",
+        "date_iso": "2026-05-09",
+        "opponent": "BAILLY Ruben",
+        "opponent_ranking": "513",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "11/04/2026",
@@ -18481,7 +18543,7 @@
         "opponent": "MANSOUR Noham",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -18489,7 +18551,7 @@
         "opponent": "GRIGORE Rares Andrei",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -18497,7 +18559,7 @@
         "opponent": "DIALLO Djibril",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -18505,7 +18567,7 @@
         "opponent": "VERHEE Issam",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -18513,7 +18575,7 @@
         "opponent": "FAUCHERRE Lubin",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -18521,7 +18583,7 @@
         "opponent": "STOCLIN Maxence",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -18529,7 +18591,7 @@
         "opponent": "D'HU Amaury",
         "opponent_ranking": "515",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -18537,7 +18599,7 @@
         "opponent": "GRANSART Robinson",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -18545,7 +18607,7 @@
         "opponent": "MUZARD Mattéo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -18553,7 +18615,7 @@
         "opponent": "GRIMOPONT Cesar",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "21/03/2026",
@@ -18561,7 +18623,7 @@
         "opponent": "BARBIER Eliot",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/03/2026",
@@ -18569,7 +18631,7 @@
         "opponent": "L'HERBIER Lino",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/03/2026",
@@ -18577,23 +18639,7 @@
         "opponent": "PECQUEUR Louis",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "10/01/2026",
-        "date_iso": "2026-01-10",
-        "opponent": "SHAN Eddy",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "10/01/2026",
-        "date_iso": "2026-01-10",
-        "opponent": "BINVIGNAT Kilian",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "10/01/2026",
@@ -18601,7 +18647,23 @@
         "opponent": "TULIMAT Mazen",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
+      },
+      {
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "opponent": "SHAN Eddy",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "opponent": "BINVIGNAT Kilian",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -18609,7 +18671,7 @@
         "opponent": "MUZARD Mattéo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -18617,7 +18679,7 @@
         "opponent": "ARCADIAS Baptiste",
         "opponent_ranking": "526",
         "won": true,
-        "points": null
+        "points": "3.5"
       },
       {
         "date": "20/12/2025",
@@ -18625,7 +18687,7 @@
         "opponent": "SARRAZIN Felix",
         "opponent_ranking": "621",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "20/12/2025",
@@ -18633,7 +18695,7 @@
         "opponent": "DECREQUY Noah",
         "opponent_ranking": "786",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "20/12/2025",
@@ -18641,7 +18703,7 @@
         "opponent": "D'HU Amaury",
         "opponent_ranking": "515",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -18649,7 +18711,7 @@
         "opponent": "VADELORGE PINCANT Martin",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "20/12/2025",
@@ -18657,7 +18719,7 @@
         "opponent": "BOJE Sacha",
         "opponent_ranking": "755",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "29/11/2025",
@@ -18665,7 +18727,7 @@
         "opponent": "MUZARD Mattéo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/11/2025",
@@ -18673,7 +18735,7 @@
         "opponent": "VAN HEUVERZWYN Cornelius",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/11/2025",
@@ -18681,7 +18743,7 @@
         "opponent": "GRANSART Robinson",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/09/2025",
@@ -18689,7 +18751,7 @@
         "opponent": "MOUQUET Clement",
         "opponent_ranking": "656",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "20/09/2025",
@@ -18697,7 +18759,7 @@
         "opponent": "GRIMOPONT Cesar",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/09/2025",
@@ -18705,9 +18767,10 @@
         "opponent": "LAMART Liyanna",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 21 - REC A 14H",
@@ -18818,6 +18881,7 @@
     "categ": "J1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18831,6 +18895,7 @@
     "categ": "M2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18844,6 +18909,7 @@
     "categ": "B1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18857,6 +18923,7 @@
     "categ": "C2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18870,6 +18937,7 @@
     "categ": "M1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18883,6 +18951,7 @@
     "categ": "C1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18896,6 +18965,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18909,6 +18979,7 @@
     "categ": "M2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18922,6 +18993,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18935,6 +19007,7 @@
     "categ": "C1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18948,6 +19021,7 @@
     "categ": "B1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18961,6 +19035,7 @@
     "categ": "C2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18974,6 +19049,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -18987,6 +19063,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19000,6 +19077,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19013,6 +19091,7 @@
     "categ": "B1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19026,6 +19105,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19039,6 +19119,7 @@
     "categ": "B2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19052,6 +19133,7 @@
     "categ": "P",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19068,34 +19150,10 @@
       {
         "date": "20/12/2025",
         "date_iso": "2025-12-20",
-        "opponent": "KHAIRI-PLATEVOET Raphael",
-        "opponent_ranking": "506",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "20/12/2025",
-        "date_iso": "2025-12-20",
-        "opponent": "VERHASSELT Léni",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "20/12/2025",
-        "date_iso": "2025-12-20",
-        "opponent": "GRIGORE Rares Andrei",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "20/12/2025",
-        "date_iso": "2025-12-20",
         "opponent": "VAN SPLUNDER Thibaud",
         "opponent_ranking": "670",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "20/12/2025",
@@ -19103,7 +19161,7 @@
         "opponent": "DUBOIS Harry",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19111,7 +19169,7 @@
         "opponent": "PRUDHOMME Mathéo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19119,9 +19177,34 @@
         "opponent": "OFANOWSKI Basile",
         "opponent_ranking": "694",
         "won": false,
-        "points": null
+        "points": "-1"
+      },
+      {
+        "date": "20/12/2025",
+        "date_iso": "2025-12-20",
+        "opponent": "KHAIRI-PLATEVOET Raphael",
+        "opponent_ranking": "506",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "20/12/2025",
+        "date_iso": "2025-12-20",
+        "opponent": "VERHASSELT Léni",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "20/12/2025",
+        "date_iso": "2025-12-20",
+        "opponent": "GRIGORE Rares Andrei",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
       }
     ],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19135,6 +19218,7 @@
     "categ": "B2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19148,6 +19232,7 @@
     "categ": "B2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19161,6 +19246,7 @@
     "categ": "C2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19174,6 +19260,7 @@
     "categ": "C1",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19187,6 +19274,7 @@
     "categ": "B2",
     "category": "junior",
     "matches": [],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19206,7 +19294,7 @@
         "opponent": "ROCK Louise",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "06/06/2026",
@@ -19214,7 +19302,7 @@
         "opponent": "LECLERCQ Elodie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "30/05/2026",
@@ -19222,7 +19310,7 @@
         "opponent": "LAVOREL Lucas",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "30/05/2026",
@@ -19230,7 +19318,7 @@
         "opponent": "PRUVOT Camille",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -19238,7 +19326,7 @@
         "opponent": "BARTON Jamie",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19246,7 +19334,7 @@
         "opponent": "CLECH Eloi",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19254,9 +19342,10 @@
         "opponent": "ROCK Louise",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL",
@@ -19301,7 +19390,7 @@
         "opponent": "TECHY Victor",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19309,7 +19398,7 @@
         "opponent": "WALLET Joseph",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19317,9 +19406,10 @@
         "opponent": "SCHELLAERT VANVEGGELEN Paul",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       }
     ],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19339,7 +19429,7 @@
         "opponent": "RYCKEBOER Jérémy",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "06/06/2026",
@@ -19347,7 +19437,7 @@
         "opponent": "RYCKEBOER Geoffrey",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "06/06/2026",
@@ -19355,7 +19445,7 @@
         "opponent": "MANGATIA Jared",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "30/05/2026",
@@ -19363,7 +19453,7 @@
         "opponent": "DILLY Noé",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "30/05/2026",
@@ -19371,7 +19461,7 @@
         "opponent": "HERRIER DEJARDIN Arthur",
         "opponent_ranking": "507",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "30/05/2026",
@@ -19379,7 +19469,7 @@
         "opponent": "LHEUREUX Léo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "09/05/2026",
@@ -19387,7 +19477,7 @@
         "opponent": "BAILLY Ruben",
         "opponent_ranking": "513",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "09/05/2026",
@@ -19395,7 +19485,7 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "09/05/2026",
@@ -19403,7 +19493,7 @@
         "opponent": "SMAGA Luka",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "11/04/2026",
@@ -19411,7 +19501,7 @@
         "opponent": "DIALLO Djibril",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -19419,7 +19509,7 @@
         "opponent": "MANSOUR Noham",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -19427,7 +19517,7 @@
         "opponent": "GRIGORE Rares Andrei",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "21/03/2026",
@@ -19435,7 +19525,7 @@
         "opponent": "PECQUEUR Louis",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "21/03/2026",
@@ -19443,7 +19533,7 @@
         "opponent": "BARBIER Eliot",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/03/2026",
@@ -19451,7 +19541,7 @@
         "opponent": "L'HERBIER Lino",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "10/01/2026",
@@ -19459,7 +19549,7 @@
         "opponent": "SHAN Eddy",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "10/01/2026",
@@ -19467,7 +19557,7 @@
         "opponent": "BINVIGNAT Kilian",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "10/01/2026",
@@ -19475,15 +19565,7 @@
         "opponent": "TULIMAT Mazen",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "20/12/2025",
-        "date_iso": "2025-12-20",
-        "opponent": "DELHAYE BAHEUX Melvil",
-        "opponent_ranking": "945",
-        "won": false,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19491,7 +19573,7 @@
         "opponent": "DUBOIS Harry",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19499,7 +19581,7 @@
         "opponent": "DIALLO Djibril",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -19507,7 +19589,7 @@
         "opponent": "STEKELOROM Oscar",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19515,7 +19597,7 @@
         "opponent": "VERMERSCH CIGNOLA Hugo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19523,7 +19605,7 @@
         "opponent": "TULIMAT Mazen",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -19531,7 +19613,15 @@
         "opponent": "KHAIRI-PLATEVOET Raphael",
         "opponent_ranking": "506",
         "won": true,
-        "points": null
+        "points": "3"
+      },
+      {
+        "date": "20/12/2025",
+        "date_iso": "2025-12-20",
+        "opponent": "DELHAYE BAHEUX Melvil",
+        "opponent_ranking": "945",
+        "won": false,
+        "points": "0"
       },
       {
         "date": "13/12/2025",
@@ -19539,7 +19629,7 @@
         "opponent": "BLONDEL Perrine",
         "opponent_ranking": "595",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "13/12/2025",
@@ -19547,7 +19637,7 @@
         "opponent": "BLONDEL Estelle",
         "opponent_ranking": "639",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "13/12/2025",
@@ -19555,7 +19645,7 @@
         "opponent": "BROCART Clémence",
         "opponent_ranking": "629",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "29/11/2025",
@@ -19563,7 +19653,7 @@
         "opponent": "FRANCHOMME Simon",
         "opponent_ranking": "567",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "29/11/2025",
@@ -19571,7 +19661,7 @@
         "opponent": "RYCKEWAERT SALDUCCI Sacha",
         "opponent_ranking": "530",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "29/11/2025",
@@ -19579,7 +19669,7 @@
         "opponent": "MAIRET Eliott",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -19587,7 +19677,7 @@
         "opponent": "HASSANI Nawfel",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -19595,23 +19685,7 @@
         "opponent": "RAHMOUNI Sofiane",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "11/10/2025",
-        "date_iso": "2025-10-11",
-        "opponent": "SAWICKI Emeric",
-        "opponent_ranking": "682",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "11/10/2025",
-        "date_iso": "2025-10-11",
-        "opponent": "MARECHAL Mylan",
-        "opponent_ranking": "654",
-        "won": false,
-        "points": null
+        "points": "3"
       },
       {
         "date": "11/10/2025",
@@ -19619,7 +19693,23 @@
         "opponent": "CASIMIR Nathan",
         "opponent_ranking": "704",
         "won": false,
-        "points": null
+        "points": "-0.5"
+      },
+      {
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "opponent": "SAWICKI Emeric",
+        "opponent_ranking": "682",
+        "won": false,
+        "points": "-1"
+      },
+      {
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "opponent": "MARECHAL Mylan",
+        "opponent_ranking": "654",
+        "won": false,
+        "points": "-1"
       },
       {
         "date": "20/09/2025",
@@ -19627,7 +19717,7 @@
         "opponent": "LAMART Liyanna",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/09/2025",
@@ -19635,7 +19725,7 @@
         "opponent": "MOUQUET Clement",
         "opponent_ranking": "656",
         "won": false,
-        "points": null
+        "points": "-1"
       },
       {
         "date": "20/09/2025",
@@ -19643,9 +19733,10 @@
         "opponent": "GRIMOPONT Cesar",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 21 - REC A 14H",
@@ -19798,7 +19889,7 @@
         "opponent": "PELINSKI Noam",
         "opponent_ranking": "543",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "29/03/2026",
@@ -19806,7 +19897,7 @@
         "opponent": "WYNNE Marceau",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -19814,7 +19905,7 @@
         "opponent": "TECHY Victor",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19822,9 +19913,10 @@
         "opponent": "LEPRETRE France",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       }
     ],
+    "points_estimated": true,
     "match_history": []
   },
   {
@@ -19844,7 +19936,7 @@
         "opponent": "LECLERCQ Elodie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "06/06/2026",
@@ -19852,7 +19944,7 @@
         "opponent": "ROCK Louise",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "09/05/2026",
@@ -19860,7 +19952,7 @@
         "opponent": "MARCY Léo",
         "opponent_ranking": "541",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "09/05/2026",
@@ -19868,7 +19960,15 @@
         "opponent": "WALLET Joseph",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
+      },
+      {
+        "date": "11/04/2026",
+        "date_iso": "2026-04-11",
+        "opponent": "GOUY Marceau",
+        "opponent_ranking": "579",
+        "won": false,
+        "points": "-2"
       },
       {
         "date": "11/04/2026",
@@ -19876,15 +19976,7 @@
         "opponent": "VANHOECKE Robin",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
-      },
-      {
-        "date": "11/04/2026",
-        "date_iso": "2026-04-11",
-        "opponent": "GOUY Marceau",
-        "opponent_ranking": "579",
-        "won": false,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -19892,7 +19984,7 @@
         "opponent": "CLECH Eloi",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19900,7 +19992,7 @@
         "opponent": "BARTON Jamie",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -19908,7 +20000,7 @@
         "opponent": "PECQUERY Flavie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "21/03/2026",
@@ -19916,7 +20008,7 @@
         "opponent": "HABERT Gabriel",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "21/03/2026",
@@ -19924,7 +20016,7 @@
         "opponent": "CHANSON Paul",
         "opponent_ranking": "598",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "07/03/2026",
@@ -19932,7 +20024,7 @@
         "opponent": "DELHAYE Mathias",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "07/03/2026",
@@ -19940,7 +20032,7 @@
         "opponent": "NOEL Adam",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19948,7 +20040,7 @@
         "opponent": "PECQUERY Flavie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19956,7 +20048,7 @@
         "opponent": "WANDREBECK Sylvain",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -19964,7 +20056,7 @@
         "opponent": "RASSELET Kayla",
         "opponent_ranking": "566",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "20/12/2025",
@@ -19972,7 +20064,7 @@
         "opponent": "MOUVIELLE Alexis",
         "opponent_ranking": "594",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "20/12/2025",
@@ -19980,7 +20072,7 @@
         "opponent": "POIRET Mael",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -19988,7 +20080,7 @@
         "opponent": "PELINSKI Noam",
         "opponent_ranking": "543",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "20/12/2025",
@@ -19996,15 +20088,7 @@
         "opponent": "BERGERET Alexis",
         "opponent_ranking": "605",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "13/12/2025",
-        "date_iso": "2025-12-13",
-        "opponent": "FLAMENGO Abel",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "13/12/2025",
@@ -20012,7 +20096,15 @@
         "opponent": "RATTE LELIEUR Hortense",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
+      },
+      {
+        "date": "13/12/2025",
+        "date_iso": "2025-12-13",
+        "opponent": "FLAMENGO Abel",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "29/11/2025",
@@ -20020,7 +20112,7 @@
         "opponent": "ZHANG Linshuo",
         "opponent_ranking": "502",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/11/2025",
@@ -20028,7 +20120,7 @@
         "opponent": "JUHEL EVEILLE Nathanaël",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -20036,7 +20128,7 @@
         "opponent": "BOUDON COSTA Emile",
         "opponent_ranking": "510",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "15/11/2025",
@@ -20044,7 +20136,7 @@
         "opponent": "GARCIA MUSKAT Robin",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/10/2025",
@@ -20052,7 +20144,7 @@
         "opponent": "GOUY Marceau",
         "opponent_ranking": "579",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "11/10/2025",
@@ -20060,9 +20152,10 @@
         "opponent": "BERGERET Alexis",
         "opponent_ranking": "605",
         "won": false,
-        "points": null
+        "points": "-1.5"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL",
@@ -20188,26 +20281,10 @@
       {
         "date": "29/03/2026",
         "date_iso": "2026-03-29",
-        "opponent": "SOREL Jean",
-        "opponent_ranking": "539",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "BAILLY Jade",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
         "opponent": "CHARPENTIER Nathanaël",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -20215,7 +20292,23 @@
         "opponent": "LANDAIS Henri",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "SOREL Jean",
+        "opponent_ranking": "539",
+        "won": false,
+        "points": "-2"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "BAILLY Jade",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "21/03/2026",
@@ -20223,7 +20316,7 @@
         "opponent": "CHANSON Paul",
         "opponent_ranking": "598",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "21/03/2026",
@@ -20231,7 +20324,7 @@
         "opponent": "HABERT Gabriel",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "07/03/2026",
@@ -20239,7 +20332,7 @@
         "opponent": "NOEL Adam",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "07/03/2026",
@@ -20247,7 +20340,7 @@
         "opponent": "DELHAYE Mathias",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "07/02/2026",
@@ -20255,7 +20348,7 @@
         "opponent": "BARTON Jamie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "07/02/2026",
@@ -20263,15 +20356,7 @@
         "opponent": "GRIOT Sasha",
         "opponent_ranking": "545",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "10/01/2026",
-        "date_iso": "2026-01-10",
-        "opponent": "BOURACHOT Hugo",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "10/01/2026",
@@ -20279,15 +20364,15 @@
         "opponent": "DUHOT Axel",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
-        "date": "20/12/2025",
-        "date_iso": "2025-12-20",
-        "opponent": "WANDREBECK Sylvain",
+        "date": "10/01/2026",
+        "date_iso": "2026-01-10",
+        "opponent": "BOURACHOT Hugo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -20295,7 +20380,7 @@
         "opponent": "PECQUERY Flavie",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -20303,7 +20388,7 @@
         "opponent": "GOBERT Victor",
         "opponent_ranking": "543",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "20/12/2025",
@@ -20311,7 +20396,7 @@
         "opponent": "BERGERET Alexis",
         "opponent_ranking": "605",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "20/12/2025",
@@ -20319,7 +20404,7 @@
         "opponent": "DESPELCHIN Victor",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "20/12/2025",
@@ -20327,7 +20412,7 @@
         "opponent": "DERATTE Raphael",
         "opponent_ranking": "508",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -20335,7 +20420,15 @@
         "opponent": "MOUVIELLE Alexis",
         "opponent_ranking": "594",
         "won": false,
-        "points": null
+        "points": "-1.5"
+      },
+      {
+        "date": "20/12/2025",
+        "date_iso": "2025-12-20",
+        "opponent": "WANDREBECK Sylvain",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "15/11/2025",
@@ -20343,7 +20436,7 @@
         "opponent": "GARCIA MUSKAT Robin",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "15/11/2025",
@@ -20351,7 +20444,7 @@
         "opponent": "BOUDON COSTA Emile",
         "opponent_ranking": "510",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "27/09/2025",
@@ -20359,7 +20452,7 @@
         "opponent": "RASSELET Kayla",
         "opponent_ranking": "566",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "27/09/2025",
@@ -20367,7 +20460,7 @@
         "opponent": "GOBERT Victor",
         "opponent_ranking": "543",
         "won": false,
-        "points": null
+        "points": "0"
       },
       {
         "date": "20/09/2025",
@@ -20375,7 +20468,7 @@
         "opponent": "BAILLY Ruben",
         "opponent_ranking": "513",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/09/2025",
@@ -20383,9 +20476,10 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-2"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL",
@@ -20487,18 +20581,10 @@
       {
         "date": "06/06/2026",
         "date_iso": "2026-06-06",
-        "opponent": "RYCKEBOER Geoffrey",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "06/06/2026",
-        "date_iso": "2026-06-06",
         "opponent": "MANGATIA Jared",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "0"
       },
       {
         "date": "06/06/2026",
@@ -20506,7 +20592,15 @@
         "opponent": "RYCKEBOER Jérémy",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "0"
+      },
+      {
+        "date": "06/06/2026",
+        "date_iso": "2026-06-06",
+        "opponent": "RYCKEBOER Geoffrey",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "0"
       },
       {
         "date": "30/05/2026",
@@ -20514,7 +20608,7 @@
         "opponent": "LHEUREUX Léo",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3.5"
       },
       {
         "date": "30/05/2026",
@@ -20522,7 +20616,7 @@
         "opponent": "DILLY Noé",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3.5"
       },
       {
         "date": "30/05/2026",
@@ -20530,7 +20624,7 @@
         "opponent": "HERRIER DEJARDIN Arthur",
         "opponent_ranking": "507",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "09/05/2026",
@@ -20538,7 +20632,7 @@
         "opponent": "SMAGA Luka",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "09/05/2026",
@@ -20546,7 +20640,7 @@
         "opponent": "BAILLY Ruben",
         "opponent_ranking": "513",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "09/05/2026",
@@ -20554,7 +20648,7 @@
         "opponent": "GODEMENT Clement",
         "opponent_ranking": "559",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "11/04/2026",
@@ -20562,7 +20656,7 @@
         "opponent": "GRIGORE Rares Andrei",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -20570,7 +20664,7 @@
         "opponent": "DIALLO Djibril",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "11/04/2026",
@@ -20578,39 +20672,7 @@
         "opponent": "MANSOUR Noham",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "COMPIEGNE Mateo",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "FAUCHERRE Lubin",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "LAMART Liyanna",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "ROUSSEL Maxence",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -20618,7 +20680,7 @@
         "opponent": "EURIN Lilian",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -20626,7 +20688,7 @@
         "opponent": "SOIR MEUROT Isaac",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "29/03/2026",
@@ -20634,7 +20696,39 @@
         "opponent": "PROTAIS SUMFLETH Ella",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "COMPIEGNE Mateo",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "FAUCHERRE Lubin",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "LAMART Liyanna",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "ROUSSEL Maxence",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
       },
       {
         "date": "07/02/2026",
@@ -20642,7 +20736,7 @@
         "opponent": "VAN HEUVERZWYN Cornelius",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "07/02/2026",
@@ -20650,7 +20744,7 @@
         "opponent": "VAN HEUVERZWYN Balthazar",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "07/02/2026",
@@ -20658,7 +20752,7 @@
         "opponent": "GRANSART Robinson",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -20666,7 +20760,7 @@
         "opponent": "D'HU Amaury",
         "opponent_ranking": "515",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "20/12/2025",
@@ -20674,7 +20768,7 @@
         "opponent": "SHIN Junseo",
         "opponent_ranking": "617",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "20/12/2025",
@@ -20682,7 +20776,7 @@
         "opponent": "ARCADIAS Baptiste",
         "opponent_ranking": "526",
         "won": false,
-        "points": null
+        "points": "-2.25"
       },
       {
         "date": "20/12/2025",
@@ -20690,7 +20784,7 @@
         "opponent": "SCHMITT Thomas",
         "opponent_ranking": "794",
         "won": false,
-        "points": null
+        "points": "-0.25"
       },
       {
         "date": "13/12/2025",
@@ -20698,7 +20792,7 @@
         "opponent": "BROCART Clémence",
         "opponent_ranking": "629",
         "won": false,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "13/12/2025",
@@ -20706,7 +20800,7 @@
         "opponent": "BLONDEL Perrine",
         "opponent_ranking": "595",
         "won": false,
-        "points": null
+        "points": "-2"
       },
       {
         "date": "13/12/2025",
@@ -20714,23 +20808,7 @@
         "opponent": "BLONDEL Estelle",
         "opponent_ranking": "639",
         "won": false,
-        "points": null
-      },
-      {
-        "date": "29/11/2025",
-        "date_iso": "2025-11-29",
-        "opponent": "MUZARD Mattéo",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "29/11/2025",
-        "date_iso": "2025-11-29",
-        "opponent": "VAN HEUVERZWYN Cornelius",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
+        "points": "-1.5"
       },
       {
         "date": "29/11/2025",
@@ -20738,15 +20816,23 @@
         "opponent": "GRANSART Robinson",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
-        "date": "11/10/2025",
-        "date_iso": "2025-10-11",
-        "opponent": "MARECHAL Mylan",
-        "opponent_ranking": "654",
-        "won": false,
-        "points": null
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "opponent": "MUZARD Mattéo",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "29/11/2025",
+        "date_iso": "2025-11-29",
+        "opponent": "VAN HEUVERZWYN Cornelius",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
       },
       {
         "date": "11/10/2025",
@@ -20754,7 +20840,7 @@
         "opponent": "CASIMIR Nathan",
         "opponent_ranking": "704",
         "won": false,
-        "points": null
+        "points": "-0.5"
       },
       {
         "date": "11/10/2025",
@@ -20762,7 +20848,15 @@
         "opponent": "SAWICKI Emeric",
         "opponent_ranking": "682",
         "won": false,
-        "points": null
+        "points": "-1"
+      },
+      {
+        "date": "11/10/2025",
+        "date_iso": "2025-10-11",
+        "opponent": "MARECHAL Mylan",
+        "opponent_ranking": "654",
+        "won": false,
+        "points": "-1"
       },
       {
         "date": "27/09/2025",
@@ -20770,7 +20864,7 @@
         "opponent": "KOMSI Jahmero",
         "opponent_ranking": "500",
         "won": true,
-        "points": null
+        "points": "3"
       },
       {
         "date": "27/09/2025",
@@ -20778,7 +20872,7 @@
         "opponent": "FLINOIS Hugo",
         "opponent_ranking": "521",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "27/09/2025",
@@ -20786,9 +20880,10 @@
         "opponent": "ARCADIAS Baptiste",
         "opponent_ranking": "526",
         "won": false,
-        "points": null
+        "points": "-2.25"
       }
     ],
+    "points_estimated": true,
     "match_history": [
       {
         "team": "FACH-THUMESNIL 21 - REC A 14H",
@@ -20914,42 +21009,10 @@
       {
         "date": "29/03/2026",
         "date_iso": "2026-03-29",
-        "opponent": "QUILEZ Victor",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "LATOUR Alice",
-        "opponent_ranking": "500",
-        "won": true,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "LIMA Robin",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
-        "opponent": "MARCHAND Harry",
-        "opponent_ranking": "500",
-        "won": false,
-        "points": null
-      },
-      {
-        "date": "29/03/2026",
-        "date_iso": "2026-03-29",
         "opponent": "ZHANG Weichu",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -20957,7 +21020,7 @@
         "opponent": "LAIRY Mathias",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
       },
       {
         "date": "29/03/2026",
@@ -20965,9 +21028,42 @@
         "opponent": "DECHEZELLES Adrien",
         "opponent_ranking": "500",
         "won": false,
-        "points": null
+        "points": "-2.5"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "QUILEZ Victor",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "LATOUR Alice",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "LIMA Robin",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "29/03/2026",
+        "date_iso": "2026-03-29",
+        "opponent": "MARCHAND Harry",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
       }
     ],
+    "points_estimated": true,
     "match_history": []
   }
 ]
