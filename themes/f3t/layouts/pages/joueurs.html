@@ -60,15 +60,17 @@
       </div>
       <ul class="divide-y divide-gray-100">
         {{ range $i, $p := $top3 }}
-        <li class="flex items-center justify-between px-5 py-4">
-          <div class="flex items-center gap-3">
-            <span class="text-lg font-bold text-gray-300 w-5">{{ add $i 1 }}</span>
-            <div>
-              <p class="font-semibold text-gray-800">{{ $p.prenom }} {{ $p.nom }}</p>
-              <p class="text-xs text-gray-400">{{ $p.point }} pts · série {{ $p.clast }}</p>
+        <li>
+          <a href="/pages/joueurs/{{ $p.licence }}/" class="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition">
+            <div class="flex items-center gap-3">
+              <span class="text-lg font-bold text-gray-300 w-5">{{ add $i 1 }}</span>
+              <div>
+                <p class="font-semibold text-gray-800">{{ $p.prenom }} {{ $p.nom }}</p>
+                <p class="text-xs text-gray-400">{{ $p.point }} pts · série {{ $p.clast }}</p>
+              </div>
             </div>
-          </div>
-          <span class="text-green-600 font-bold text-lg">+{{ $p.evolution }}</span>
+            <span class="text-green-600 font-bold text-lg">+{{ $p.evolution }}</span>
+          </a>
         </li>
         {{ end }}
       </ul>
@@ -81,15 +83,17 @@
       </div>
       <ul class="divide-y divide-gray-100">
         {{ range $i, $p := $bottom3 }}
-        <li class="flex items-center justify-between px-5 py-4">
-          <div class="flex items-center gap-3">
-            <span class="text-lg font-bold text-gray-300 w-5">{{ add $i 1 }}</span>
-            <div>
-              <p class="font-semibold text-gray-800">{{ $p.prenom }} {{ $p.nom }}</p>
-              <p class="text-xs text-gray-400">{{ $p.point }} pts · série {{ $p.clast }}</p>
+        <li>
+          <a href="/pages/joueurs/{{ $p.licence }}/" class="flex items-center justify-between px-5 py-4 hover:bg-gray-50 transition">
+            <div class="flex items-center gap-3">
+              <span class="text-lg font-bold text-gray-300 w-5">{{ add $i 1 }}</span>
+              <div>
+                <p class="font-semibold text-gray-800">{{ $p.prenom }} {{ $p.nom }}</p>
+                <p class="text-xs text-gray-400">{{ $p.point }} pts · série {{ $p.clast }}</p>
+              </div>
             </div>
-          </div>
-          <span class="text-red-500 font-bold text-lg">{{ $p.evolution }}</span>
+            <span class="text-red-500 font-bold text-lg">{{ $p.evolution }}</span>
+          </a>
         </li>
         {{ end }}
       </ul>
