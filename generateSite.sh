@@ -24,11 +24,57 @@ do
     printf -- '---\ntitle: "%s"\ndate: %s\n---\n' "$title" "$date" > "content/post/$id.md"
     printf '%s\n\n' "$body" >> "content/post/$id.md"
 
+    img_dir="static/images/posts/$id"
+    mkdir -p "$img_dir"
+    img_idx=0
     curl -sS -X GET "https://graph.facebook.com/v10.0/$id/attachments?access_token=$facebook_token" \
-      | jq -r '.data[].media.image | "![](\(.src))"' \
-      >> "content/post/$id.md" || true
+      | jq -r '.data[].media.image.src // empty' \
+      | while IFS= read -r img_url; do
+          img_idx=$((img_idx + 1))
+          local_path="$img_dir/${img_idx}.jpg"
+          if curl -sS -L -o "$local_path" "$img_url"; then
+            printf '![](%s)\n' "/images/posts/$id/${img_idx}.jpg" >> "content/post/$id.md"
+          fi
+        done || true
   fi
 done
+
+# Migrate existing posts: replace fbcdn.net URLs with locally downloaded images
+python3 - << 'MIGRATE_IMAGES'
+import re, os, urllib.request, pathlib
+
+POST_DIR = pathlib.Path("content/post")
+STATIC_DIR = pathlib.Path("static/images/posts")
+FBCDN_RE = re.compile(r'!\[\]\((https?://[^\s)]*fbcdn\.net[^\s)]*)\)')
+
+for md_file in sorted(POST_DIR.glob("*.md")):
+    text = md_file.read_text()
+    if not FBCDN_RE.search(text):
+        continue
+    post_id = md_file.stem
+    img_dir = STATIC_DIR / post_id
+    img_dir.mkdir(parents=True, exist_ok=True)
+    existing = sorted(img_dir.glob("*.jpg"), key=lambda p: int(p.stem) if p.stem.isdigit() else 0)
+    next_idx = (int(existing[-1].stem) + 1) if existing else 1
+
+    def replace_url(m):
+        global next_idx
+        url = m.group(1)
+        local = img_dir / f"{next_idx}.jpg"
+        try:
+            urllib.request.urlretrieve(url, local)
+            result = f"![]({'/images/posts/' + post_id + '/' + str(next_idx) + '.jpg'})"
+            next_idx += 1
+            return result
+        except Exception as e:
+            print(f"  Warning: could not download {url}: {e}")
+            return m.group(0)
+
+    new_text = FBCDN_RE.sub(replace_url, text)
+    if new_text != text:
+        md_file.write_text(new_text)
+        print(f"Migrated images in {md_file.name}")
+MIGRATE_IMAGES
 
 mkdir -p data
 FFTT_TMP=/tmp/fftt_new_$$.json
