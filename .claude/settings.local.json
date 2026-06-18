@@ -19,7 +19,15 @@
       "Bash(kill %1)",
       "Bash(pkill -f \"hugo server\")",
       "Bash(curl -s \"http://localhost:1313/pages/joueurs/5917531/\")",
-      "Bash(sh -n /home/jhanos/git/fachesthumesniltt.github.io/generateSite.sh)"
+      "Bash(sh -n /home/jhanos/git/fachesthumesniltt.github.io/generateSite.sh)",
+      "Bash(git -C /home/jhanos/git/perso/fachesthumesniltt.github.io count-objects -vH)",
+      "Bash(git -C /home/jhanos/git/perso/fachesthumesniltt.github.io verify-pack -v .git/objects/pack/*.idx)",
+      "Bash(awk '{print $1}')",
+      "Bash(xargs -I{} git -C /home/jhanos/git/perso/fachesthumesniltt.github.io log --all --find-object={} --oneline)",
+      "Bash(read sha *)",
+      "Bash(git -C /home/jhanos/git/perso/fachesthumesniltt.github.io rev-list --all --objects)",
+      "Bash(xargs git -C /home/jhanos/git/perso/fachesthumesniltt.github.io push origin --delete)",
+      "Bash(git -C /home/jhanos/git/perso/fachesthumesniltt.github.io gc --aggressive --prune=now)"
     ]
   }
 }
