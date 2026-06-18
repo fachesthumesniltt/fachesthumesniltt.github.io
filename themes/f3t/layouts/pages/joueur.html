@@ -79,6 +79,7 @@
       </thead>
       <tbody class="divide-y divide-gray-100">
         {{ range $matches }}
+        {{ $m := . }}
         <tr class="hover:bg-gray-50 transition">
           <td class="px-4 py-3 text-gray-500 hidden sm:table-cell whitespace-nowrap">{{ substr .date 0 5 }}</td>
           <td class="px-4 py-3 font-medium text-gray-800">{{ .opponent }}</td>
@@ -87,7 +88,9 @@
           </td>
           <td class="px-4 py-3 text-center font-semibold">
             {{ with .points }}
-              {{ if hasPrefix . "-" }}
+              {{ if $m.points_estimated }}
+                <span class="text-amber-500" title="Points estimés (non officiels)">~{{ if not (hasPrefix . "-") }}+{{ end }}{{ . }}</span>
+              {{ else if hasPrefix . "-" }}
                 <span class="text-red-500">{{ . }}</span>
               {{ else if eq . "0" }}
                 <span class="text-gray-400">0</span>

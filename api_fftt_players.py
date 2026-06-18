@@ -13,7 +13,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Official FFTT points table: (min_gap, max_gap, normal_V, normal_D, abnormal_V, abnormal_D)
 FFTT_POINTS_TABLE = [
@@ -146,6 +146,22 @@ for p in club_players:
     else:
         for m in matches:
             m.pop('_coef', None)
+        # For recent matches (≤30 days) with points == "0", estimate using the FFTT formula
+        cutoff = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+        if point is not None:
+            for m in matches:
+                if m.get('points') != '0':
+                    continue
+                if not m.get('date_iso') or m['date_iso'] < cutoff:
+                    continue
+                try:
+                    opp = float(m['opponent_ranking'])
+                    opp_pts = opp * 100 if opp < 100 else opp
+                except (TypeError, ValueError):
+                    continue
+                estimated = fftt_calc_points(float(point), opp_pts, m['won'])
+                m['points'] = str(estimated)
+                m['points_estimated'] = True
 
     players.append({
         'licence':          licence,
