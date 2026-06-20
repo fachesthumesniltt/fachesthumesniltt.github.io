@@ -113,11 +113,11 @@ for md_file in sorted(POST_DIR.glob("*.md")):
 
     changed = False
 
-    # Re-fetch images if: has expired fbcdn URLs, or post has a Facebook ID and zero local images
+    # Re-fetch images for all FB posts: fixes expired fbcdn URLs and incomplete albums
     is_fb_post = '_' in post_id and post_id.replace('_', '').isdigit()
-    if has_fbcdn or (is_fb_post and not local_imgs):
+    if has_fbcdn or is_fb_post:
         urls = fetch_image_urls(post_id)
-        if urls:
+        if urls and len(urls) != len(local_imgs):
             local_paths = download_images(post_id, urls)
             # Strip all existing image lines (fbcdn or local) and append fresh ones
             content = FBCDN_RE.sub('', content)
