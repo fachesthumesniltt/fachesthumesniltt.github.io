@@ -19,7 +19,8 @@ do
   if [ ! -f "content/post/$id.md" ]; then
     title=$(printf '%s' "$json_data" | jq -r ". | select(.id==\"$id\") | .message" | head -n 1 | tr -d '\n' | sed 's/"/\\"/g' | sed 's/\..*//g')
     date=$(printf '%s' "$json_data" | jq -r ". | select(.id==\"$id\") | .date")
-    body=$(printf '%s' "$json_data" | jq -r ". | select(.id==\"$id\") | .message" | tail -n +2)
+    body=$(printf '%s' "$json_data" | jq -r ". | select(.id==\"$id\") | .message" | tail -n +2 \
+      | awk 'NF{print $0 "  "} !NF{print ""}')
 
     printf -- '---\ntitle: "%s"\ndate: %s\n---\n' "$title" "$date" > "content/post/$id.md"
     printf '%s\n\n' "$body" >> "content/post/$id.md"
@@ -28,7 +29,7 @@ do
     mkdir -p "$img_dir"
     img_idx=0
     curl -sS -X GET "https://graph.facebook.com/v10.0/$id/attachments?access_token=$facebook_token" \
-      | jq -r '.data[].media.image.src // empty' \
+      | jq -r '.data[] | if .subattachments then .subattachments.data[].media.image.src else (.media.image.src // empty) end' \
       | while IFS= read -r img_url; do
           img_idx=$((img_idx + 1))
           local_path="$img_dir/${img_idx}.jpg"
@@ -39,42 +40,102 @@ do
   fi
 done
 
-# Migrate existing posts: replace fbcdn.net URLs with locally downloaded images
-python3 - << 'MIGRATE_IMAGES'
-import re, os, urllib.request, pathlib
+# Migrate existing posts: fetch fresh image URLs from Facebook API + fix line breaks
+python3 - << 'MIGRATE_POSTS'
+import json, os, re, pathlib, urllib.request
 
-POST_DIR = pathlib.Path("content/post")
+POST_DIR  = pathlib.Path("content/post")
 STATIC_DIR = pathlib.Path("static/images/posts")
-FBCDN_RE = re.compile(r'!\[\]\((https?://[^\s)]*fbcdn\.net[^\s)]*)\)')
+FBCDN_RE  = re.compile(r'!\[\]\((https?://[^\s)]*fbcdn\.net[^\s)]*)\)')
+LOCAL_IMG_RE = re.compile(r'!\[\]\(/images/posts/[^\)]+\)')
+HARD_BREAK_RE = re.compile(r'(?<=[^\s])(  )?\n(?=[^\n])')
+
+token = os.environ.get('facebook_token', '')
+
+def fetch_image_urls(post_id):
+    if not token:
+        return []
+    url = f"https://graph.facebook.com/v10.0/{post_id}/attachments?access_token={token}"
+    try:
+        with urllib.request.urlopen(url) as r:
+            data = json.load(r)
+        urls = []
+        for item in data.get('data', []):
+            subs = (item.get('subattachments') or {}).get('data', [])
+            if subs:
+                for sub in subs:
+                    src = ((sub.get('media') or {}).get('image') or {}).get('src')
+                    if src:
+                        urls.append(src)
+            else:
+                src = ((item.get('media') or {}).get('image') or {}).get('src')
+                if src:
+                    urls.append(src)
+        return urls
+    except Exception as e:
+        print(f"  Warning: could not fetch attachments for {post_id}: {e}")
+        return []
+
+def download_images(post_id, urls):
+    img_dir = STATIC_DIR / post_id
+    img_dir.mkdir(parents=True, exist_ok=True)
+    local_paths = []
+    for idx, url in enumerate(urls, start=1):
+        dest = img_dir / f"{idx}.jpg"
+        try:
+            urllib.request.urlretrieve(url, dest)
+            local_paths.append(f"/images/posts/{post_id}/{idx}.jpg")
+        except Exception as e:
+            print(f"  Warning: could not download image {idx} for {post_id}: {e}")
+    return local_paths
+
+def fix_line_breaks(content):
+    lines = content.split('\n')
+    result = []
+    for line in lines:
+        if line.strip() and not line.endswith('  ') and not line.startswith('![]') and not line.startswith('#'):
+            result.append(line.rstrip() + '  ')
+        else:
+            result.append(line)
+    return '\n'.join(result)
 
 for md_file in sorted(POST_DIR.glob("*.md")):
     text = md_file.read_text()
-    if not FBCDN_RE.search(text):
+    parts = text.split('---\n', 2)
+    if len(parts) < 3:
         continue
+    front_matter = parts[1]
+    content = parts[2]
+
+    has_fbcdn = bool(FBCDN_RE.search(content))
+    local_imgs = LOCAL_IMG_RE.findall(content)
     post_id = md_file.stem
-    img_dir = STATIC_DIR / post_id
-    img_dir.mkdir(parents=True, exist_ok=True)
-    existing = sorted(img_dir.glob("*.jpg"), key=lambda p: int(p.stem) if p.stem.isdigit() else 0)
-    next_idx = (int(existing[-1].stem) + 1) if existing else 1
 
-    def replace_url(m):
-        global next_idx
-        url = m.group(1)
-        local = img_dir / f"{next_idx}.jpg"
-        try:
-            urllib.request.urlretrieve(url, local)
-            result = f"![]({'/images/posts/' + post_id + '/' + str(next_idx) + '.jpg'})"
-            next_idx += 1
-            return result
-        except Exception as e:
-            print(f"  Warning: could not download {url}: {e}")
-            return m.group(0)
+    changed = False
 
-    new_text = FBCDN_RE.sub(replace_url, text)
-    if new_text != text:
-        md_file.write_text(new_text)
-        print(f"Migrated images in {md_file.name}")
-MIGRATE_IMAGES
+    # Re-fetch images if: has expired fbcdn URLs, or post has a Facebook ID and zero local images
+    is_fb_post = '_' in post_id and post_id.replace('_', '').isdigit()
+    if has_fbcdn or (is_fb_post and not local_imgs):
+        urls = fetch_image_urls(post_id)
+        if urls:
+            local_paths = download_images(post_id, urls)
+            # Strip all existing image lines (fbcdn or local) and append fresh ones
+            content = FBCDN_RE.sub('', content)
+            content = LOCAL_IMG_RE.sub('', content)
+            content = content.rstrip() + '\n\n'
+            content += '\n'.join(f'![]({p})' for p in local_paths) + '\n'
+            changed = True
+
+    # Fix line breaks: add two trailing spaces to non-blank, non-image, non-heading lines
+    new_content = fix_line_breaks(content)
+    if new_content != content:
+        content = new_content
+        changed = True
+
+    if changed:
+        md_file.write_text('---\n' + front_matter + '---\n' + content)
+        print(f"Updated {md_file.name}")
+MIGRATE_POSTS
 
 mkdir -p data
 FFTT_TMP=/tmp/fftt_new_$$.json
