@@ -49,5 +49,6 @@ jobs:
         git subtree split -P public -b master
         git push -f origin master:master
         git rm -r --cached public/ data/
-        git commit --amend --no-edit
+        git reset --soft HEAD~1
+        git diff --cached --quiet || git commit -m "${COMMIT_MSG}"
         git push origin HEAD:gohugo
