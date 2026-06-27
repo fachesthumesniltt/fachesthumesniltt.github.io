@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.163.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fachesthumesniltt | fachesthumesniltt</title>
+  <meta name="description" content="Hugo tranquilpeak theme demo">
+  <link rel="icon" href="https://www.fachesthumesniltt.com/images/logo.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            club: { DEFAULT: '#1e40af', light: '#dbeafe', dark: '#1e3a8a' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen">
+  <header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
+  <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="https://www.fachesthumesniltt.com/" class="flex items-center gap-3 hover:opacity-90 transition">
+      <img src="https://www.fachesthumesniltt.com/images/logo.jpg" alt="F3T" class="h-11 w-11 rounded-full bg-white p-0.5 object-contain">
+      <span class="font-bold text-lg leading-tight hidden sm:block">Faches-Thumesnil<br><span class="text-blue-200 text-sm font-normal">Tennis de Table</span></span>
+    </a>
+    <button id="menu-btn" class="md:hidden p-2 rounded hover:bg-blue-700 transition" aria-label="Menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+    <ul id="nav-links" class="hidden md:flex items-center gap-1 text-sm font-medium">
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Accueil</a>
+      </li>
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/pages/infos/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Le Club</a>
+      </li>
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/pages/equipes/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Equipes</a>
+      </li>
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/pages/joueurs/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Joueurs</a>
+      </li>
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/pages/horaires/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Horaires &amp; Tarifs</a>
+      </li>
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/pages/contact/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Contact</a>
+      </li>
+      
+      <li>
+        <a href="https://www.fachesthumesniltt.com/pages/inscription/" class="px-3 py-2 rounded hover:bg-blue-700 transition block">Nous Rejoindre</a>
+      </li>
+      
+    </ul>
+  </nav>
+  <div id="mobile-menu" class="hidden md:hidden border-t border-blue-700">
+    <ul class="px-4 pb-4 pt-2 flex flex-col gap-1 text-sm font-medium">
+      
+      <li><a href="https://www.fachesthumesniltt.com/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Accueil</a></li>
+      
+      <li><a href="https://www.fachesthumesniltt.com/pages/infos/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Le Club</a></li>
+      
+      <li><a href="https://www.fachesthumesniltt.com/pages/equipes/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Equipes</a></li>
+      
+      <li><a href="https://www.fachesthumesniltt.com/pages/joueurs/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Joueurs</a></li>
+      
+      <li><a href="https://www.fachesthumesniltt.com/pages/horaires/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Horaires &amp; Tarifs</a></li>
+      
+      <li><a href="https://www.fachesthumesniltt.com/pages/contact/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Contact</a></li>
+      
+      <li><a href="https://www.fachesthumesniltt.com/pages/inscription/" class="block px-3 py-2 rounded hover:bg-blue-700 transition">Nous Rejoindre</a></li>
+      
+    </ul>
+  </div>
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</header>
+
+  <main class="flex-grow">
+    
+
+
+<section class="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20 text-center px-4">
+  <h1 class="text-4xl md:text-5xl font-bold mb-3">Faches-Thumesnil<br>Tennis de Table</h1>
+  <p class="text-blue-200 text-lg mb-8">Club fondé en 1963 · Ouvert à tous les niveaux</p>
+  <div class="flex flex-wrap gap-4 justify-center">
+    <a href="https://www.fachesthumesniltt.com/pages/inscription/" class="bg-white text-blue-800 font-bold px-6 py-3 rounded-full hover:bg-blue-50 transition shadow">Nous rejoindre</a>
+    <a href="https://www.fachesthumesniltt.com/pages/contact/" class="border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:text-blue-800 transition">Nous contacter</a>
+  </div>
+</section>
+
+
+<section class="bg-blue-800 text-white py-5">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-sm">
+    <div class="flex items-center justify-center gap-2">
+      <span class="text-2xl">🏓</span>
+      <span>Entraînements <strong>lun – ven soir</strong></span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <span class="text-2xl">📍</span>
+      <span>Complexe sportif<br>298 rue Kléber<br><strong>59155 Faches-Thumesnil</strong></span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <span class="text-2xl">🏆</span>
+      <a href="https://tournoi.fachesthumesniltt.com/" class="underline hover:text-blue-200 transition">Tournoi open du club</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="max-w-6xl mx-auto px-4 py-12">
+  <div class="grid md:grid-cols-2 gap-8">
+
+    
+    <div>
+      <h2 class="text-xl font-bold text-blue-800 mb-4">📅 Agenda</h2>
+      
+      
+      
+      
+      
+      <div class="bg-white rounded-2xl shadow-md border border-blue-100 px-6 py-10 text-center text-gray-400 text-sm">
+        Aucun événement à venir pour le moment.
+      </div>
+      
+    </div>
+
+    
+    <div>
+      <h2 class="text-xl font-bold text-blue-800 mb-4">🏆 Derniers résultats</h2>
+      
+      
+      
+      <div class="bg-white rounded-2xl shadow-md border border-blue-100 overflow-hidden divide-y divide-gray-100">
+        
+        <div class="flex items-center gap-3 px-4 py-3">
+          <div class="text-center min-w-[48px]">
+            <div class="text-xs font-bold text-blue-700 uppercase">06/06</div>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-gray-800 text-sm truncate">FACHES-THUMESNIL TT 1</div>
+            <div class="text-xs text-gray-500 truncate">vs VILLENEUVE D&#39;ASCQ FOS 5</div>
+          </div>
+          <div class="shrink-0 flex items-center gap-2">
+            <span class="font-mono font-bold text-sm text-gray-700">9–5</span>
+            
+            <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+            
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-3 px-4 py-3">
+          <div class="text-center min-w-[48px]">
+            <div class="text-xs font-bold text-blue-700 uppercase">07/06</div>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-gray-800 text-sm truncate">FACHES-THUMESNIL TT 2</div>
+            <div class="text-xs text-gray-500 truncate">vs LOSC TT 5</div>
+          </div>
+          <div class="shrink-0 flex items-center gap-2">
+            <span class="font-mono font-bold text-sm text-gray-700">8–6</span>
+            
+            <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+            
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-3 px-4 py-3">
+          <div class="text-center min-w-[48px]">
+            <div class="text-xs font-bold text-blue-700 uppercase">07/06</div>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-gray-800 text-sm truncate">FACHES-THUMESNIL TT 3</div>
+            <div class="text-xs text-gray-500 truncate">vs MONS TT 6</div>
+          </div>
+          <div class="shrink-0 flex items-center gap-2">
+            <span class="font-mono font-bold text-sm text-gray-700">9–5</span>
+            
+            <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+            
+          </div>
+        </div>
+        
+        
+        <details class="group">
+          <summary class="flex items-center justify-center gap-1 px-4 py-2 text-xs text-blue-600 cursor-pointer hover:bg-gray-50 list-none">
+            <span class="group-open:hidden">Voir 6 résultats de plus ▼</span>
+            <span class="hidden group-open:inline">Réduire ▲</span>
+          </summary>
+          <div class="divide-y divide-gray-100">
+          
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">07/06</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">FACHES-THUMESNIL TT 4</div>
+              <div class="text-xs text-gray-500 truncate">vs TEMPLEM-VENDEVI 5</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">11–3</span>
+              
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              
+            </div>
+          </div>
+          
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">07/06</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">FACH-THUMESNIL 5</div>
+              <div class="text-xs text-gray-500 truncate">vs SECLIN PPP 5</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">7–7</span>
+              
+              <span class="text-xs font-bold text-gray-400 bg-gray-50 px-2 py-0.5 rounded">N</span>
+              
+            </div>
+          </div>
+          
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">07/06</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">FACH-THUMESNIL 6</div>
+              <div class="text-xs text-gray-500 truncate">vs LA MAD US 12 - REC SAMEDI 17H</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">11–3</span>
+              
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              
+            </div>
+          </div>
+          
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">06/06</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">FACH-THUMESNIL 20 - REC A 14H</div>
+              <div class="text-xs text-gray-500 truncate">vs CAP EN PEV TT 22 - REC A 14H</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">10–0</span>
+              
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              
+            </div>
+          </div>
+          
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">06/06</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">FACH-THUMESNIL 21 - REC A 14H</div>
+              <div class="text-xs text-gray-500 truncate">vs CAP EN PEV TT 23 - REC A 14H</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">10–0</span>
+              
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              
+            </div>
+          </div>
+          
+          <div class="flex items-center gap-3 px-4 py-3">
+            <div class="text-center min-w-[48px]">
+              <div class="text-xs font-bold text-blue-700 uppercase">06/06</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="font-semibold text-gray-800 text-sm truncate">FACH-THUMESNIL</div>
+              <div class="text-xs text-gray-500 truncate">vs CAP EN PEV TT  - REC A 14H</div>
+            </div>
+            <div class="shrink-0 flex items-center gap-2">
+              <span class="font-mono font-bold text-sm text-gray-700">5–0</span>
+              
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded">V</span>
+              
+            </div>
+          </div>
+          
+          </div>
+        </details>
+        
+      </div>
+      
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="text-2xl font-bold text-blue-800 mb-8">Dernières actualités</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100 flex flex-col">
+  <div class="p-5 flex flex-col flex-grow">
+    <p class="text-xs text-gray-400 mb-2">22 June 2026</p>
+    <h3 class="font-semibold text-gray-800 mb-3 line-clamp-3 flex-grow">🏓🏓 information fermeture salle de ping 🏓🏓</h3>
+    <a href="https://www.fachesthumesniltt.com/2026/06/information-fermeture-salle-de-ping/" class="text-blue-700 text-sm font-medium hover:text-blue-900 transition self-start">Lire la suite →</a>
+  </div>
+</article>
+
+    
+    <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100 flex flex-col">
+  <div class="p-5 flex flex-col flex-grow">
+    <p class="text-xs text-gray-400 mb-2">20 June 2026</p>
+    <h3 class="font-semibold text-gray-800 mb-3 line-clamp-3 flex-grow">🏓 Goûter de fin de saison pour nos jeunes ! </h3>
+    <a href="https://www.fachesthumesniltt.com/2026/06/go%C3%BBter-de-fin-de-saison-pour-nos-jeunes/" class="text-blue-700 text-sm font-medium hover:text-blue-900 transition self-start">Lire la suite →</a>
+  </div>
+</article>
+
+    
+    <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100 flex flex-col">
+  <div class="p-5 flex flex-col flex-grow">
+    <p class="text-xs text-gray-400 mb-2">15 June 2026</p>
+    <h3 class="font-semibold text-gray-800 mb-3 line-clamp-3 flex-grow">📣Un week-end exceptionnel - Tournoi National B F3T</h3>
+    <a href="https://www.fachesthumesniltt.com/2026/06/un-week-end-exceptionnel-tournoi-national-b-f3t/" class="text-blue-700 text-sm font-medium hover:text-blue-900 transition self-start">Lire la suite →</a>
+  </div>
+</article>
+
+    
+    <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100 flex flex-col">
+  <div class="p-5 flex flex-col flex-grow">
+    <p class="text-xs text-gray-400 mb-2">13 June 2026</p>
+    <h3 class="font-semibold text-gray-800 mb-3 line-clamp-3 flex-grow">En toute fin de tournoi, Abdel-Kader Salifou a échangé quelques balles avec Mathéo, jeune joueur de notre club</h3>
+    <a href="https://www.fachesthumesniltt.com/2026/06/en-toute-fin-de-tournoi-abdel-kader-salifou-a-%C3%A9chang%C3%A9-quelques-balles-avec-math%C3%A9o-jeune-joueur-de-notre-club/" class="text-blue-700 text-sm font-medium hover:text-blue-900 transition self-start">Lire la suite →</a>
+  </div>
+</article>
+
+    
+    <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100 flex flex-col">
+  <div class="p-5 flex flex-col flex-grow">
+    <p class="text-xs text-gray-400 mb-2">11 June 2026</p>
+    <h3 class="font-semibold text-gray-800 mb-3 line-clamp-3 flex-grow">📣 Abdel-Kader Salifou de retour lors de l&#39;édition 2026 </h3>
+    <a href="https://www.fachesthumesniltt.com/2026/06/abdel-kader-salifou-de-retour-lors-de-l%C3%A9dition-2026/" class="text-blue-700 text-sm font-medium hover:text-blue-900 transition self-start">Lire la suite →</a>
+  </div>
+</article>
+
+    
+    <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100 flex flex-col">
+  <div class="p-5 flex flex-col flex-grow">
+    <p class="text-xs text-gray-400 mb-2">9 June 2026</p>
+    <h3 class="font-semibold text-gray-800 mb-3 line-clamp-3 flex-grow">📣Plus que 24h pour vous inscrire à notre tournoi national B </h3>
+    <a href="https://www.fachesthumesniltt.com/2026/06/plus-que-24h-pour-vous-inscrire-%C3%A0-notre-tournoi-national-b/" class="text-blue-700 text-sm font-medium hover:text-blue-900 transition self-start">Lire la suite →</a>
+  </div>
+</article>
+
+    
+  </div>
+  <div class="text-center mt-10">
+    <a href="https://www.fachesthumesniltt.com/post/" class="inline-block border-2 border-blue-700 text-blue-700 font-semibold px-6 py-2 rounded-full hover:bg-blue-700 hover:text-white transition">Toutes les actualités</a>
+  </div>
+</section>
+
+
+
+<section class="bg-gray-50 py-12">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">Nos partenaires</h2>
+    <div class="flex flex-wrap items-center justify-center gap-10">
+      <img src="https://www.fachesthumesniltt.com/images/mshop-lille-logo.png" alt="MShop Lille" class="h-12 object-contain grayscale hover:grayscale-0 transition opacity-70 hover:opacity-100">
+      <img src="https://www.fachesthumesniltt.com/images/neocolis.png" alt="Neocolis" class="h-12 object-contain grayscale hover:grayscale-0 transition opacity-70 hover:opacity-100">
+    </div>
+  </div>
+</section>
+
+
+
+  </main>
+  <footer class="bg-blue-900 text-white mt-16">
+  <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+    <div class="text-center md:text-left">
+      <p class="font-semibold">Faches-Thumesnil Tennis de Table</p>
+      <p class="text-blue-300 mt-1">Club fondé en 1963 · Faches-Thumesnil, Nord</p>
+    </div>
+    <nav class="flex gap-6 text-blue-200">
+      <a href="https://fr-fr.facebook.com/pages/category/Sports-Club/Faches-Thumesnil-Tennis-de-Table-1909136939359253/" class="hover:text-white transition">Facebook</a>
+      <a href="https://www.fachesthumesniltt.com/pages/contact/" class="hover:text-white transition">Contact</a>
+      <a href="https://www.fachesthumesniltt.com/index.xml" class="hover:text-white transition">RSS</a>
+    </nav>
+  </div>
+  <div class="border-t border-blue-800 text-center text-blue-400 text-xs py-3">
+    © 2026 F3T · Tous droits réservés
+  </div>
+</footer>
+
+</body>
+</html>
