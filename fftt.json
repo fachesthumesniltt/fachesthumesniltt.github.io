@@ -1,0 +1,293 @@
+{
+  "teams": [
+    {
+      "name": "FACHES-THUMESNIL TT 3",
+      "division": "D59 DEPARTEMENTALE 1",
+      "division_short": "D1",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "LOOS SPORT TT 2",
+          "score_home": null,
+          "score_away": null,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LOMME CP 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "SANTES CTT 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LILLE METROPOLE TT 10",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WATTRELOS USACL 1",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "HAUBOURDIN CTT 7",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "HEM PPC 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACHES-THUMESNIL TT 4",
+      "division": "D59 DEPARTEMENTALE 2",
+      "division_short": "D2",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "CAP EN PEV TT",
+          "score_home": null,
+          "score_away": null,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MARCQ TT 7",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "COMINES PPC 6",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ATTICHES ASTT 6",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LOMME CP 7",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "TEMPLEM-VENDEVI 5",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MONS TT 6",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    }
+  ],
+  "agenda": {
+    "upcoming": [
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "category": "senior",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "category": "senior",
+        "opponent": "CAP EN PEV TT",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "category": "senior",
+        "opponent": "LOMME CP 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "category": "senior",
+        "opponent": "MARCQ TT 7",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "category": "senior",
+        "opponent": "SANTES CTT 4",
+        "date": "18/10/2026",
+        "date_iso": "2026-10-18",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "category": "senior",
+        "opponent": "COMINES PPC 6",
+        "date": "18/10/2026",
+        "date_iso": "2026-10-18",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "category": "senior",
+        "opponent": "LILLE METROPOLE TT 10",
+        "date": "08/11/2026",
+        "date_iso": "2026-11-08",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "category": "senior",
+        "opponent": "ATTICHES ASTT 6",
+        "date": "08/11/2026",
+        "date_iso": "2026-11-08",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      }
+    ],
+    "recent": []
+  }
+}
