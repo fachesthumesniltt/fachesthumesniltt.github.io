@@ -76,7 +76,7 @@ Les candidats élus sont :
 - BLANCHEGORGE Loann pour 20 voix pour un mandat de 3 ans
 - MAILLARD Benjamin pour 15 voix pour un mandat de 2 ans
 
-Nous définirons les postes lors de la prochaine réunion du bureau qui aura lieu le XX/09/2026.
+Nous définirons les postes lors de la prochaine réunion du bureau qui aura lieu prochainement.
 
 ## Mot de la municipalité
 
