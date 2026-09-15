@@ -43,6 +43,7 @@ Le tournoi se déroulera le 11, 12 et 13 juin 2027.
 
 Cette année, nous avons augmenté les tarif loisirs pour suivre le cours de l'inflation et pour continuer à pouvoir proposer des activités aux adhérents.
 
+La salle est particulièrement humide et nous allons certainement investir dans un déshumidificateur pour améliorer les conditions de jeu, Monsieur Roux nous a indiqué que la municipalité allait organiser des travaux pour améliorer la ventilation de la salle d'ici un peu plus d'un an.
 
 ## Bilan Financier
 
@@ -77,3 +78,8 @@ Les candidats élus sont :
 
 Nous définirons les postes lors de la prochaine réunion du bureau qui aura lieu le XX/09/2026.
 
+## Mot de la municipalité
+
+
+Monsieur Roux, remercie les bénévoles du club pour leur implication et leur travail au sein du club.
+Il félicite le club pour son bilan sportif, l'organisation de son tournoi et souhaite une bonne saison à tous les licenciés.
