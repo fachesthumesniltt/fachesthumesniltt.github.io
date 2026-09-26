@@ -1,0 +1,1956 @@
+{
+  "teams": [
+    {
+      "name": "FACHES-THUMESNIL TT 1",
+      "division": "L07-Régionale 3 Messieurs",
+      "division_short": "R3",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "MONTIGNY EN OSTREVENT CTT 1",
+          "score_home": 10,
+          "score_away": 4,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "MAILLARD Benjamin",
+              "wins": 3
+            },
+            {
+              "name": "BAILLEUL Thibault",
+              "wins": 3
+            },
+            {
+              "name": "DEMARTHE Francois",
+              "wins": 2
+            },
+            {
+              "name": "MAILLARD Benjamin et DESTEE Valentin",
+              "wins": 1
+            },
+            {
+              "name": "DEMARTHE Francois et BAILLEUL Thibault",
+              "wins": 1
+            },
+            {
+              "name": "DESTEE Valentin",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "MAILLARD Benjamin",
+              "away": "DYMUS Nicolas",
+              "home_won": true
+            },
+            {
+              "home": "DEMARTHE Francois",
+              "away": "BELMONT Francois",
+              "home_won": true
+            },
+            {
+              "home": "BAILLEUL Thibault",
+              "away": "LENGLIN Jerome",
+              "home_won": true
+            },
+            {
+              "home": "DESTEE Valentin",
+              "away": "MAZIARZ Matheo",
+              "home_won": false
+            },
+            {
+              "home": "MAILLARD Benjamin",
+              "away": "BELMONT Francois",
+              "home_won": true
+            },
+            {
+              "home": "DEMARTHE Francois",
+              "away": "DYMUS Nicolas",
+              "home_won": false
+            },
+            {
+              "home": "DESTEE Valentin",
+              "away": "LENGLIN Jerome",
+              "home_won": false
+            },
+            {
+              "home": "BAILLEUL Thibault",
+              "away": "MAZIARZ Matheo",
+              "home_won": true
+            },
+            {
+              "home": "MAILLARD Benjamin et DESTEE Valentin",
+              "away": "DYMUS Nicolas et LENGLIN Jerome",
+              "home_won": true
+            },
+            {
+              "home": "DEMARTHE Francois et BAILLEUL Thibault",
+              "away": "BELMONT Francois et MAZIARZ Matheo",
+              "home_won": true
+            },
+            {
+              "home": "MAILLARD Benjamin",
+              "away": "LENGLIN Jerome",
+              "home_won": true
+            },
+            {
+              "home": "BAILLEUL Thibault",
+              "away": "DYMUS Nicolas",
+              "home_won": true
+            },
+            {
+              "home": "DESTEE Valentin",
+              "away": "BELMONT Francois",
+              "home_won": false
+            },
+            {
+              "home": "DEMARTHE Francois",
+              "away": "MAZIARZ Matheo",
+              "home_won": true
+            }
+          ]
+        },
+        {
+          "opponent": "HALLUIN TT 1",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "QUIEVRECHAIN ASQTT 3",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "SIN LE NOBLE TT 3",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "TOURCOING JG 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ROOST-WARENDIN AS 2",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "VALENCIENNES USTT 5",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACHES-THUMESNIL TT 2",
+      "division": "L07-Régionale 4 Messieurs",
+      "division_short": "R4",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "ROOST-WARENDIN AS 5",
+          "score_home": 2,
+          "score_away": 12,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "POIRION Maxime",
+              "wins": 1
+            },
+            {
+              "name": "LANGLOIS Thomas",
+              "wins": 1
+            },
+            {
+              "name": "COHEN SELMON Michael",
+              "wins": 0
+            },
+            {
+              "name": "PILON Corentin",
+              "wins": 0
+            },
+            {
+              "name": "COHEN SELMON Michael et LANGLOIS Thomas",
+              "wins": 0
+            },
+            {
+              "name": "PILON Corentin et POIRION Maxime",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "COHEN SELMON Michael",
+              "away": "BETOURNE David",
+              "home_won": false
+            },
+            {
+              "home": "POIRION Maxime",
+              "away": "GRANSARD Thomas",
+              "home_won": true
+            },
+            {
+              "home": "LANGLOIS Thomas",
+              "away": "DELCOURT Frederic",
+              "home_won": true
+            },
+            {
+              "home": "PILON Corentin",
+              "away": "BRUGNIEL Jimmy",
+              "home_won": false
+            },
+            {
+              "home": "POIRION Maxime",
+              "away": "BETOURNE David",
+              "home_won": false
+            },
+            {
+              "home": "COHEN SELMON Michael",
+              "away": "GRANSARD Thomas",
+              "home_won": false
+            },
+            {
+              "home": "LANGLOIS Thomas",
+              "away": "BRUGNIEL Jimmy",
+              "home_won": false
+            },
+            {
+              "home": "PILON Corentin",
+              "away": "DELCOURT Frederic",
+              "home_won": false
+            },
+            {
+              "home": "COHEN SELMON Michael et LANGLOIS Thomas",
+              "away": "BETOURNE David et DELCOURT Frederic",
+              "home_won": false
+            },
+            {
+              "home": "PILON Corentin et POIRION Maxime",
+              "away": "GRANSARD Thomas et BRUGNIEL Jimmy",
+              "home_won": false
+            },
+            {
+              "home": "LANGLOIS Thomas",
+              "away": "BETOURNE David",
+              "home_won": false
+            },
+            {
+              "home": "COHEN SELMON Michael",
+              "away": "DELCOURT Frederic",
+              "home_won": false
+            },
+            {
+              "home": "POIRION Maxime",
+              "away": "BRUGNIEL Jimmy",
+              "home_won": false
+            },
+            {
+              "home": "PILON Corentin",
+              "away": "GRANSARD Thomas",
+              "home_won": false
+            }
+          ]
+        },
+        {
+          "opponent": "MARCQ EN BAROEUL TT 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "BULLY LP 2",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LESQUIN ASLTT 1",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "PERENCHIES US 1",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ENNETIERES ASL 1",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ORCHIES AL 5",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACHES-THUMESNIL TT 3",
+      "division": "D59 DEPARTEMENTALE 1",
+      "division_short": "D1",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "LOOS SPORT TT 2",
+          "score_home": 12,
+          "score_away": 2,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "LURETTE Tristan",
+              "wins": 3
+            },
+            {
+              "name": "LEGRAND Mickael",
+              "wins": 3
+            },
+            {
+              "name": "DEMEURISSE Theo",
+              "wins": 3
+            },
+            {
+              "name": "LEGRAND Mathieu",
+              "wins": 2
+            },
+            {
+              "name": "LEGRAND Mickael et DEMEURISSE Theo",
+              "wins": 1
+            },
+            {
+              "name": "LURETTE Tristan et LEGRAND Mathieu",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "LURETTE Tristan",
+              "away": "DENNIN Roger",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Mathieu",
+              "away": "TAGHON Ludovic",
+              "home_won": false
+            },
+            {
+              "home": "LEGRAND Mickael",
+              "away": "MAGNE Julien",
+              "home_won": true
+            },
+            {
+              "home": "DEMEURISSE Theo",
+              "away": "THUILLIER Louis",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Mathieu",
+              "away": "DENNIN Roger",
+              "home_won": true
+            },
+            {
+              "home": "LURETTE Tristan",
+              "away": "TAGHON Ludovic",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Mickael",
+              "away": "THUILLIER Louis",
+              "home_won": true
+            },
+            {
+              "home": "DEMEURISSE Theo",
+              "away": "MAGNE Julien",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Mickael et DEMEURISSE Theo",
+              "away": "MAGNE Julien et THUILLIER Louis",
+              "home_won": true
+            },
+            {
+              "home": "LURETTE Tristan et LEGRAND Mathieu",
+              "away": "DENNIN Roger et TAGHON Ludovic",
+              "home_won": false
+            },
+            {
+              "home": "LEGRAND Mickael",
+              "away": "DENNIN Roger",
+              "home_won": true
+            },
+            {
+              "home": "LURETTE Tristan",
+              "away": "MAGNE Julien",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Mathieu",
+              "away": "THUILLIER Louis",
+              "home_won": true
+            },
+            {
+              "home": "DEMEURISSE Theo",
+              "away": "TAGHON Ludovic",
+              "home_won": true
+            }
+          ]
+        },
+        {
+          "opponent": "LOMME CP 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "SANTES CTT 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LILLE METROPOLE TT 10",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WATTRELOS USACL 1",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "HAUBOURDIN CTT 7",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "HEM PPC 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACHES-THUMESNIL TT 4",
+      "division": "D59 DEPARTEMENTALE 2",
+      "division_short": "D2",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "CAP EN PEV TT",
+          "score_home": 5,
+          "score_away": 9,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "LEGRAND Noa",
+              "wins": 3
+            },
+            {
+              "name": "GAILLET Julien",
+              "wins": 1
+            },
+            {
+              "name": "LEGRAND Noa et BLANCHEGORGE Loann",
+              "wins": 1
+            },
+            {
+              "name": "HELEVAUT Nathan",
+              "wins": 0
+            },
+            {
+              "name": "BLANCHEGORGE Loann",
+              "wins": 0
+            },
+            {
+              "name": "GAILLET Julien et HELEVAUT Nathan",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "GAILLET Julien",
+              "away": "BLONDEL Estelle",
+              "home_won": true
+            },
+            {
+              "home": "HELEVAUT Nathan",
+              "away": "RAMECOURT Valentin",
+              "home_won": false
+            },
+            {
+              "home": "LEGRAND Noa",
+              "away": "BOURSILLON Joël",
+              "home_won": true
+            },
+            {
+              "home": "BLANCHEGORGE Loann",
+              "away": "VERRYSER Amaury",
+              "home_won": false
+            },
+            {
+              "home": "HELEVAUT Nathan",
+              "away": "BLONDEL Estelle",
+              "home_won": false
+            },
+            {
+              "home": "GAILLET Julien",
+              "away": "RAMECOURT Valentin",
+              "home_won": false
+            },
+            {
+              "home": "LEGRAND Noa",
+              "away": "VERRYSER Amaury",
+              "home_won": true
+            },
+            {
+              "home": "BLANCHEGORGE Loann",
+              "away": "BOURSILLON Joël",
+              "home_won": false
+            },
+            {
+              "home": "LEGRAND Noa et BLANCHEGORGE Loann",
+              "away": "BLONDEL Estelle et BOURSILLON Joël",
+              "home_won": true
+            },
+            {
+              "home": "GAILLET Julien et HELEVAUT Nathan",
+              "away": "RAMECOURT Valentin et VERRYSER Amaury",
+              "home_won": false
+            },
+            {
+              "home": "LEGRAND Noa",
+              "away": "BLONDEL Estelle",
+              "home_won": true
+            },
+            {
+              "home": "GAILLET Julien",
+              "away": "BOURSILLON Joël",
+              "home_won": false
+            },
+            {
+              "home": "HELEVAUT Nathan",
+              "away": "VERRYSER Amaury",
+              "home_won": false
+            },
+            {
+              "home": "BLANCHEGORGE Loann",
+              "away": "RAMECOURT Valentin",
+              "home_won": false
+            }
+          ]
+        },
+        {
+          "opponent": "MARCQ TT 7",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "COMINES PPC 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ATTICHES ASTT 6",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LOMME CP 7",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "TEMPLEM-VENDEVI 5",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MONS TT 6",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACH-THUMESNIL 5",
+      "division": "D59 DEPARTEMENTALE 3",
+      "division_short": "D3",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "CAP EN PEV TT 14",
+          "score_home": 11,
+          "score_away": 3,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "HAVET Ezio",
+              "wins": 3
+            },
+            {
+              "name": "BECQUAERT Frederic",
+              "wins": 3
+            },
+            {
+              "name": "DE BOSSCHER Michel",
+              "wins": 2
+            },
+            {
+              "name": "TANT Sebastien",
+              "wins": 1
+            },
+            {
+              "name": "HAVET Ezio et DE BOSSCHER Michel",
+              "wins": 1
+            },
+            {
+              "name": "TANT Sebastien et BECQUAERT Frederic",
+              "wins": 1
+            }
+          ],
+          "games": [
+            {
+              "home": "HAVET Ezio",
+              "away": "DELESTRAIN Didier",
+              "home_won": true
+            },
+            {
+              "home": "TANT Sebastien",
+              "away": "SCHRYVE Gabriel",
+              "home_won": false
+            },
+            {
+              "home": "BECQUAERT Frederic",
+              "away": "BLONDEL Perrine",
+              "home_won": true
+            },
+            {
+              "home": "DE BOSSCHER Michel",
+              "away": "MARTINEAU Livio",
+              "home_won": false
+            },
+            {
+              "home": "HAVET Ezio",
+              "away": "SCHRYVE Gabriel",
+              "home_won": true
+            },
+            {
+              "home": "TANT Sebastien",
+              "away": "DELESTRAIN Didier",
+              "home_won": true
+            },
+            {
+              "home": "DE BOSSCHER Michel",
+              "away": "BLONDEL Perrine",
+              "home_won": true
+            },
+            {
+              "home": "BECQUAERT Frederic",
+              "away": "MARTINEAU Livio",
+              "home_won": true
+            },
+            {
+              "home": "HAVET Ezio et DE BOSSCHER Michel",
+              "away": "DELESTRAIN Didier et BLONDEL Perrine",
+              "home_won": true
+            },
+            {
+              "home": "TANT Sebastien et BECQUAERT Frederic",
+              "away": "SCHRYVE Gabriel et MARTINEAU Livio",
+              "home_won": true
+            },
+            {
+              "home": "HAVET Ezio",
+              "away": "BLONDEL Perrine",
+              "home_won": true
+            },
+            {
+              "home": "BECQUAERT Frederic",
+              "away": "DELESTRAIN Didier",
+              "home_won": true
+            },
+            {
+              "home": "DE BOSSCHER Michel",
+              "away": "SCHRYVE Gabriel",
+              "home_won": true
+            },
+            {
+              "home": "TANT Sebastien",
+              "away": "MARTINEAU Livio",
+              "home_won": false
+            }
+          ]
+        },
+        {
+          "opponent": "VILLEN/ASCQ FOS",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MARCQ TT 10",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "NEUVILL/FERRAIN 12",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ST ANDRE USTT 11 - REC SAM 17H",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "THUMERIES AGT 2 - REC SAM 17H",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LOOS SPORT TT 3",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACH-THUMESNIL 6",
+      "division": "D59 DEPARTEMENTALE 3",
+      "division_short": "D3",
+      "category": "senior",
+      "phase1": [
+        {
+          "opponent": "LESQUIN ASLTT 5",
+          "score_home": 10,
+          "score_away": 2,
+          "date": "20/09/2026",
+          "date_iso": "2026-09-20",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "CHATER Jibril",
+              "wins": 3
+            },
+            {
+              "name": "TOEBAERT Etienne",
+              "wins": 3
+            },
+            {
+              "name": "STOCLIN Laurent",
+              "wins": 3
+            },
+            {
+              "name": "LEGRAND Edouard",
+              "wins": 3
+            },
+            {
+              "name": "TOEBAERT Etienne et LEGRAND Edouard",
+              "wins": 1
+            },
+            {
+              "name": "CHATER Jibril et STOCLIN Laurent",
+              "wins": 1
+            }
+          ],
+          "games": [
+            {
+              "home": "CHATER Jibril",
+              "away": "LHAUTE David",
+              "home_won": true
+            },
+            {
+              "home": "TOEBAERT Etienne",
+              "away": "SZAFRANSKI Jonathan",
+              "home_won": true
+            },
+            {
+              "home": "STOCLIN Laurent",
+              "away": "SINET Nao",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Edouard",
+              "away": "",
+              "home_won": true
+            },
+            {
+              "home": "CHATER Jibril",
+              "away": "SZAFRANSKI Jonathan",
+              "home_won": true
+            },
+            {
+              "home": "TOEBAERT Etienne",
+              "away": "LHAUTE David",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Edouard",
+              "away": "SINET Nao",
+              "home_won": true
+            },
+            {
+              "home": "STOCLIN Laurent",
+              "away": "",
+              "home_won": true
+            },
+            {
+              "home": "TOEBAERT Etienne et LEGRAND Edouard",
+              "away": "LHAUTE David et SINET Nao",
+              "home_won": true
+            },
+            {
+              "home": "CHATER Jibril et STOCLIN Laurent",
+              "away": "SZAFRANSKI Jonathan",
+              "home_won": true
+            },
+            {
+              "home": "CHATER Jibril",
+              "away": "SINET Nao",
+              "home_won": true
+            },
+            {
+              "home": "STOCLIN Laurent",
+              "away": "LHAUTE David",
+              "home_won": true
+            },
+            {
+              "home": "LEGRAND Edouard",
+              "away": "SZAFRANSKI Jonathan",
+              "home_won": true
+            },
+            {
+              "home": "TOEBAERT Etienne",
+              "away": "",
+              "home_won": true
+            }
+          ]
+        },
+        {
+          "opponent": "GONDECOURT AL 3",
+          "score_home": null,
+          "score_away": null,
+          "date": "04/10/2026",
+          "date_iso": "2026-10-04",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ORCHIES AL 17 - REC SAM 16H30",
+          "score_home": null,
+          "score_away": null,
+          "date": "18/10/2026",
+          "date_iso": "2026-10-18",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WATTIGNIES PPC 10",
+          "score_home": null,
+          "score_away": null,
+          "date": "08/11/2026",
+          "date_iso": "2026-11-08",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WAMBRECHIES CAF 4",
+          "score_home": null,
+          "score_away": null,
+          "date": "22/11/2026",
+          "date_iso": "2026-11-22",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "FRETIN CFTT 5",
+          "score_home": null,
+          "score_away": null,
+          "date": "06/12/2026",
+          "date_iso": "2026-12-06",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "VILLEN/ASCQ FOS 16",
+          "score_home": null,
+          "score_away": null,
+          "date": "13/12/2026",
+          "date_iso": "2026-12-13",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACH-THUMESNIL 20 - REC A 14H",
+      "division": "D59 - D2 chpt Jeunes Nord",
+      "division_short": "D2",
+      "category": "junior",
+      "phase1": [
+        {
+          "opponent": "LILLE METR TT 20",
+          "score_home": 8,
+          "score_away": 2,
+          "date": "19/09/2026",
+          "date_iso": "2026-09-19",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "CHATILLON Matheo",
+              "wins": 3
+            },
+            {
+              "name": "ZNIBEL Yanis",
+              "wins": 3
+            },
+            {
+              "name": "HAUTVAL Gautier",
+              "wins": 1
+            },
+            {
+              "name": "CHATILLON Matheo et ZNIBEL Yanis",
+              "wins": 1
+            }
+          ],
+          "games": [
+            {
+              "home": "CHATILLON Matheo",
+              "away": "GOBERT Victor",
+              "home_won": true
+            },
+            {
+              "home": "ZNIBEL Yanis",
+              "away": "MANSOUR Noham",
+              "home_won": true
+            },
+            {
+              "home": "HAUTVAL Gautier",
+              "away": "DIALLO Djibril",
+              "home_won": false
+            },
+            {
+              "home": "ZNIBEL Yanis",
+              "away": "GOBERT Victor",
+              "home_won": true
+            },
+            {
+              "home": "CHATILLON Matheo et ZNIBEL Yanis",
+              "away": "MANSOUR Noham et DIALLO Djibril",
+              "home_won": true
+            },
+            {
+              "home": "CHATILLON Matheo",
+              "away": "DIALLO Djibril",
+              "home_won": true
+            },
+            {
+              "home": "HAUTVAL Gautier",
+              "away": "MANSOUR Noham",
+              "home_won": true
+            },
+            {
+              "home": "ZNIBEL Yanis",
+              "away": "DIALLO Djibril",
+              "home_won": true
+            },
+            {
+              "home": "HAUTVAL Gautier",
+              "away": "GOBERT Victor",
+              "home_won": false
+            },
+            {
+              "home": "CHATILLON Matheo",
+              "away": "MANSOUR Noham",
+              "home_won": true
+            }
+          ]
+        },
+        {
+          "opponent": "LAMBERSART CTT 20 - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "03/10/2026",
+          "date_iso": "2026-10-03",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WAMBRECHIES CAF 20 - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "17/10/2026",
+          "date_iso": "2026-10-17",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "GONDECOURT AL 20 - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "07/11/2026",
+          "date_iso": "2026-11-07",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ORCHIES AL 23",
+          "score_home": null,
+          "score_away": null,
+          "date": "21/11/2026",
+          "date_iso": "2026-11-21",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MARCQ TT 20",
+          "score_home": null,
+          "score_away": null,
+          "date": "05/12/2026",
+          "date_iso": "2026-12-05",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ST ANDRE USTT 20",
+          "score_home": null,
+          "score_away": null,
+          "date": "12/12/2026",
+          "date_iso": "2026-12-12",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACH-THUMESNIL 21 - REC A 14H",
+      "division": "D59 - D2 chpt Jeunes Nord",
+      "division_short": "D2",
+      "category": "junior",
+      "phase1": [
+        {
+          "opponent": "LAMBERSART CTT 21 - REC A 14H",
+          "score_home": 1,
+          "score_away": 9,
+          "date": "19/09/2026",
+          "date_iso": "2026-09-19",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "DUPONT Gustave",
+              "wins": 1
+            },
+            {
+              "name": "FLAMENT Elias",
+              "wins": 0
+            },
+            {
+              "name": "WILLOQUAUX Lucas",
+              "wins": 0
+            },
+            {
+              "name": "FLAMENT Elias et WILLOQUAUX Lucas",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "DUPONT Gustave",
+              "away": "L'HERBIER Lino",
+              "home_won": false
+            },
+            {
+              "home": "FLAMENT Elias",
+              "away": "WENTZ Alistair",
+              "home_won": false
+            },
+            {
+              "home": "WILLOQUAUX Lucas",
+              "away": "BINVIGNAT Kilian",
+              "home_won": false
+            },
+            {
+              "home": "FLAMENT Elias",
+              "away": "L'HERBIER Lino",
+              "home_won": false
+            },
+            {
+              "home": "FLAMENT Elias et WILLOQUAUX Lucas",
+              "away": "L'HERBIER Lino et BINVIGNAT Kilian",
+              "home_won": false
+            },
+            {
+              "home": "DUPONT Gustave",
+              "away": "BINVIGNAT Kilian",
+              "home_won": true
+            },
+            {
+              "home": "WILLOQUAUX Lucas",
+              "away": "WENTZ Alistair",
+              "home_won": false
+            },
+            {
+              "home": "FLAMENT Elias",
+              "away": "BINVIGNAT Kilian",
+              "home_won": false
+            },
+            {
+              "home": "WILLOQUAUX Lucas",
+              "away": "L'HERBIER Lino",
+              "home_won": false
+            },
+            {
+              "home": "DUPONT Gustave",
+              "away": "WENTZ Alistair",
+              "home_won": false
+            }
+          ]
+        },
+        {
+          "opponent": "CAP EN PEV TT 20 - REC 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "03/10/2026",
+          "date_iso": "2026-10-03",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "THUMERIES AGT 20 - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "17/10/2026",
+          "date_iso": "2026-10-17",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WATTIGNIES PPC 20",
+          "score_home": null,
+          "score_away": null,
+          "date": "07/11/2026",
+          "date_iso": "2026-11-07",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ORCHIES AL 24",
+          "score_home": null,
+          "score_away": null,
+          "date": "21/11/2026",
+          "date_iso": "2026-11-21",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MERIGNIES T.T. 20 - REC A 14H30",
+          "score_home": null,
+          "score_away": null,
+          "date": "05/12/2026",
+          "date_iso": "2026-12-05",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ST ANDRE USTT 21",
+          "score_home": null,
+          "score_away": null,
+          "date": "12/12/2026",
+          "date_iso": "2026-12-12",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACH-THUMESNIL 31 - REC A 14H",
+      "division": "D59 - Championnats PB M1 / VL",
+      "division_short": "PB M1",
+      "category": "junior",
+      "phase1": [
+        {
+          "opponent": "MARCQ TT",
+          "score_home": 0,
+          "score_away": 5,
+          "date": "19/09/2026",
+          "date_iso": "2026-09-19",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "VLAMINCK Abel",
+              "wins": 0
+            },
+            {
+              "name": "BAZIZ Eliot",
+              "wins": 0
+            },
+            {
+              "name": "VLAMINCK Abel et BAZIZ Eliot",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "VLAMINCK Abel",
+              "away": "QUILEZ Victor",
+              "home_won": false
+            },
+            {
+              "home": "BAZIZ Eliot",
+              "away": "LESTIENNE Gaspard",
+              "home_won": false
+            },
+            {
+              "home": "VLAMINCK Abel et BAZIZ Eliot",
+              "away": "QUILEZ Victor et LESTIENNE Gaspard",
+              "home_won": false
+            },
+            {
+              "home": "VLAMINCK Abel",
+              "away": "LESTIENNE Gaspard",
+              "home_won": false
+            },
+            {
+              "home": "BAZIZ Eliot",
+              "away": "QUILEZ Victor",
+              "home_won": false
+            }
+          ]
+        },
+        {
+          "opponent": "CAP EN PEV TT - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "03/10/2026",
+          "date_iso": "2026-10-03",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "",
+          "score_home": null,
+          "score_away": null,
+          "date": "17/10/2026",
+          "date_iso": "2026-10-17",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LILLE MTT",
+          "score_home": null,
+          "score_away": null,
+          "date": "07/11/2026",
+          "date_iso": "2026-11-07",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MARCQ TT 32",
+          "score_home": null,
+          "score_away": null,
+          "date": "21/11/2026",
+          "date_iso": "2026-11-21",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "",
+          "score_home": null,
+          "score_away": null,
+          "date": "05/12/2026",
+          "date_iso": "2026-12-05",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ST ANDRE USTT",
+          "score_home": null,
+          "score_away": null,
+          "date": "12/12/2026",
+          "date_iso": "2026-12-12",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    },
+    {
+      "name": "FACH-THUMESNIL - REC A 14H",
+      "division": "D59 - Championnats PB M1 / VL",
+      "division_short": "PB M1",
+      "category": "junior",
+      "phase1": [
+        {
+          "opponent": "ANNOEULLIN TT 30 - REC A 14H",
+          "score_home": 1,
+          "score_away": 4,
+          "date": "19/09/2026",
+          "date_iso": "2026-09-19",
+          "is_return_leg": false,
+          "players": [
+            {
+              "name": "BÉREAU Gabriel",
+              "wins": 1
+            },
+            {
+              "name": "LEPOUTRE Marc",
+              "wins": 0
+            },
+            {
+              "name": "BÉREAU Gabriel et LEPOUTRE Marc",
+              "wins": 0
+            }
+          ],
+          "games": [
+            {
+              "home": "BÉREAU Gabriel",
+              "away": "BERGER Baptiste",
+              "home_won": true
+            },
+            {
+              "home": "LEPOUTRE Marc",
+              "away": "AMO-FIQUET Gael",
+              "home_won": false
+            },
+            {
+              "home": "BÉREAU Gabriel et LEPOUTRE Marc",
+              "away": "BERGER Baptiste et AMO-FIQUET Gael",
+              "home_won": false
+            },
+            {
+              "home": "BÉREAU Gabriel",
+              "away": "AMO-FIQUET Gael",
+              "home_won": false
+            },
+            {
+              "home": "LEPOUTRE Marc",
+              "away": "BERGER Baptiste",
+              "home_won": false
+            }
+          ]
+        },
+        {
+          "opponent": "CAP EN PEV TT - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "03/10/2026",
+          "date_iso": "2026-10-03",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "",
+          "score_home": null,
+          "score_away": null,
+          "date": "17/10/2026",
+          "date_iso": "2026-10-17",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "MARCQ TT 33",
+          "score_home": null,
+          "score_away": null,
+          "date": "07/11/2026",
+          "date_iso": "2026-11-07",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "LOMME CP 30",
+          "score_home": null,
+          "score_away": null,
+          "date": "21/11/2026",
+          "date_iso": "2026-11-21",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "WAMBRECHIES CAF 30  - REC A 14H",
+          "score_home": null,
+          "score_away": null,
+          "date": "05/12/2026",
+          "date_iso": "2026-12-05",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        },
+        {
+          "opponent": "ST ANDRE USTT",
+          "score_home": null,
+          "score_away": null,
+          "date": "12/12/2026",
+          "date_iso": "2026-12-12",
+          "is_return_leg": false,
+          "players": null,
+          "games": null
+        }
+      ],
+      "phase2": [],
+      "phase1_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "played": 1,
+        "total": 7
+      },
+      "phase2_stats": {
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "played": 0,
+        "total": 0
+      },
+      "phase2_ranking": []
+    }
+  ],
+  "agenda": {
+    "upcoming": [
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL - REC A 14H",
+        "division_short": "PB M1",
+        "category": "junior",
+        "opponent": "CAP EN PEV TT - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "category": "junior",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "category": "junior",
+        "opponent": "CAP EN PEV TT 20 - REC 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 31 - REC A 14H",
+        "division_short": "PB M1",
+        "category": "junior",
+        "opponent": "CAP EN PEV TT - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "category": "senior",
+        "opponent": "HALLUIN TT 1",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "category": "senior",
+        "opponent": "MARCQ EN BAROEUL TT 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "category": "senior",
+        "opponent": "LOMME CP 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "category": "senior",
+        "opponent": "MARCQ TT 7",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": null,
+        "score_away": null,
+        "is_return_leg": false
+      }
+    ],
+    "recent": [
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "category": "senior",
+        "opponent": "MONTIGNY EN OSTREVENT CTT 1",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 4,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "category": "senior",
+        "opponent": "ROOST-WARENDIN AS 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 2,
+        "score_away": 12,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "category": "senior",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 12,
+        "score_away": 2,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "category": "senior",
+        "opponent": "CAP EN PEV TT",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 5,
+        "score_away": 9,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "category": "senior",
+        "opponent": "CAP EN PEV TT 14",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "category": "senior",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 2,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL - REC A 14H",
+        "division_short": "PB M1",
+        "category": "junior",
+        "opponent": "ANNOEULLIN TT 30 - REC A 14H",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 1,
+        "score_away": 4,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "category": "junior",
+        "opponent": "LILLE METR TT 20",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 8,
+        "score_away": 2,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "category": "junior",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 1,
+        "score_away": 9,
+        "is_return_leg": false
+      },
+      {
+        "type": "match",
+        "team": "FACH-THUMESNIL 31 - REC A 14H",
+        "division_short": "PB M1",
+        "category": "junior",
+        "opponent": "MARCQ TT",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 0,
+        "score_away": 5,
+        "is_return_leg": false
+      }
+    ]
+  }
+}
