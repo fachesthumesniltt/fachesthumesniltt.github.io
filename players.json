@@ -1,0 +1,3410 @@
+[
+  {
+    "licence": "5945052",
+    "nom": "MAILLARD",
+    "prenom": "Benjamin",
+    "clast": "17",
+    "point": 1714,
+    "valinit": 1689,
+    "evolution": 25,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BOUCKENOOGHE Gaetan",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "MERVAILLE Fabien",
+        "opponent_ranking": "12",
+        "won": false,
+        "points": "-29",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LAPERRE Julien",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DYMUS Nicolas",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BELMONT Francois",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "LENGLIN Jerome",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "2"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "DESPREZ Valentin",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "1.5"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "RABEMANANTSOA Timiary",
+        "opponent_ranking": "19",
+        "won": false,
+        "points": "-0.75"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "SENCE Clara",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "1.5"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "TENRET Lucas",
+        "opponent_ranking": "14",
+        "won": true,
+        "points": "0.75"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "ENGELEN Nolan",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "1.5"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "MERAJI Kevin",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "1.5"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "FARSSI Mehdi",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "2.25"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "TENRET Lucas",
+        "opponent_ranking": "14",
+        "won": true,
+        "points": "0.75"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "FARSSI Mehdi",
+        "opponent_ranking": "15",
+        "won": false,
+        "points": "-7.5"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "GODEAU Lancelot",
+        "opponent_ranking": "16",
+        "won": false,
+        "points": "-6"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "VERWAERDE Victor",
+        "opponent_ranking": "13",
+        "won": true,
+        "points": "0.75"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "MERTENS Remy",
+        "opponent_ranking": "18",
+        "won": true,
+        "points": "5.25"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "PAUL Maximilien",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "1.5"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "BROGNIART Adrien",
+        "opponent_ranking": "16",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "MOUTIC Robin",
+        "opponent_ranking": "19",
+        "won": false,
+        "points": "-1.5"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "BOITEL Jean-paul",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "0"
+      },
+      {
+        "date": "05/09/2026",
+        "date_iso": "2026-09-05",
+        "opponent": "DUJARDIN Jules",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "2.25"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "RABEMANANTSOA Timiary",
+        "opponent_ranking": "19",
+        "won": false,
+        "points": "-0.75"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "BOUTET Paolo",
+        "opponent_ranking": "19",
+        "won": false,
+        "points": "-0.75"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "ERCA-FOURDINIER Jean-bap",
+        "opponent_ranking": "20",
+        "won": true,
+        "points": "12.75"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "LELIEVRE Mike",
+        "opponent_ranking": "14",
+        "won": false,
+        "points": "-12"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "PAUL Diego",
+        "opponent_ranking": "14",
+        "won": false,
+        "points": "-9.375"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "HUMBERT Nicolas",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "0"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "POLLEVEYS Matheo",
+        "opponent_ranking": "14",
+        "won": true,
+        "points": "0.75"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "HALLUIN TT 1",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "MONTIGNY EN OSTREVENT CTT 1",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "6212081",
+    "nom": "DEMARTHE",
+    "prenom": "Francois",
+    "clast": "15",
+    "point": 1489,
+    "valinit": 1551,
+    "evolution": -62,
+    "categ": "V45",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BOUCKENOOGHE Gaetan",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BOUCKENOOGHE Ludovic",
+        "opponent_ranking": "13",
+        "won": true,
+        "points": "3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LAPERRE Julien",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "1",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BELMONT Francois",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DYMUS Nicolas",
+        "opponent_ranking": "12",
+        "won": false,
+        "points": "-16"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MAZIARZ Matheo",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "0.5"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "HALLUIN TT 1",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "MONTIGNY EN OSTREVENT CTT 1",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5917531",
+    "nom": "BAILLEUL",
+    "prenom": "Thibault",
+    "clast": "14",
+    "point": 1487,
+    "valinit": 1642,
+    "evolution": -155,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BOUCKENOOGHE Ludovic",
+        "opponent_ranking": "13",
+        "won": true,
+        "points": "3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LAPERRE Julien",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "1",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "MERVAILLE Fabien",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DYMUS Nicolas",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MAZIARZ Matheo",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "0.5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "LENGLIN Jerome",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "TINDILLERE Francois",
+        "opponent_ranking": "14",
+        "won": true,
+        "points": "3.75"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "BANC Côme",
+        "opponent_ranking": "18",
+        "won": false,
+        "points": "-0.375"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "GAUTIER Brice",
+        "opponent_ranking": "17",
+        "won": false,
+        "points": "-1.5"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "BRIOIS Vincent",
+        "opponent_ranking": "17",
+        "won": false,
+        "points": "-1.5"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "BANC Côme",
+        "opponent_ranking": "18",
+        "won": false,
+        "points": "-0.375"
+      },
+      {
+        "date": "12/09/2026",
+        "date_iso": "2026-09-12",
+        "opponent": "PRIME Emeric",
+        "opponent_ranking": "13",
+        "won": true,
+        "points": "2.25"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "BOUTET Paolo",
+        "opponent_ranking": "19",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "SALMON Aurelien",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "0.75"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "ENGELEN Nolan",
+        "opponent_ranking": "15",
+        "won": true,
+        "points": "4.125"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "SABOURIN Baptiste",
+        "opponent_ranking": "11",
+        "won": true,
+        "points": "0.75"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "BOURSILLON Angel",
+        "opponent_ranking": "14",
+        "won": false,
+        "points": "-5.25"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "GOUTTENOIRE Loic",
+        "opponent_ranking": "16",
+        "won": false,
+        "points": "-1.5"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "HALLUIN TT 1",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "MONTIGNY EN OSTREVENT CTT 1",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5983751",
+    "nom": "LEGRAND",
+    "prenom": "Noa",
+    "clast": "13",
+    "point": 1360,
+    "valinit": 1224,
+    "evolution": 136,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BOUCKENOOGHE Ludovic",
+        "opponent_ranking": "13",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BOUCKENOOGHE Gaetan",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "MERVAILLE Fabien",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "3",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BOURSILLON Joël",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "VERRYSER Amaury",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BLONDEL Estelle",
+        "opponent_ranking": "7",
+        "won": true,
+        "points": "0",
+        "points_estimated": true
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "HALLUIN TT 1",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 13,
+        "score_away": 1,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5921477",
+    "nom": "HEDDEBAUT",
+    "prenom": "Michel",
+    "clast": "13",
+    "point": 1349,
+    "valinit": 1410,
+    "evolution": -61,
+    "categ": "V65",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5977614",
+    "nom": "COHEN SELMON",
+    "prenom": "Michael",
+    "clast": "11",
+    "point": 1155,
+    "valinit": 1082,
+    "evolution": 73,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "DOS SANTOS Axel",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "1",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BIDANT Arnaud",
+        "opponent_ranking": "12",
+        "won": false,
+        "points": "-4.5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BIDANT Julie",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BETOURNE David",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-2"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "GRANSARD Thomas",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-3"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DELCOURT Frederic",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-3"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "MARCQ EN BAROEUL TT 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "ROOST-WARENDIN AS 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5931747",
+    "nom": "LANGLOIS",
+    "prenom": "Thomas",
+    "clast": "11",
+    "point": 1109,
+    "valinit": 1066,
+    "evolution": 43,
+    "categ": "V40",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LEONARD Vincent",
+        "opponent_ranking": "11",
+        "won": false,
+        "points": "-5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BIDANT Julie",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BIDANT Arnaud",
+        "opponent_ranking": "12",
+        "won": false,
+        "points": "-4",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DELCOURT Frederic",
+        "opponent_ranking": "13",
+        "won": true,
+        "points": "10"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BRUGNIEL Jimmy",
+        "opponent_ranking": "12",
+        "won": false,
+        "points": "-3"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BETOURNE David",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-1"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "MARCQ EN BAROEUL TT 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "ROOST-WARENDIN AS 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5969280",
+    "nom": "DEMEURISSE",
+    "prenom": "Theo",
+    "clast": "10",
+    "point": 1065,
+    "valinit": 1054,
+    "evolution": 11,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "HOUVENAGEL Yves",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "GUYOMARD Arnaud",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VICART Patrice",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "THUILLIER Louis",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MAGNE Julien",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "TAGHON Ludovic",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "2"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOMME CP 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59115414",
+    "nom": "POIRION",
+    "prenom": "Maxime",
+    "clast": "10",
+    "point": 1011,
+    "valinit": 732,
+    "evolution": 279,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BIDANT Julie",
+        "opponent_ranking": "1281",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LEONARD Vincent",
+        "opponent_ranking": "1146",
+        "won": true,
+        "points": "22"
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "DOS SANTOS Axel",
+        "opponent_ranking": "768",
+        "won": true,
+        "points": "5.5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "GRANSARD Thomas",
+        "opponent_ranking": "1267",
+        "won": true,
+        "points": "40"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BETOURNE David",
+        "opponent_ranking": "1315",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BRUGNIEL Jimmy",
+        "opponent_ranking": "1214",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "LUCIANI Eymeric",
+        "opponent_ranking": "1784",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "GODAR Anthime",
+        "opponent_ranking": "1904",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "ROLAND Jules",
+        "opponent_ranking": "991",
+        "won": false,
+        "points": "-0.75"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "DEGORGUE Lenny",
+        "opponent_ranking": "947",
+        "won": true,
+        "points": "12.75"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "FOUQUET Sacha",
+        "opponent_ranking": "640",
+        "won": false,
+        "points": "-6"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "MARCQ EN BAROEUL TT 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "ROOST-WARENDIN AS 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5950938",
+    "nom": "PILON",
+    "prenom": "Corentin",
+    "clast": "9",
+    "point": 995,
+    "valinit": 953,
+    "evolution": 42,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BIDANT Arnaud",
+        "opponent_ranking": "12",
+        "won": true,
+        "points": "17",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "DOS SANTOS Axel",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LEONARD Vincent",
+        "opponent_ranking": "11",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BRUGNIEL Jimmy",
+        "opponent_ranking": "12",
+        "won": false,
+        "points": "-1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DELCOURT Frederic",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "GRANSARD Thomas",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "-1"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "MARCQ EN BAROEUL TT 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 2",
+        "division_short": "R4",
+        "opponent": "ROOST-WARENDIN AS 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 2,
+        "score_away": 12,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "1313689",
+    "nom": "LEGRAND",
+    "prenom": "Mickael",
+    "clast": "8",
+    "point": 862,
+    "valinit": 885,
+    "evolution": -23,
+    "categ": "V45",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "POISSONNIER Thomas",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-7",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VICART Patrice",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "GUYOMARD Arnaud",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MAGNE Julien",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "4"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "THUILLIER Louis",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "8"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DENNIN Roger",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5.5"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOMME CP 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5982913",
+    "nom": "LEGRAND",
+    "prenom": "Mathieu",
+    "clast": "8",
+    "point": 857,
+    "valinit": 783,
+    "evolution": 74,
+    "categ": "V45",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VICART Patrice",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "POISSONNIER Thomas",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-7",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "HOUVENAGEL Yves",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-7",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "TAGHON Ludovic",
+        "opponent_ranking": "9",
+        "won": false,
+        "points": "-5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DENNIN Roger",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5.5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "THUILLIER Louis",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "8"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOMME CP 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5951400",
+    "nom": "WEENS",
+    "prenom": "Ghislain",
+    "clast": "7",
+    "point": 761,
+    "valinit": 757,
+    "evolution": 4,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "DUQUESNE Thomas",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VECKENS Gabin",
+        "opponent_ranking": "7",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LASSELIN Tristan",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "7",
+        "points_estimated": true
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5977911",
+    "nom": "GAILLET",
+    "prenom": "Julien",
+    "clast": "7",
+    "point": 732,
+    "valinit": 586,
+    "evolution": 146,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VECKENS Gabin",
+        "opponent_ranking": "7",
+        "won": false,
+        "points": "-6",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "DUQUESNE Thomas",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VECKENS Guillaume",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BLONDEL Estelle",
+        "opponent_ranking": "7",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "RAMECOURT Valentin",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-4"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BOURSILLON Joël",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-3"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "591748",
+    "nom": "BAILLEUL",
+    "prenom": "Bruno",
+    "clast": "7",
+    "point": 724,
+    "valinit": 785,
+    "evolution": -61,
+    "categ": "V65",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5950380",
+    "nom": "DESTEE",
+    "prenom": "Valentin",
+    "clast": "7",
+    "point": 710,
+    "valinit": 733,
+    "evolution": -23,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MAZIARZ Matheo",
+        "opponent_ranking": "11",
+        "won": false,
+        "points": "-0.5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BELMONT Francois",
+        "opponent_ranking": "9",
+        "won": false,
+        "points": "-1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "LENGLIN Jerome",
+        "opponent_ranking": "15",
+        "won": false,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "LELEU Solene",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-2.25"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "MARECHAL Nicolas",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "3.75"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "CARETTE Christophe",
+        "opponent_ranking": "11",
+        "won": false,
+        "points": "-0.375"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "SENECHAL Lucie",
+        "opponent_ranking": "7",
+        "won": false,
+        "points": "-3.75"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "DELPORTE Léo",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "2.25"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "DUTRIEUX Andre",
+        "opponent_ranking": "7",
+        "won": true,
+        "points": "4.125"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "SAUVAGE Romain",
+        "opponent_ranking": "7",
+        "won": false,
+        "points": "-3.75"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "CIESIELSKI Thibaut",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-2.25"
+      },
+      {
+        "date": "29/08/2026",
+        "date_iso": "2026-08-29",
+        "opponent": "VANESSE Gabriel",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "2.25"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 1",
+        "division_short": "R3",
+        "opponent": "MONTIGNY EN OSTREVENT CTT 1",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5975135",
+    "nom": "VENTORINO",
+    "prenom": "Angelo",
+    "clast": "6",
+    "point": 670,
+    "valinit": 713,
+    "evolution": -43,
+    "categ": "V55",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5954881",
+    "nom": "DE BOSSCHER",
+    "prenom": "Michel",
+    "clast": "6",
+    "point": 658,
+    "valinit": 612,
+    "evolution": 46,
+    "categ": "V55",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "SALLOUKH Ali",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "TALLEU Thomas",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-7",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "CONFRERE Philippe",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MARTINEAU Livio",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-7"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BLONDEL Perrine",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SCHRYVE Gabriel",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "4"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 14",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5979701",
+    "nom": "BLANCHEGORGE",
+    "prenom": "Loann",
+    "clast": "6",
+    "point": 616,
+    "valinit": 585,
+    "evolution": 31,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LASSELIN Tristan",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-2",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VECKENS Guillaume",
+        "opponent_ranking": "13",
+        "won": false,
+        "points": "0",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "DUQUESNE Thomas",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "4",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "VERRYSER Amaury",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-2"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BOURSILLON Joël",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "RAMECOURT Valentin",
+        "opponent_ranking": "8",
+        "won": false,
+        "points": "-1"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5966675",
+    "nom": "BECQUAERT",
+    "prenom": "Frederic",
+    "clast": "6",
+    "point": 605,
+    "valinit": 666,
+    "evolution": -61,
+    "categ": "V55",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "TALLEU Thomas",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "6",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "SALLOUKH Ali",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "4",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "HUTIN Anaelle",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "6",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BLONDEL Perrine",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MARTINEAU Livio",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DELESTRAIN Didier",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "6"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 14",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5977910",
+    "nom": "GAILLET",
+    "prenom": "Maxence",
+    "clast": "5",
+    "point": 535,
+    "valinit": 525,
+    "evolution": 10,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "HUTIN Anaelle",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "8",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "CONFRERE Philippe",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-4",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "TALLEU Thomas",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "8",
+        "points_estimated": true
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "VILLEN/ASCQ FOS",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59133568",
+    "nom": "BOIZET",
+    "prenom": "Eveline",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V75",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5960298",
+    "nom": "DEPERSIN",
+    "prenom": "Eric",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V60",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5988172",
+    "nom": "LECUYER",
+    "prenom": "Mickael",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V40",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5953529",
+    "nom": "LEGRAND",
+    "prenom": "Edouard",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V75",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SINET Nao",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SZAFRANSKI Jonathan",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "325079",
+    "nom": "STOCLIN",
+    "prenom": "Laurent",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V40",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LEBLOND Pascal",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LIBERT Thibaut",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "SAELEN Marc",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SINET Nao",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "LHAUTE David",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5995238",
+    "nom": "TARASSOF",
+    "prenom": "Nathalie",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V60",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59132871",
+    "nom": "TRAN",
+    "prenom": "Thi Bich Ngoc",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "V45",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5944070",
+    "nom": "VIDOGUE",
+    "prenom": "Francois",
+    "clast": "5",
+    "point": 500,
+    "valinit": 511,
+    "evolution": -11,
+    "categ": "S",
+    "category": "senior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "5918170",
+    "nom": "VITEL",
+    "prenom": "Marlene",
+    "clast": "5",
+    "point": 500,
+    "valinit": 501,
+    "evolution": -1,
+    "categ": "S",
+    "category": "senior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LIBERT Thibaut",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LEBLOND Pascal",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "10",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "KNURRA Antoine",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5986052",
+    "nom": "LURETTE",
+    "prenom": "Tristan",
+    "clast": "8",
+    "point": 876,
+    "valinit": 719,
+    "evolution": 157,
+    "categ": "J2",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "GUYOMARD Arnaud",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "HOUVENAGEL Yves",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "POISSONNIER Thomas",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DENNIN Roger",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "5.5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "TAGHON Ludovic",
+        "opponent_ranking": "9",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "MAGNE Julien",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "4"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOMME CP 4",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 3",
+        "division_short": "D1",
+        "opponent": "LOOS SPORT TT 2",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 12,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59107891",
+    "nom": "HELEVAUT",
+    "prenom": "Nathan",
+    "clast": "7",
+    "point": 700,
+    "valinit": 593,
+    "evolution": 107,
+    "categ": "J4",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VECKENS Guillaume",
+        "opponent_ranking": "1344",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LASSELIN Tristan",
+        "opponent_ranking": "758",
+        "won": false,
+        "points": "-2"
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "VECKENS Gabin",
+        "opponent_ranking": "734",
+        "won": false,
+        "points": "-3"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "RAMECOURT Valentin",
+        "opponent_ranking": "823",
+        "won": false,
+        "points": "-1"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BLONDEL Estelle",
+        "opponent_ranking": "711",
+        "won": false,
+        "points": "-3"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "VERRYSER Amaury",
+        "opponent_ranking": "773",
+        "won": false,
+        "points": "-2"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "MARCQ TT 7",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 6,
+        "score_away": 8,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      },
+      {
+        "team": "FACHES-THUMESNIL TT 4",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 5,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5982933",
+    "nom": "BRUNIN",
+    "prenom": "Clement",
+    "clast": "6",
+    "point": 690,
+    "valinit": 624,
+    "evolution": 66,
+    "categ": "J1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "SAELEN Marc",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "KNURRA Antoine",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LEBLOND Pascal",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5999103",
+    "nom": "HAVET",
+    "prenom": "Ezio",
+    "clast": "6",
+    "point": 670,
+    "valinit": 556,
+    "evolution": 114,
+    "categ": "C2",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "DELESTRAIN Didier",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SCHRYVE Gabriel",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "4"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "BLONDEL Perrine",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "5"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "BREEM Nicolas",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "3.75"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "NIVORE Mathias",
+        "opponent_ranking": "8",
+        "won": true,
+        "points": "7.5"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "VERWAERDE Matheo",
+        "opponent_ranking": "18",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "BENBEKHTI Jordan",
+        "opponent_ranking": "18",
+        "won": false,
+        "points": "0"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "ERNST Jules",
+        "opponent_ranking": "7",
+        "won": false,
+        "points": "-3"
+      },
+      {
+        "date": "30/08/2026",
+        "date_iso": "2026-08-30",
+        "opponent": "FILBIEN Simon",
+        "opponent_ranking": "7",
+        "won": true,
+        "points": "4.5"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 5",
+        "division_short": "D3",
+        "opponent": "CAP EN PEV TT 14",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 11,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59110275",
+    "nom": "ZNIBEL",
+    "prenom": "Yanis",
+    "clast": "6",
+    "point": 633,
+    "valinit": 528,
+    "evolution": 105,
+    "categ": "B2",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "TULIMAT Mazen",
+        "opponent_ranking": "579",
+        "won": false,
+        "points": "-2.25"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "CHANSON Paul",
+        "opponent_ranking": "587",
+        "won": true,
+        "points": "4"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "HABERT Gabriel",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "2.75"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "MANSOUR Noham",
+        "opponent_ranking": "529",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "GOBERT Victor",
+        "opponent_ranking": "575",
+        "won": true,
+        "points": "3.5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "DIALLO Djibril",
+        "opponent_ranking": "526",
+        "won": true,
+        "points": "3"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": 6,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 20",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59110888",
+    "nom": "CHATILLON",
+    "prenom": "Matheo",
+    "clast": "5",
+    "point": 560,
+    "valinit": 503,
+    "evolution": 57,
+    "categ": "B1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "HABERT Gabriel",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "TULIMAT Mazen",
+        "opponent_ranking": "579",
+        "won": false,
+        "points": "-2"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "CHANSON Paul",
+        "opponent_ranking": "587",
+        "won": true,
+        "points": "4"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "MANSOUR Noham",
+        "opponent_ranking": "529",
+        "won": true,
+        "points": "3.5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "GOBERT Victor",
+        "opponent_ranking": "575",
+        "won": true,
+        "points": "4"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "DIALLO Djibril",
+        "opponent_ranking": "526",
+        "won": true,
+        "points": "3"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": 6,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 20",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5987677",
+    "nom": "CHATER",
+    "prenom": "Jibril",
+    "clast": "5",
+    "point": 559,
+    "valinit": 500,
+    "evolution": 59,
+    "categ": "C1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "CHANSON Paul",
+        "opponent_ranking": "6",
+        "won": true,
+        "points": "7",
+        "points_estimated": true
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "HABERT Gabriel",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "5",
+        "points_estimated": true
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "TULIMAT Mazen",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-4.5",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "LHAUTE David",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SZAFRANSKI Jonathan",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "5"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SINET Nao",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "5"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 20 - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": 6,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59106292",
+    "nom": "DUTHILLEUL",
+    "prenom": "Eliot",
+    "clast": "5",
+    "point": 518,
+    "valinit": 500,
+    "evolution": 18,
+    "categ": "M1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "CARDON Christelle",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "BROCART Isabelle",
+        "opponent_ranking": "531",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "THELLIER Célian",
+        "opponent_ranking": "542",
+        "won": false,
+        "points": "-5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "VERHASSELT Léni",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "DUPONT Henri",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "DEMAY Mathys",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59125019",
+    "nom": "BAVYE",
+    "prenom": "Julien",
+    "clast": "5",
+    "point": 512,
+    "valinit": 500,
+    "evolution": 12,
+    "categ": "B2",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "ETCHEPARE Gaspard",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "LANDAIS Henri",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "THELLIER Célian",
+        "opponent_ranking": "542",
+        "won": false,
+        "points": "-2.25"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 20 - REC 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59133057",
+    "nom": "EL MESAOUDI",
+    "prenom": "Ysmael",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "C1",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59106321",
+    "nom": "HAUTVAL",
+    "prenom": "Gautier",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "M2",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "MANSOUR Noham",
+        "opponent_ranking": "529",
+        "won": true,
+        "points": "3.5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "GOBERT Victor",
+        "opponent_ranking": "575",
+        "won": false,
+        "points": "-2"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "DIALLO Djibril",
+        "opponent_ranking": "526",
+        "won": false,
+        "points": "0"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 20 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LILLE METR TT 20",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 8,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59132632",
+    "nom": "KERSGIETER",
+    "prenom": "Eliott",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "M2",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59122057",
+    "nom": "LEPOUTRE",
+    "prenom": "Marc",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "B1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "AMO-FIQUET Gael",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "BERGER Baptiste",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL - REC A 14H",
+        "division_short": "PB M1",
+        "opponent": "ANNOEULLIN TT 30 - REC A 14H",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 1,
+        "score_away": 4,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 2
+      }
+    ]
+  },
+  {
+    "licence": "5987154",
+    "nom": "LURETTE",
+    "prenom": "Elias",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "C2",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59121565",
+    "nom": "PRADE",
+    "prenom": "Lénaël",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "B2",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59134199",
+    "nom": "ROSSIGNOL",
+    "prenom": "Charline",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "P",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59121031",
+    "nom": "ROSSIGNOL",
+    "prenom": "Victor",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "M1",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59120777",
+    "nom": "SANDER",
+    "prenom": "Cléon",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "B1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "RATTE LELIEUR Eléonore",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "ROCK Louise",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 31 - REC A 14H",
+        "division_short": "PB M1",
+        "opponent": "CAP EN PEV TT - REC A 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": 2,
+        "score_away": 3,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 2
+      }
+    ]
+  },
+  {
+    "licence": "59134198",
+    "nom": "SILOU",
+    "prenom": "Ilyes",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "B2",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59132869",
+    "nom": "SOIR MEUROT",
+    "prenom": "Pablo",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "B1",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59132870",
+    "nom": "SOIR MEUROT",
+    "prenom": "Isaac",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "C1",
+    "category": "junior",
+    "matches": [],
+    "points_estimated": true,
+    "match_history": []
+  },
+  {
+    "licence": "59108155",
+    "nom": "STOCLIN",
+    "prenom": "Maxence",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "C1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "ETCHEPARE Gaspard",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "LANDAIS Henri",
+        "opponent_ranking": "500",
+        "won": true,
+        "points": "3"
+      },
+      {
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "opponent": "THELLIER Célian",
+        "opponent_ranking": "542",
+        "won": false,
+        "points": "-2.25"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "CAP EN PEV TT 20 - REC 14H",
+        "date": "03/10/2026",
+        "date_iso": "2026-10-03",
+        "score_home": 3,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 2,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "5999152",
+    "nom": "TOEBAERT",
+    "prenom": "Etienne",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "J1",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "KNURRA Antoine",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "SAELEN Marc",
+        "opponent_ranking": "6",
+        "won": false,
+        "points": "-3",
+        "points_estimated": true
+      },
+      {
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "opponent": "LIBERT Thibaut",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6",
+        "points_estimated": true
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "SZAFRANSKI Jonathan",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6"
+      },
+      {
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "opponent": "LHAUTE David",
+        "opponent_ranking": "5",
+        "won": true,
+        "points": "6"
+      }
+    ],
+    "points_estimated": false,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "GONDECOURT AL 3",
+        "date": "04/10/2026",
+        "date_iso": "2026-10-04",
+        "score_home": 7,
+        "score_away": 7,
+        "phase": "phase1",
+        "player_wins": 1,
+        "player_played": 3
+      },
+      {
+        "team": "FACH-THUMESNIL 6",
+        "division_short": "D3",
+        "opponent": "LESQUIN ASLTT 5",
+        "date": "20/09/2026",
+        "date_iso": "2026-09-20",
+        "score_home": 10,
+        "score_away": 2,
+        "phase": "phase1",
+        "player_wins": 3,
+        "player_played": 3
+      }
+    ]
+  },
+  {
+    "licence": "59133567",
+    "nom": "WILLOQUAUX",
+    "prenom": "Lucas",
+    "clast": "5",
+    "point": 500,
+    "valinit": 500,
+    "evolution": 0,
+    "categ": "B2",
+    "category": "junior",
+    "matches": [
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "BINVIGNAT Kilian",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "WENTZ Alistair",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      },
+      {
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "opponent": "L'HERBIER Lino",
+        "opponent_ranking": "500",
+        "won": false,
+        "points": "-2.5"
+      }
+    ],
+    "points_estimated": true,
+    "match_history": [
+      {
+        "team": "FACH-THUMESNIL 21 - REC A 14H",
+        "division_short": "D2",
+        "opponent": "LAMBERSART CTT 21 - REC A 14H",
+        "date": "19/09/2026",
+        "date_iso": "2026-09-19",
+        "score_home": 1,
+        "score_away": 9,
+        "phase": "phase1",
+        "player_wins": 0,
+        "player_played": 3
+      }
+    ]
+  }
+]
